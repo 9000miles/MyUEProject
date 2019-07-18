@@ -1,0 +1,22 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (E:\MyUEProject.git).
+  Creating makefile for MyUEProjectEditor (no existing makefile)
+  Parsing headers for MyUEProjectEditor
+    Running UnrealHeaderTool "E:\MyUEProject.git\MyUEProject\MyUEProject.uproject" "E:\MyUEProject.git\MyUEProject\Intermediate\Build\Win64\MyUEProjectEditor\DebugGame\MyUEProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for MyUEProjectEditor in 6.7986602 seconds
+  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 11 actions with 8 processes...
+    [1/11] Default.rc2
+    [2/11] SharedPCH.Engine.NonOptimized.cpp
+    [3/11] MyUEProjectCharacter.gen.cpp
+    [4/11] MyUEProject.init.gen.cpp
+    [5/11] MyUEProjectGameMode.gen.cpp
+    [6/11] MyUEProjectGameMode.cpp
+    [7/11] MyUEProject.cpp
+    [8/11] MyUEProjectCharacter.cpp
+    [9/11] UE4Editor-MyUEProject-Win64-DebugGame.lib
+      正在创建库 E:\MyUEProject.git\MyUEProject\Intermediate\Build\Win64\UE4Editor\DebugGame\MyUEProject\UE4Editor-MyUEProject-Win64-DebugGame.lib 和对象 E:\MyUEProject.git\MyUEProject\Intermediate\Build\Win64\UE4Editor\DebugGame\MyUEProject\UE4Editor-MyUEProject-Win64-DebugGame.exp
+    [10/11] UE4Editor-MyUEProject-Win64-DebugGame.dll
+      正在创建库 E:\MyUEProject.git\MyUEProject\Intermediate\Build\Win64\UE4Editor\DebugGame\MyUEProject\UE4Editor-MyUEProject-Win64-DebugGame.suppressed.lib 和对象 E:\MyUEProject.git\MyUEProject\Intermediate\Build\Win64\UE4Editor\DebugGame\MyUEProject\UE4Editor-MyUEProject-Win64-DebugGame.suppressed.exp
+    [11/11] MyUEProjectEditor-Win64-DebugGame.target
+  Total time in Parallel executor: 32.15 seconds
+  Total execution time: 41.10 seconds
