@@ -1,7 +1,7 @@
 {
-	"BuildId": "4541578",
+	"BuildId": "5660361",
 	"Modules": 
 	{
-		"MyEditorStandalonePlugin": "UE4Editor-MyEditorStandalonePlugin-1270.dll"
+		"MyEditorStandalonePlugin": "UE4Editor-MyEditorStandalonePlugin.dll"
 	}
 }

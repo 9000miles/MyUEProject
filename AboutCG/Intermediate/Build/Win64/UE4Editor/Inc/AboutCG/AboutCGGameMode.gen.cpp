@@ -1,4 +1,4 @@
-// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -51,13 +51,17 @@ void EmptyLinkFunctionForGeneratedCodeAboutCGGameMode() {}
 	};
 	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_AAboutCGGameMode_Statics::ClassParams = {
 		&AAboutCGGameMode::StaticClass,
-		DependentSingletons, ARRAY_COUNT(DependentSingletons),
-		0x008802A8u,
-		nullptr, 0,
-		nullptr, 0,
 		nullptr,
 		&StaticCppClassTypeInfo,
-		nullptr, 0,
+		DependentSingletons,
+		nullptr,
+		nullptr,
+		nullptr,
+		ARRAY_COUNT(DependentSingletons),
+		0,
+		0,
+		0,
+		0x008802A8u,
 		METADATA_PARAMS(Z_Construct_UClass_AAboutCGGameMode_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_AAboutCGGameMode_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_AAboutCGGameMode()
@@ -69,7 +73,11 @@ void EmptyLinkFunctionForGeneratedCodeAboutCGGameMode() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAboutCGGameMode, 1626559678);
+	IMPLEMENT_CLASS(AAboutCGGameMode, 2473667648);
+	template<> ABOUTCG_API UClass* StaticClass<AAboutCGGameMode>()
+	{
+		return AAboutCGGameMode::StaticClass();
+	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AAboutCGGameMode(Z_Construct_UClass_AAboutCGGameMode, &AAboutCGGameMode::StaticClass, TEXT("/Script/AboutCG"), TEXT("AAboutCGGameMode"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AAboutCGGameMode);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -1,4 +1,4 @@
-// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -71,7 +71,7 @@ void EmptyLinkFunctionForGeneratedCodeAboutCGCharacter() {}
 		{ "ToolTip", "Base look up/down rate, in deg/sec. Other scaling may affect final rate." },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AAboutCGCharacter_Statics::NewProp_BaseLookUpRate = { UE4CodeGen_Private::EPropertyClass::Float, "BaseLookUpRate", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000020015, 1, nullptr, STRUCT_OFFSET(AAboutCGCharacter, BaseLookUpRate), METADATA_PARAMS(Z_Construct_UClass_AAboutCGCharacter_Statics::NewProp_BaseLookUpRate_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAboutCGCharacter_Statics::NewProp_BaseLookUpRate_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AAboutCGCharacter_Statics::NewProp_BaseLookUpRate = { "BaseLookUpRate", nullptr, (EPropertyFlags)0x0010000000020015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAboutCGCharacter, BaseLookUpRate), METADATA_PARAMS(Z_Construct_UClass_AAboutCGCharacter_Statics::NewProp_BaseLookUpRate_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAboutCGCharacter_Statics::NewProp_BaseLookUpRate_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAboutCGCharacter_Statics::NewProp_BaseTurnRate_MetaData[] = {
 		{ "Category", "Camera" },
@@ -79,7 +79,7 @@ void EmptyLinkFunctionForGeneratedCodeAboutCGCharacter() {}
 		{ "ToolTip", "Base turn rate, in deg/sec. Other scaling may affect final turn rate." },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AAboutCGCharacter_Statics::NewProp_BaseTurnRate = { UE4CodeGen_Private::EPropertyClass::Float, "BaseTurnRate", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000020015, 1, nullptr, STRUCT_OFFSET(AAboutCGCharacter, BaseTurnRate), METADATA_PARAMS(Z_Construct_UClass_AAboutCGCharacter_Statics::NewProp_BaseTurnRate_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAboutCGCharacter_Statics::NewProp_BaseTurnRate_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AAboutCGCharacter_Statics::NewProp_BaseTurnRate = { "BaseTurnRate", nullptr, (EPropertyFlags)0x0010000000020015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAboutCGCharacter, BaseTurnRate), METADATA_PARAMS(Z_Construct_UClass_AAboutCGCharacter_Statics::NewProp_BaseTurnRate_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAboutCGCharacter_Statics::NewProp_BaseTurnRate_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAboutCGCharacter_Statics::NewProp_FollowCamera_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
@@ -89,7 +89,7 @@ void EmptyLinkFunctionForGeneratedCodeAboutCGCharacter() {}
 		{ "ToolTip", "Follow camera" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AAboutCGCharacter_Statics::NewProp_FollowCamera = { UE4CodeGen_Private::EPropertyClass::Object, "FollowCamera", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00400000000a001d, 1, nullptr, STRUCT_OFFSET(AAboutCGCharacter, FollowCamera), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AAboutCGCharacter_Statics::NewProp_FollowCamera_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAboutCGCharacter_Statics::NewProp_FollowCamera_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AAboutCGCharacter_Statics::NewProp_FollowCamera = { "FollowCamera", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAboutCGCharacter, FollowCamera), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AAboutCGCharacter_Statics::NewProp_FollowCamera_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAboutCGCharacter_Statics::NewProp_FollowCamera_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAboutCGCharacter_Statics::NewProp_CameraBoom_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
@@ -99,7 +99,7 @@ void EmptyLinkFunctionForGeneratedCodeAboutCGCharacter() {}
 		{ "ToolTip", "Camera boom positioning the camera behind the character" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AAboutCGCharacter_Statics::NewProp_CameraBoom = { UE4CodeGen_Private::EPropertyClass::Object, "CameraBoom", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00400000000a001d, 1, nullptr, STRUCT_OFFSET(AAboutCGCharacter, CameraBoom), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AAboutCGCharacter_Statics::NewProp_CameraBoom_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAboutCGCharacter_Statics::NewProp_CameraBoom_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AAboutCGCharacter_Statics::NewProp_CameraBoom = { "CameraBoom", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAboutCGCharacter, CameraBoom), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AAboutCGCharacter_Statics::NewProp_CameraBoom_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAboutCGCharacter_Statics::NewProp_CameraBoom_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AAboutCGCharacter_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAboutCGCharacter_Statics::NewProp_BaseLookUpRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAboutCGCharacter_Statics::NewProp_BaseTurnRate,
@@ -111,13 +111,17 @@ void EmptyLinkFunctionForGeneratedCodeAboutCGCharacter() {}
 	};
 	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_AAboutCGCharacter_Statics::ClassParams = {
 		&AAboutCGCharacter::StaticClass,
-		DependentSingletons, ARRAY_COUNT(DependentSingletons),
-		0x008000A0u,
-		nullptr, 0,
-		Z_Construct_UClass_AAboutCGCharacter_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UClass_AAboutCGCharacter_Statics::PropPointers),
 		"Game",
 		&StaticCppClassTypeInfo,
-		nullptr, 0,
+		DependentSingletons,
+		nullptr,
+		Z_Construct_UClass_AAboutCGCharacter_Statics::PropPointers,
+		nullptr,
+		ARRAY_COUNT(DependentSingletons),
+		0,
+		ARRAY_COUNT(Z_Construct_UClass_AAboutCGCharacter_Statics::PropPointers),
+		0,
+		0x008000A0u,
 		METADATA_PARAMS(Z_Construct_UClass_AAboutCGCharacter_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_AAboutCGCharacter_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_AAboutCGCharacter()
@@ -129,7 +133,11 @@ void EmptyLinkFunctionForGeneratedCodeAboutCGCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAboutCGCharacter, 55080724);
+	IMPLEMENT_CLASS(AAboutCGCharacter, 4294028819);
+	template<> ABOUTCG_API UClass* StaticClass<AAboutCGCharacter>()
+	{
+		return AAboutCGCharacter::StaticClass();
+	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AAboutCGCharacter(Z_Construct_UClass_AAboutCGCharacter, &AAboutCGCharacter::StaticClass, TEXT("/Script/AboutCG"), TEXT("AAboutCGCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AAboutCGCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
