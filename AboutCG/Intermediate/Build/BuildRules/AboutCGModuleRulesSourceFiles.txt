@@ -1,0 +1,5 @@
+E:\UnrealProject\AboutCG\Source\AboutCG\AboutCG.Build.cs
+E:\UnrealProject\AboutCG\Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\MyEditorStandalonePlugin.Build.cs
+E:\UnrealProject\AboutCG\Plugins\MyPlugin\Source\MyPlugin\MyPlugin.Build.cs
+E:\UnrealProject\AboutCG\Source\AboutCG.Target.cs
+E:\UnrealProject\AboutCG\Source\AboutCGEditor.Target.cs

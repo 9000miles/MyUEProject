@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\AboutCG.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{A6C93649-422B-4222-949C-FC5EA1A9F441}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\AboutCG.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\AboutCGEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{BC890542-5F12-4AFF-9E2E-540F4F53C043}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{02FFB65E-0CFC-4997-B5E0-28707C264232}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\MyEditorStandalonePlugin">
+      <UniqueIdentifier>{D9E26767-2B0D-4F7D-9A9F-DE406A491FEB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\MyEditorStandalonePlugin\Source">
+      <UniqueIdentifier>{C511F20C-C551-4DF5-A4B5-FCF38CB9DA7A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin">
+      <UniqueIdentifier>{4E27BC78-0533-4687-B5E5-AFC7710EAEB4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\MyEditorStandalonePlugin.Build.cs">
+      <Filter>Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin</Filter>
+    </None>
+    <Filter Include="Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\Private">
+      <UniqueIdentifier>{AFF980D7-38E3-4F71-A760-82160B3CD0FF}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\Private\InputButton.cpp">
+      <Filter>Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\Private\MainSlate.cpp">
+      <Filter>Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\Private\MyEditorStandalonePlugin.cpp">
+      <Filter>Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\Private\MyEditorStandalonePluginCommands.cpp">
+      <Filter>Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\Private\MyEditorStandalonePluginStyle.cpp">
+      <Filter>Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\Public">
+      <UniqueIdentifier>{F943A1EB-68A7-40EC-B5BF-73D00F6FA7AA}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\Public\InputButton.h">
+      <Filter>Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\Public\MainSlate.h">
+      <Filter>Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\Public\MyEditorStandalonePlugin.h">
+      <Filter>Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\Public\MyEditorStandalonePluginCommands.h">
+      <Filter>Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\Public\MyEditorStandalonePluginStyle.h">
+      <Filter>Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\MyEditorStandalonePlugin\MyEditorStandalonePlugin.uplugin">
+      <Filter>Plugins\MyEditorStandalonePlugin</Filter>
+    </None>
+    <Filter Include="Plugins\MyEditorStandalonePlugin\Resources">
+      <UniqueIdentifier>{1979FDA2-CF64-4080-8105-15B8A6C28EF0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\MyEditorStandalonePlugin\Resources\ButtonIcon_40x.png">
+      <Filter>Plugins\MyEditorStandalonePlugin\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\MyEditorStandalonePlugin\Resources\Icon128.png">
+      <Filter>Plugins\MyEditorStandalonePlugin\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\MyPlugin">
+      <UniqueIdentifier>{AD2A6859-5142-4BD6-87A7-5010EC80E674}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\MyPlugin\MyPlugin.uplugin">
+      <Filter>Plugins\MyPlugin</Filter>
+    </None>
+    <Filter Include="Plugins\MyPlugin\Resources">
+      <UniqueIdentifier>{2A0818DB-9E3C-479E-AAAD-BECC11D786A0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\MyPlugin\Resources\Icon128.png">
+      <Filter>Plugins\MyPlugin\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\MyPlugin\Source">
+      <UniqueIdentifier>{2F2D8BC5-2280-4655-A1CB-1344E8640739}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\MyPlugin\Source\MyPlugin">
+      <UniqueIdentifier>{B3482A34-6916-4410-95A2-170807CDF390}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\MyPlugin\Source\MyPlugin\MyPlugin.Build.cs">
+      <Filter>Plugins\MyPlugin\Source\MyPlugin</Filter>
+    </None>
+    <Filter Include="Plugins\MyPlugin\Source\MyPlugin\Private">
+      <UniqueIdentifier>{60847824-6C02-416F-8D7F-EFF3015D3E1F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\MyPlugin\Source\MyPlugin\Private\MyPlugin.cpp">
+      <Filter>Plugins\MyPlugin\Source\MyPlugin\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\MyPlugin\Source\MyPlugin\Public">
+      <UniqueIdentifier>{D46585DC-038A-49C2-AE21-D00D30B24076}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\MyPlugin\Source\MyPlugin\Public\MyPlugin.h">
+      <Filter>Plugins\MyPlugin\Source\MyPlugin\Public</Filter>
+    </ClInclude>
+    <Filter Include="Source\AboutCG">
+      <UniqueIdentifier>{DCF5F608-94D6-4B98-8EA8-FB0490B30B83}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\AboutCG\AboutCG.Build.cs">
+      <Filter>Source\AboutCG</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\AboutCG\AboutCG.cpp">
+      <Filter>Source\AboutCG</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AboutCG\AboutCG.h">
+      <Filter>Source\AboutCG</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AboutCG\AboutCGCharacter.cpp">
+      <Filter>Source\AboutCG</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AboutCG\AboutCGCharacter.h">
+      <Filter>Source\AboutCG</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AboutCG\AboutCGGameMode.cpp">
+      <Filter>Source\AboutCG</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AboutCG\AboutCGGameMode.h">
+      <Filter>Source\AboutCG</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

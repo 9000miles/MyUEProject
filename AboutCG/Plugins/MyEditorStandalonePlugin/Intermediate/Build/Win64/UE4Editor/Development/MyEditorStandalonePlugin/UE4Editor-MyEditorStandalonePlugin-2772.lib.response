@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-MyEditorStandalonePlugin-2772.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\UnrealProject\AboutCG\Intermediate\Build\Win64\AboutCGEditor\Development\UnrealEd\SharedPCH.UnrealEd.h.obj"
+"E:\UnrealProject\AboutCG\Plugins\MyEditorStandalonePlugin\Intermediate\Build\Win64\UE4Editor\Development\MyEditorStandalonePlugin\Module.MyEditorStandalonePlugin.cpp.obj"
+"E:\UnrealProject\AboutCG\Plugins\MyEditorStandalonePlugin\Intermediate\Build\Win64\UE4Editor\Development\MyEditorStandalonePlugin\PCLaunch.rc.res"
+/OUT:"E:\UnrealProject\AboutCG\Plugins\MyEditorStandalonePlugin\Intermediate\Build\Win64\UE4Editor\Development\MyEditorStandalonePlugin\UE4Editor-MyEditorStandalonePlugin-2772.lib"

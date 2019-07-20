@@ -1,0 +1,1454 @@
+﻿Log file open, 07/18/19 16:00:07
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: AboutCG
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.306451
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.121s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.21-CL-4753647
+LogInit: Engine Version: 4.21.2-4753647+++UE4+Release-4.21
+LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
+LogInit: Net CL: 4541578
+LogInit: OS: Windows 10 (), CPU: Intel(R) Xeon(R) CPU E3-1230 v5 @ 3.40GHz, GPU: NVIDIA GeForce GTX 1070
+LogInit: Compiled (64-bit): Jan 19 2019 02:07:31
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.21
+LogInit: Command Line:  -EpicPortal -epicusername=YunShang-99 -epicuserid=82a635845ccc412cbae6ee1343938b8c -epiclocale=zh-CN
+LogInit: Base Directory: E:/Epic Games/UE_4.21/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 22
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 26
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 27
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.07.18-08.00.08:015][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.07.18-08.00.08:015][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.07.18-08.00.08:015][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/UnrealProject/AboutCG/Saved/Config/Windows/Engine.ini]
+[2019.07.18-08.00.08:015][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.07.18-08.00.08:015][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/UnrealProject/AboutCG/Saved/Config/Windows/Engine.ini]
+[2019.07.18-08.00.08:015][  0]LogConfig: Setting CVar [[r.SupportAllShaderPermutations:1]]
+[2019.07.18-08.00.08:015][  0]LogConfig: Setting CVar [[r.SkinCache.ForceRecomputeTangents:1]]
+[2019.07.18-08.00.08:015][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/UnrealProject/AboutCG/Saved/Config/Windows/Engine.ini]
+[2019.07.18-08.00.08:015][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.07.18-08.00.08:015][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.07.18-08.00.08:015][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.07.18-08.00.08:016][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.07.18-08.00.08:016][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.07.18-08.00.08:016][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.07.18-08.00.08:016][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.07.18-08.00.08:016][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.07.18-08.00.08:016][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.07.18-08.00.08:016][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.07.18-08.00.08:016][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.07.18-08.00.08:016][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.07.18-08.00.08:016][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.07.18-08.00.08:016][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/UnrealProject/AboutCG/Saved/Config/Windows/Engine.ini]
+[2019.07.18-08.00.08:016][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.07.18-08.00.08:016][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.07.18-08.00.08:016][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.07.18-08.00.08:016][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.07.18-08.00.08:016][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.07.18-08.00.08:016][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.07.18-08.00.08:016][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.07.18-08.00.08:016][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.07.18-08.00.08:016][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.07.18-08.00.08:016][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.07.18-08.00.08:016][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.07.18-08.00.08:016][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.07.18-08.00.08:016][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.07.18-08.00.08:016][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.07.18-08.00.08:016][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/UnrealProject/AboutCG/Saved/Config/Windows/Engine.ini]
+[2019.07.18-08.00.08:016][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/UnrealProject/AboutCG/Saved/Config/Windows/Engine.ini]
+[2019.07.18-08.00.08:022][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/UnrealProject/AboutCG/Saved/Config/Windows/Scalability.ini]
+[2019.07.18-08.00.08:022][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.07.18-08.00.08:022][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.07.18-08.00.08:022][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/UnrealProject/AboutCG/Saved/Config/Windows/Scalability.ini]
+[2019.07.18-08.00.08:022][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.07.18-08.00.08:022][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/UnrealProject/AboutCG/Saved/Config/Windows/Scalability.ini]
+[2019.07.18-08.00.08:022][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.07.18-08.00.08:022][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.07.18-08.00.08:022][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.07.18-08.00.08:022][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.07.18-08.00.08:022][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.07.18-08.00.08:022][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.07.18-08.00.08:022][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.07.18-08.00.08:022][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.07.18-08.00.08:022][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.07.18-08.00.08:022][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.07.18-08.00.08:022][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.07.18-08.00.08:022][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.07.18-08.00.08:022][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.07.18-08.00.08:022][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.07.18-08.00.08:022][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.07.18-08.00.08:022][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.07.18-08.00.08:022][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.07.18-08.00.08:022][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.07.18-08.00.08:022][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/UnrealProject/AboutCG/Saved/Config/Windows/Scalability.ini]
+[2019.07.18-08.00.08:022][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.07.18-08.00.08:022][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.07.18-08.00.08:022][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.07.18-08.00.08:022][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.07.18-08.00.08:022][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.07.18-08.00.08:022][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.07.18-08.00.08:022][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.07.18-08.00.08:022][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.07.18-08.00.08:022][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.07.18-08.00.08:022][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.07.18-08.00.08:022][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.07.18-08.00.08:022][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.07.18-08.00.08:022][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.07.18-08.00.08:022][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.07.18-08.00.08:022][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.07.18-08.00.08:022][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.07.18-08.00.08:022][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.07.18-08.00.08:022][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.07.18-08.00.08:022][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.07.18-08.00.08:022][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.07.18-08.00.08:022][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.07.18-08.00.08:022][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.07.18-08.00.08:022][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.07.18-08.00.08:022][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.07.18-08.00.08:022][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.07.18-08.00.08:022][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.07.18-08.00.08:022][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.07.18-08.00.08:022][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.07.18-08.00.08:022][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.07.18-08.00.08:023][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.07.18-08.00.08:023][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/UnrealProject/AboutCG/Saved/Config/Windows/Scalability.ini]
+[2019.07.18-08.00.08:023][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.07.18-08.00.08:023][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.07.18-08.00.08:023][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.07.18-08.00.08:023][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.07.18-08.00.08:023][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.07.18-08.00.08:023][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.07.18-08.00.08:023][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.07.18-08.00.08:023][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.07.18-08.00.08:023][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/UnrealProject/AboutCG/Saved/Config/Windows/Scalability.ini]
+[2019.07.18-08.00.08:023][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.07.18-08.00.08:023][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.07.18-08.00.08:023][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.07.18-08.00.08:023][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.07.18-08.00.08:023][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.07.18-08.00.08:023][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.07.18-08.00.08:023][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.07.18-08.00.08:023][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.07.18-08.00.08:023][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.07.18-08.00.08:023][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.07.18-08.00.08:023][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.07.18-08.00.08:023][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.07.18-08.00.08:023][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.07.18-08.00.08:023][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/UnrealProject/AboutCG/Saved/Config/Windows/Scalability.ini]
+[2019.07.18-08.00.08:023][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.07.18-08.00.08:023][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.07.18-08.00.08:023][  0]LogInit: Selected Device Profile: [Windows]
+[2019.07.18-08.00.08:023][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.07.18-08.00.08:030][  0]LogHAL: Display: Platform has ~ 16 GB [17116987392 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.07.18-08.00.08:031][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.07.18-08.00.08:031][  0]LogInit: Going up to parent DeviceProfile []
+[2019.07.18-08.00.08:031][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/UnrealProject/AboutCG/Saved/Config/Windows/Scalability.ini]
+[2019.07.18-08.00.08:031][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.07.18-08.00.08:031][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.07.18-08.00.08:031][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/UnrealProject/AboutCG/Saved/Config/Windows/Scalability.ini]
+[2019.07.18-08.00.08:031][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.07.18-08.00.08:031][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/UnrealProject/AboutCG/Saved/Config/Windows/Scalability.ini]
+[2019.07.18-08.00.08:031][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.07.18-08.00.08:031][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.07.18-08.00.08:031][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.07.18-08.00.08:031][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.07.18-08.00.08:031][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.07.18-08.00.08:031][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.07.18-08.00.08:031][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.07.18-08.00.08:031][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.07.18-08.00.08:031][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.07.18-08.00.08:031][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.07.18-08.00.08:031][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.07.18-08.00.08:031][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.07.18-08.00.08:031][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.07.18-08.00.08:031][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.07.18-08.00.08:031][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.07.18-08.00.08:031][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.07.18-08.00.08:031][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.07.18-08.00.08:031][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.07.18-08.00.08:031][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/UnrealProject/AboutCG/Saved/Config/Windows/Scalability.ini]
+[2019.07.18-08.00.08:031][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.07.18-08.00.08:031][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.07.18-08.00.08:031][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.07.18-08.00.08:031][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.07.18-08.00.08:031][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.07.18-08.00.08:031][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.07.18-08.00.08:031][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.07.18-08.00.08:031][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.07.18-08.00.08:031][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.07.18-08.00.08:031][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.07.18-08.00.08:031][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.07.18-08.00.08:031][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.07.18-08.00.08:031][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.07.18-08.00.08:031][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.07.18-08.00.08:031][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.07.18-08.00.08:031][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.07.18-08.00.08:031][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.07.18-08.00.08:031][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.07.18-08.00.08:031][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.07.18-08.00.08:031][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.07.18-08.00.08:031][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.07.18-08.00.08:031][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.07.18-08.00.08:031][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.07.18-08.00.08:031][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.07.18-08.00.08:031][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.07.18-08.00.08:031][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.07.18-08.00.08:032][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.07.18-08.00.08:032][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.07.18-08.00.08:032][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.07.18-08.00.08:032][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.07.18-08.00.08:032][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/UnrealProject/AboutCG/Saved/Config/Windows/Scalability.ini]
+[2019.07.18-08.00.08:032][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.07.18-08.00.08:032][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.07.18-08.00.08:032][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.07.18-08.00.08:032][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.07.18-08.00.08:032][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.07.18-08.00.08:032][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.07.18-08.00.08:032][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.07.18-08.00.08:032][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.07.18-08.00.08:032][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/UnrealProject/AboutCG/Saved/Config/Windows/Scalability.ini]
+[2019.07.18-08.00.08:032][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.07.18-08.00.08:032][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.07.18-08.00.08:032][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.07.18-08.00.08:032][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.07.18-08.00.08:032][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.07.18-08.00.08:032][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.07.18-08.00.08:032][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.07.18-08.00.08:032][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.07.18-08.00.08:032][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.07.18-08.00.08:032][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.07.18-08.00.08:032][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.07.18-08.00.08:032][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.07.18-08.00.08:032][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.07.18-08.00.08:032][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/UnrealProject/AboutCG/Saved/Config/Windows/Scalability.ini]
+[2019.07.18-08.00.08:032][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.07.18-08.00.08:032][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.07.18-08.00.08:032][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.07.18-08.00.08:033][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.07.18-08.00.08:033][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/UnrealProject/AboutCG/Saved/Config/Windows/Engine.ini]
+[2019.07.18-08.00.08:033][  0]LogInit: Computer: DESKTOP-KUTOO4O
+[2019.07.18-08.00.08:033][  0]LogInit: User: GuoZi
+[2019.07.18-08.00.08:033][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.07.18-08.00.08:033][  0]LogInit: High frequency timer resolution =3.328126 MHz
+[2019.07.18-08.00.08:033][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.07.18-08.00.08:033][  0]LogMemory: Platform Memory Stats for Windows
+[2019.07.18-08.00.08:033][  0]LogMemory: Process Physical Memory: 102.30 MB used, 102.30 MB peak
+[2019.07.18-08.00.08:033][  0]LogMemory: Process Virtual Memory: 91.34 MB used, 91.34 MB peak
+[2019.07.18-08.00.08:033][  0]LogMemory: Physical Memory: 9934.85 MB used,  6389.18 MB free, 16324.03 MB total
+[2019.07.18-08.00.08:033][  0]LogMemory: Virtual Memory: 4652.77 MB used,  134213072.00 MB free, 134217728.00 MB total
+[2019.07.18-08.00.08:079][  0]LogInit: Overriding language with editor language configuration option (en).
+[2019.07.18-08.00.08:080][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2019.07.18-08.00.08:561][  0]LogStreaming: Display: Took  0.481s to InitEngineTextLocalization.
+[2019.07.18-08.00.08:561][  0]LogInit: Setting process to per monitor DPI aware
+[2019.07.18-08.00.08:675][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.07.18-08.00.08:675][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.07.18-08.00.08:885][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.07.18-08.00.08:885][  0]LogD3D11RHI: D3D11 adapters:
+[2019.07.18-08.00.08:962][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2019.07.18-08.00.08:962][  0]LogD3D11RHI:       8088/0/8162 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.07.18-08.00.08:965][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.07.18-08.00.08:965][  0]LogD3D11RHI:       0/0/8162 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.07.18-08.00.08:965][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.07.18-08.00.08:976][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.07.18-08.00.08:976][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2019.07.18-08.00.08:976][  0]LogWindows: EnumDisplayDevices:
+[2019.07.18-08.00.08:976][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2019.07.18-08.00.08:977][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2019.07.18-08.00.08:978][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.07.18-08.00.08:978][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.07.18-08.00.08:979][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.07.18-08.00.08:979][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2019.07.18-08.00.08:979][  0]LogD3D11RHI:   Driver Version: 399.07 (internal:24.21.13.9907, unified:399.07)
+[2019.07.18-08.00.08:979][  0]LogD3D11RHI:      Driver Date: 8-21-2018
+[2019.07.18-08.00.08:979][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2019.07.18-08.00.09:025][  0]LogD3D11RHI: Async texture creation enabled
+[2019.07.18-08.00.09:046][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.07.18-08.00.09:583][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.07.18-08.00.09:600][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.07.18-08.00.09:614][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.07.18-08.00.09:631][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.07.18-08.00.09:647][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.07.18-08.00.09:663][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.07.18-08.00.09:681][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.07.18-08.00.09:703][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.07.18-08.00.09:713][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.07.18-08.00.09:821][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.18-08.00.09:822][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.18-08.00.09:822][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.18-08.00.09:822][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.18-08.00.09:822][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.18-08.00.09:822][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.18-08.00.09:822][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.18-08.00.09:822][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.18-08.00.09:822][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.18-08.00.09:822][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.18-08.00.09:822][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.18-08.00.09:822][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.18-08.00.09:822][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.18-08.00.09:822][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.18-08.00.09:822][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.18-08.00.09:822][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.18-08.00.09:822][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.18-08.00.09:822][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.18-08.00.09:824][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.07.18-08.00.09:895][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.07.18-08.00.09:895][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.07.18-08.00.09:929][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.07.18-08.00.09:930][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.07.18-08.00.09:945][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.07.18-08.00.09:960][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.07.18-08.00.09:975][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.07.18-08.00.09:994][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.07.18-08.00.10:049][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.07.18-08.00.10:049][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.07.18-08.00.10:049][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.07.18-08.00.10:140][  0]LogShaderCompilers: Guid format shader working directory is 5 characters bigger than the processId version (../../../../../UnrealProject/AboutCG/Intermediate/Shaders/WorkingDirectory/12284/).
+[2019.07.18-08.00.10:140][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/p/AppData/Local/Temp/UnrealShaderWorkingDir/88C671CE46C49EE7177F9690A59A0268/'.
+[2019.07.18-08.00.10:143][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.07.18-08.00.10:143][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.07.18-08.00.10:143][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.07.18-08.00.10:823][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.07.18-08.00.10:883][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/p/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.07.18-08.00.10:883][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/p/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.07.18-08.00.10:884][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../UnrealProject/AboutCG/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.07.18-08.00.10:884][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.07.18-08.00.10:884][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../UnrealProject/AboutCG/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.07.18-08.00.10:884][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.07.18-08.00.10:905][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.07.18-08.00.10:905][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.07.18-08.00.10:905][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.07.18-08.00.10:918][  0]LogDerivedDataCache: Using Local data cache path C:/Users/p/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.07.18-08.00.10:918][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.07.18-08.00.10:918][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.07.18-08.00.10:951][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.07.18-08.00.10:952][  0]LogSlate: Using FreeType 2.6.0
+[2019.07.18-08.00.10:953][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.07.18-08.00.11:061][  0]LogAssetRegistry: FAssetRegistry took 0.0416 seconds to start up
+[2019.07.18-08.00.11:419][  0]LogInit: Selected Device Profile: [Windows]
+[2019.07.18-08.00.11:496][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.07.18-08.00.11:501][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.07.18-08.00.11:501][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.07.18-08.00.11:501][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.07.18-08.00.11:501][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.07.18-08.00.11:622][  0]LogNetVersion: AboutCG 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1299247585)
+[2019.07.18-08.00.12:470][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.256205 seconds
+[2019.07.18-08.00.12:479][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.07.18-08.00.12:479][  0]LogUObjectAllocator: 6914656 out of 0 bytes used by permanent object pool.
+[2019.07.18-08.00.12:479][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.07.18-08.00.13:574][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.07.18-08.00.13:599][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.07.18-08.00.14:744][  0]SourceControl: Source control is disabled
+[2019.07.18-08.00.14:745][  0]SourceControl: Source control is disabled
+[2019.07.18-08.00.14:748][  0]SourceControl: Source control is disabled
+[2019.07.18-08.00.14:749][  0]SourceControl: Source control is disabled
+[2019.07.18-08.00.14:969][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.07.18-08.00.15:107][  0]LogOcInput: OculusInput pre-init called
+[2019.07.18-08.00.15:271][  0]LogEngine: Initializing Engine...
+[2019.07.18-08.00.15:273][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.07.18-08.00.15:274][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.07.18-08.00.15:275][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.07.18-08.00.15:275][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.07.18-08.00.15:275][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.07.18-08.00.15:564][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.07.18-08.00.15:585][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.07.18-08.00.15:669][  0]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.07.18-08.00.15:793][  0]LogInit: FAudioDevice initialized.
+[2019.07.18-08.00.15:793][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.07.18-08.00.15:881][  0]LogDerivedDataCache: Saved boot cache 0.09s 74MB C:/Users/p/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.07.18-08.00.15:896][  0]LogInit: Texture streaming: Enabled
+[2019.07.18-08.00.15:923][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.07.18-08.00.15:940][  0]LogInit: Transaction tracking system initialized
+[2019.07.18-08.00.15:976][  0]BlueprintLog: New page: Editor Load
+[2019.07.18-08.00.16:176][  0]LocalizationService: Localization service is disabled
+[2019.07.18-08.00.16:445][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2019.07.18-08.00.16:445][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2019.07.18-08.00.16:446][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C'
+[2019.07.18-08.00.16:715][  0]LogFileCache: Scanning file cache for directory 'E:/UnrealProject/AboutCG/Content/' took 0.01s
+[2019.07.18-08.00.16:715][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.07.18-08.00.16:715][  0]LogCook: Display: Mobile HDR setting 1
+[2019.07.18-08.00.16:715][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.07.18-08.00.16:715][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.07.18-08.00.16:715][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.07.18-08.00.16:715][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.07.18-08.00.16:715][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.07.18-08.00.16:872][  0]SourceControl: Source control is disabled
+[2019.07.18-08.00.16:872][  0]Cmd: MAP LOAD FILE="../../../../../UnrealProject/AboutCG/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.07.18-08.00.16:873][  0]LightingResults: New page: Lighting Build
+[2019.07.18-08.00.16:876][  0]MapCheck: New page: Map Check
+[2019.07.18-08.00.16:876][  0]LightingResults: New page: Lighting Build
+[2019.07.18-08.00.17:072][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.07.18-08.00.17:082][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.07.18-08.00.17:110][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.07.18-08.00.17:110][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.218ms to complete.
+[2019.07.18-08.00.17:110][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.239
+[2019.07.18-08.00.17:546][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.18-08.00.17:554][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.18-08.00.17:562][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.18-08.00.17:572][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.18-08.00.17:580][  0]LogCollectionManager: Loaded 0 collections in 0.001480 seconds
+[2019.07.18-08.00.17:638][  0]LogFileCache: Scanning file cache for directory 'E:/UnrealProject/AboutCG/Saved/Collections/' took 0.01s
+[2019.07.18-08.00.17:638][  0]LogFileCache: Scanning file cache for directory 'E:/UnrealProject/AboutCG/Content/Developers/GuoZi/Collections/' took 0.01s
+[2019.07.18-08.00.17:638][  0]LogFileCache: Scanning file cache for directory 'E:/UnrealProject/AboutCG/Content/Collections/' took 0.01s
+[2019.07.18-08.00.17:638][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.07.18-08.00.17:648][  0]LogContentBrowser: Native class hierarchy populated in 0.0100 seconds. Added 2653 classes and 622 folders.
+[2019.07.18-08.00.17:657][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.07.18-08.00.17:659][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.18-08.00.17:660][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.18-08.00.17:660][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.18-08.00.17:661][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.18-08.00.17:661][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.18-08.00.17:662][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.18-08.00.17:662][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.18-08.00.17:663][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.18-08.00.17:664][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.18-08.00.17:664][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.18-08.00.17:665][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.18-08.00.17:665][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.18-08.00.17:666][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.18-08.00.17:666][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.18-08.00.17:667][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.18-08.00.17:667][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.18-08.00.17:668][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.18-08.00.17:668][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.18-08.00.17:668][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.18-08.00.17:669][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.18-08.00.17:670][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.18-08.00.17:671][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.18-08.00.17:671][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.18-08.00.17:672][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.18-08.00.17:673][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.18-08.00.17:673][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.07.18-08.00.17:699][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.07.18-08.00.17:713][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.07.18-08.00.17:830][  0]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.07.18-08.00.17:832][  0]LogSlate: Took 0.000123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.07.18-08.00.17:840][  0]LogSlate: Took 0.000287 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.07.18-08.00.17:940][  0]LogRenderer: Reallocating scene render targets to support 1024x576 Format 10 NumSamples 1 (Frame:1).
+[2019.07.18-08.00.18:107][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.07.18-08.00.18:107][  0]LogLoad: (Engine Initialization) Total time: 11.72 seconds
+[2019.07.18-08.00.18:107][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.07.18-08.00.18:220][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.07.18-08.00.18:251][  0]LogSlate: Took 0.000181 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.07.18-08.00.18:392][  3]LogAssetRegistry: Asset discovery search completed in 7.3537 seconds
+[2019.07.18-08.00.18:394][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.07.18-08.00.18:394][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000056 seconds (updated 0 objects)
+[2019.07.18-08.00.33:315][ 48]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.18-08.05.30:286][239]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (48.152 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.07.18-08.09.18:119][416]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (40.182 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.07.18-08.09.51:474][ 95]LogSlate: Took 0.000153 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.07.18-08.09.51:510][ 95]Running E:/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe Development Win64 -TargetType=Editor -Module=MyPlugin -EnablePlugin="MyPlugin" -Project="../../../../../UnrealProject/AboutCG/AboutCG.uproject" -Progress -NoHotReloadFromIDE
+[2019.07.18-08.09.54:042][ 95]Performing full C++ include scan (hot reloading a new target)
+[2019.07.18-08.09.54:042][ 95]Creating makefile for hot reloading AboutCGEditor (no existing makefile)
+[2019.07.18-08.09.54:244][ 95]Compiling game modules for hot reload
+[2019.07.18-08.09.54:344][ 95]Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.07.18-08.10.03:632][ 95]@progress push 5%
+[2019.07.18-08.10.03:773][ 95]@progress pop
+[2019.07.18-08.10.05:151][ 95]Building 4 actions with 8 processes...
+[2019.07.18-08.10.05:152][ 95]  @progress 'Compiling C++ source code...' 0%
+[2019.07.18-08.11.28:902][ 95]  @progress 'Compiling C++ source code...' 25%
+[2019.07.18-08.11.28:902][ 95]  [1/4] PCLaunch.rc
+[2019.07.18-08.13.46:717][ 95]  @progress 'Compiling C++ source code...' 50%
+[2019.07.18-08.13.46:717][ 95]  [2/4] MyPlugin.cpp
+[2019.07.18-08.14.13:030][ 95]  @progress 'Compiling C++ source code...' 75%
+[2019.07.18-08.14.13:030][ 95]  [3/4] UE4Editor-MyPlugin.lib
+[2019.07.18-08.14.13:030][ 95]    ???ڴ????? E:\UnrealProject\AboutCG\Plugins\MyPlugin\Intermediate\Build\Win64\UE4Editor\Development\MyPlugin\UE4Editor-MyPlugin.lib ?Ͷ??? E:\UnrealProject\AboutCG\Plugins\MyPlugin\Intermediate\Build\Win64\UE4Editor\Development\MyPlugin\UE4Editor-MyPlugin.exp
+[2019.07.18-08.14.13:734][ 95]  @progress 'Compiling C++ source code...' 100%
+[2019.07.18-08.14.13:734][ 95]  [4/4] UE4Editor-MyPlugin.dll
+[2019.07.18-08.14.13:734][ 95]    ???ڴ????? E:\UnrealProject\AboutCG\Plugins\MyPlugin\Intermediate\Build\Win64\UE4Editor\Development\MyPlugin\UE4Editor-MyPlugin.suppressed.lib ?Ͷ??? E:\UnrealProject\AboutCG\Plugins\MyPlugin\Intermediate\Build\Win64\UE4Editor\Development\MyPlugin\UE4Editor-MyPlugin.suppressed.exp
+[2019.07.18-08.14.13:734][ 95]Total build time: 261.09 seconds (Parallel executor: 248.55 seconds)
+[2019.07.18-08.14.13:856][ 95]Running E:/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="E:/UnrealProject/AboutCG/AboutCG.uproject" -game -rocket -progress
+[2019.07.18-08.14.14:263][ 95]Discovering modules, targets and source code for project...
+[2019.07.18-08.14.15:777][ 95]Binding IntelliSense data...
+[2019.07.18-08.14.17:878][ 95]Binding IntelliSense data... 100%
+[2019.07.18-08.14.17:878][ 95]Writing project files...
+[2019.07.18-08.14.19:593][ 95]Writing project files... 100%
+[2019.07.18-08.14.20:289][ 95]LogDirectoryWatcher: A directory notification for 'E:/UnrealProject/AboutCG/Content/' was aborted.
+[2019.07.18-08.14.20:303][ 95]LogFileCache: Scanning file cache for directory 'E:/UnrealProject/AboutCG/Content/' took 0.01s
+[2019.07.18-08.14.20:348][ 95]LogSlate: Window 'New Plugin' being destroyed
+[2019.07.18-08.14.20:457][ 96]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.07.18-08.14.20:457][ 96]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.07.18-08.14.20:457][ 96]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.07.18-08.14.20:457][ 96]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.07.18-08.18.18:201][268]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (52.883 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.07.18-08.35.20:891][173]LogSlate: Window 'Plugins' being destroyed
+[2019.07.18-08.35.20:899][173]LogSlate: Window 'Plugins' being destroyed
+[2019.07.18-08.35.20:899][173]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2019.07.18-08.35.28:987][133]LogHttp: Warning: 000002961E4074C0: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.18-08.35.28:987][133]LogHttp: Warning: 000002961E4074C0: libcurl info message cache 0 (Connection 14 seems to be dead!)
+[2019.07.18-08.35.28:987][133]LogHttp: Warning: 000002961E4074C0: libcurl info message cache 1 (Closing connection 14)
+[2019.07.18-08.35.28:987][133]LogHttp: Warning: 000002961E4074C0: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.07.18-08.35.28:987][133]LogHttp: Warning: 000002961E4074C0: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.18-08.35.28:987][133]LogHttp: Warning: 000002961E4074C0: libcurl info message cache 4 (Closing connection 15)
+[2019.07.18-08.35.28:995][134]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.18-08.37.40:373][788]LogHttp: Warning: 000002961E407100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.18-08.37.40:373][788]LogHttp: Warning: 000002961E407100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.18-08.37.40:373][788]LogHttp: Warning: 000002961E407100: libcurl info message cache 1 (Closing connection 16)
+[2019.07.18-08.37.40:373][788]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.18-08.44.45:832][ 60]LogHotReload: New module detected: UE4Editor-AboutCG-5376.dll
+[2019.07.18-08.45.21:994][168]LogHotReload: New module detected: UE4Editor-AboutCG-869.dll
+[2019.07.18-08.45.23:352][173]LogHotReload: Starting Hot-Reload from IDE
+[2019.07.18-08.45.23:465][173]LogContentBrowser: Native class hierarchy updated for 'AboutCG' in 0.0006 seconds. Added 2 classes and 2 folders.
+[2019.07.18-08.45.23:467][173]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.07.18-08.45.24:026][173]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 2654 classes and 624 folders.
+[2019.07.18-08.45.24:211][173]Display: HotReload took  0.9s.
+[2019.07.18-08.48.30:140][ 33]LogHttp: Warning: 000002965EE59A80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.18-08.48.30:140][ 33]LogHttp: Warning: 000002965EE59A80: libcurl info message cache 0 (Connection 21 seems to be dead!)
+[2019.07.18-08.48.30:140][ 33]LogHttp: Warning: 000002965EE59A80: libcurl info message cache 1 (Closing connection 21)
+[2019.07.18-08.48.30:140][ 33]LogHttp: Warning: 000002965EE59A80: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.07.18-08.48.30:140][ 33]LogHttp: Warning: 000002965EE59A80: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.18-08.48.30:140][ 33]LogHttp: Warning: 000002965EE59A80: libcurl info message cache 4 (Closing connection 22)
+[2019.07.18-08.48.30:146][ 34]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.18-08.54.30:232][787]LogHttp: Warning: 000002965EE59A80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.18-08.54.30:232][787]LogHttp: Warning: 000002965EE59A80: libcurl info message cache 0 (Connection 24 seems to be dead!)
+[2019.07.18-08.54.30:232][787]LogHttp: Warning: 000002965EE59A80: libcurl info message cache 1 (Closing connection 24)
+[2019.07.18-08.54.30:232][787]LogHttp: Warning: 000002965EE59A80: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.07.18-08.54.30:232][787]LogHttp: Warning: 000002965EE59A80: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.18-08.54.30:232][787]LogHttp: Warning: 000002965EE59A80: libcurl info message cache 4 (Closing connection 25)
+[2019.07.18-08.54.30:563][788]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.18-09.00.29:396][861]LogHttp: Warning: 000002965EE59A80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.18-09.00.29:396][861]LogHttp: Warning: 000002965EE59A80: libcurl info message cache 0 (Connection 27 seems to be dead!)
+[2019.07.18-09.00.29:396][861]LogHttp: Warning: 000002965EE59A80: libcurl info message cache 1 (Closing connection 27)
+[2019.07.18-09.00.29:396][861]LogHttp: Warning: 000002965EE59A80: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.07.18-09.00.29:396][861]LogHttp: Warning: 000002965EE59A80: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.18-09.00.29:396][861]LogHttp: Warning: 000002965EE59A80: libcurl info message cache 4 (Closing connection 28)
+[2019.07.18-09.00.29:729][862]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.18-09.02.41:416][256]LogHttp: Warning: 000002965EE59A80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.18-09.02.41:416][256]LogHttp: Warning: 000002965EE59A80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.18-09.02.41:416][256]LogHttp: Warning: 000002965EE59A80: libcurl info message cache 1 (Closing connection 29)
+[2019.07.18-09.02.41:416][256]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.18-09.07.49:190][727]Running E:/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe Development Win64 -TargetType=Editor -Module=MyEditorStandalonePlugin -EnablePlugin="MyEditorStandalonePlugin" -Project="../../../../../UnrealProject/AboutCG/AboutCG.uproject" -Progress -NoHotReloadFromIDE
+[2019.07.18-09.07.51:218][727]Creating makefile for hot reloading AboutCGEditor (modules to compile have changed)
+[2019.07.18-09.07.51:319][727]Compiling game modules for hot reload
+[2019.07.18-09.07.51:319][727]Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.07.18-09.07.57:056][727]@progress push 5%
+[2019.07.18-09.07.57:059][727]@progress pop
+[2019.07.18-09.07.57:262][727]Building 5 actions with 8 processes...
+[2019.07.18-09.07.57:262][727]  @progress 'Compiling C++ source code...' 0%
+[2019.07.18-09.07.57:362][727]  @progress 'Compiling C++ source code...' 20%
+[2019.07.18-09.07.57:362][727]  [1/5] PCLaunch.rc
+[2019.07.18-09.08.34:913][727]  @progress 'Compiling C++ source code...' 40%
+[2019.07.18-09.08.34:913][727]  [2/5] SharedPCH.UnrealEd.cpp
+[2019.07.18-09.08.43:270][727]  @progress 'Compiling C++ source code...' 60%
+[2019.07.18-09.08.43:270][727]  [3/5] Module.MyEditorStandalonePlugin.cpp
+[2019.07.18-09.08.43:774][727]  @progress 'Compiling C++ source code...' 80%
+[2019.07.18-09.08.43:774][727]  [4/5] UE4Editor-MyEditorStandalonePlugin.lib
+[2019.07.18-09.08.43:774][727]    ???ڴ????? E:\UnrealProject\AboutCG\Plugins\MyEditorStandalonePlugin\Intermediate\Build\Win64\UE4Editor\Development\MyEditorStandalonePlugin\UE4Editor-MyEditorStandalonePlugin.lib ?Ͷ??? E:\UnrealProject\AboutCG\Plugins\MyEditorStandalonePlugin\Intermediate\Build\Win64\UE4Editor\Development\MyEditorStandalonePlugin\UE4Editor-MyEditorStandalonePlugin.exp
+[2019.07.18-09.08.44:882][727]  @progress 'Compiling C++ source code...' 100%
+[2019.07.18-09.08.44:882][727]  [5/5] UE4Editor-MyEditorStandalonePlugin.dll
+[2019.07.18-09.08.44:882][727]    ???ڴ????? E:\UnrealProject\AboutCG\Plugins\MyEditorStandalonePlugin\Intermediate\Build\Win64\UE4Editor\Development\MyEditorStandalonePlugin\UE4Editor-MyEditorStandalonePlugin.suppressed.lib ?Ͷ??? E:\UnrealProject\AboutCG\Plugins\MyEditorStandalonePlugin\Intermediate\Build\Win64\UE4Editor\Development\MyEditorStandalonePlugin\UE4Editor-MyEditorStandalonePlugin.suppressed.exp
+[2019.07.18-09.08.44:982][727]Total build time: 55.37 seconds (Parallel executor: 47.66 seconds)
+[2019.07.18-09.08.45:106][727]Running E:/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="E:/UnrealProject/AboutCG/AboutCG.uproject" -game -rocket -progress
+[2019.07.18-09.08.45:512][727]Discovering modules, targets and source code for project...
+[2019.07.18-09.08.47:223][727]Binding IntelliSense data...
+[2019.07.18-09.08.49:343][727]Binding IntelliSense data... 100%
+[2019.07.18-09.08.49:343][727]Writing project files...
+[2019.07.18-09.08.52:367][727]Writing project files... 100%
+[2019.07.18-09.08.58:363][727]LogSlate: Window 'New Plugin' being destroyed
+[2019.07.18-09.09.18:415][785]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (19.387 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.07.18-09.11.18:659][145]LogHttp: Warning: 000002965EE59D00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.18-09.11.18:659][145]LogHttp: Warning: 000002965EE59D00: libcurl info message cache 0 (Connection 32 seems to be dead!)
+[2019.07.18-09.11.18:659][145]LogHttp: Warning: 000002965EE59D00: libcurl info message cache 1 (Closing connection 32)
+[2019.07.18-09.11.18:659][145]LogHttp: Warning: 000002965EE59D00: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.07.18-09.11.18:659][145]LogHttp: Warning: 000002965EE59D00: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.18-09.11.18:659][145]LogHttp: Warning: 000002965EE59D00: libcurl info message cache 4 (Closing connection 33)
+[2019.07.18-09.11.18:996][146]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.18-09.14.07:398][819]LogSlate: Window 'Plugins' being destroyed
+[2019.07.18-09.14.07:406][819]LogSlate: Window 'Plugins' being destroyed
+[2019.07.18-09.14.07:406][819]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2019.07.18-09.14.07:406][819]LogDirectoryWatcher: A directory notification for '../../../../../UnrealProject/AboutCG/Plugins/' was aborted.
+[2019.07.18-09.14.20:967][346]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall8)
+[2019.07.18-09.14.22:017][346]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.18-09.15.01:910][977]Candidate modules for hot reload:
+[2019.07.18-09.15.01:910][977]  AboutCG
+[2019.07.18-09.15.01:910][977]Launching UnrealBuildTool... [E:/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=AboutCG,7423 Win64 Development -TargetType=Editor -Project="../../../../../UnrealProject/AboutCG/AboutCG.uproject" -canskiplink "E:/UnrealProject/AboutCG/AboutCG.uproject" ]
+[2019.07.18-09.15.01:912][977]Warning: Starting HotReload took  0.1s.
+[2019.07.18-09.15.08:746][753]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2019.07.18-09.15.08:821][753]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.18-09.15.10:406][922]CompilerResultsLog: New page: Compilation - Jul 19, 2019, 1:15:10 AM
+[2019.07.18-09.15.10:414][922]CompilerResultsLog: Creating makefile for hot reloading AboutCGEditor (modules to compile have changed)
+[2019.07.18-09.15.10:414][922]CompilerResultsLog: Compiling game modules for hot reload
+[2019.07.18-09.15.10:414][922]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.07.18-09.15.10:414][922]CompilerResultsLog: Target is up to date
+[2019.07.18-09.15.10:414][922]CompilerResultsLog: Total build time: 8.06 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2019.07.18-09.15.10:414][922]LogMainFrame: MainFrame: Module compiling took 8.530 seconds
+[2019.07.18-09.15.10:448][922]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2654 classes and 624 folders.
+[2019.07.18-09.15.10:448][922]Display: HotReload took  8.7s.
+[2019.07.18-09.15.15:512][523]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall7)
+[2019.07.18-09.15.15:551][523]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.18-09.15.29:167][ 73]LogHttp: Warning: 000002961E405440: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.18-09.15.29:167][ 73]LogHttp: Warning: 000002961E405440: libcurl info message cache 0 (Connection 34 seems to be dead!)
+[2019.07.18-09.15.29:167][ 73]LogHttp: Warning: 000002961E405440: libcurl info message cache 1 (Closing connection 34)
+[2019.07.18-09.15.29:167][ 73]LogHttp: Warning: 000002961E405440: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.07.18-09.15.29:167][ 73]LogHttp: Warning: 000002961E405440: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.18-09.15.29:167][ 73]LogHttp: Warning: 000002961E405440: libcurl info message cache 4 (Closing connection 35)
+[2019.07.18-09.15.29:176][ 74]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.18-09.17.00:512][278]LogSlate: Window 'Plugin Properties' being destroyed
+[2019.07.18-09.17.03:113][577]LogSlate: Window 'Plugins' being destroyed
+[2019.07.18-09.17.03:120][577]LogSlate: Window 'Plugins' being destroyed
+[2019.07.18-09.17.03:120][577]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2019.07.18-09.17.03:120][577]LogDirectoryWatcher: A directory notification for '../../../../../UnrealProject/AboutCG/Plugins/' was aborted.
+[2019.07.18-09.17.40:585][873]LogHttp: Warning: 0000029646DECB80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.18-09.17.40:585][873]LogHttp: Warning: 0000029646DECB80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.18-09.17.40:585][873]LogHttp: Warning: 0000029646DECB80: libcurl info message cache 1 (Closing connection 36)
+[2019.07.18-09.17.40:919][874]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.18-09.19.52:215][265]LogHttp: Warning: 0000029646DECB80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.18-09.19.52:215][265]LogHttp: Warning: 0000029646DECB80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.18-09.19.52:215][265]LogHttp: Warning: 0000029646DECB80: libcurl info message cache 1 (Closing connection 37)
+[2019.07.18-09.19.52:551][266]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.18-09.23.29:345][913]LogHttp: Warning: 0000029646DECB80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.18-09.23.29:345][913]LogHttp: Warning: 0000029646DECB80: libcurl info message cache 0 (Connection 38 seems to be dead!)
+[2019.07.18-09.23.29:345][913]LogHttp: Warning: 0000029646DECB80: libcurl info message cache 1 (Closing connection 38)
+[2019.07.18-09.23.29:345][913]LogHttp: Warning: 0000029646DECB80: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.07.18-09.23.29:345][913]LogHttp: Warning: 0000029646DECB80: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.18-09.23.29:345][913]LogHttp: Warning: 0000029646DECB80: libcurl info message cache 4 (Closing connection 39)
+[2019.07.18-09.23.29:679][914]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.18-09.25.40:837][306]LogHttp: Warning: 0000029646DECB80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.18-09.25.40:837][306]LogHttp: Warning: 0000029646DECB80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.18-09.25.40:837][306]LogHttp: Warning: 0000029646DECB80: libcurl info message cache 1 (Closing connection 40)
+[2019.07.18-09.25.40:837][306]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.18-09.34.29:372][968]LogHttp: Warning: 000002960423C540: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.18-09.34.29:372][968]LogHttp: Warning: 000002960423C540: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x2961c967fa0 [can pipeline])
+[2019.07.18-09.34.29:372][968]LogHttp: Warning: 000002960423C540: libcurl info message cache 1 (Re-using existing connection! (#43) with host datarouter.ol.epicgames.com)
+[2019.07.18-09.34.29:372][968]LogHttp: Warning: 000002960423C540: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (100.24.251.232) port 443 (#43))
+[2019.07.18-09.34.29:373][968]LogHttp: Warning: 000002960423C540: libcurl info message cache 3 (upload completely sent off: 380 out of 380 bytes)
+[2019.07.18-09.34.29:373][968]LogHttp: Warning: 000002960423C540: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2019.07.18-09.34.29:373][968]LogHttp: Warning: 000002960423C540: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2019.07.18-09.34.29:373][968]LogHttp: Warning: 000002960423C540: libcurl info message cache 6 (Closing connection 43)
+[2019.07.18-09.34.29:373][968]LogHttp: Warning: 000002960423C540: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.07.18-09.34.29:373][968]LogHttp: Warning: 000002960423C540: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2019.07.18-09.34.29:373][968]LogHttp: Warning: 000002960423C540: libcurl info message cache 9 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.18-09.34.29:373][968]LogHttp: Warning: 000002960423C540: libcurl info message cache 10 (Closing connection 44)
+[2019.07.18-09.34.29:373][968]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.18-09.38.29:300][683]LogHttp: Warning: 000002960423C540: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.18-09.38.29:300][683]LogHttp: Warning: 000002960423C540: libcurl info message cache 0 (Connection 45 seems to be dead!)
+[2019.07.18-09.38.29:300][683]LogHttp: Warning: 000002960423C540: libcurl info message cache 1 (Closing connection 45)
+[2019.07.18-09.38.29:300][683]LogHttp: Warning: 000002960423C540: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.07.18-09.38.29:300][683]LogHttp: Warning: 000002960423C540: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.18-09.38.29:301][683]LogHttp: Warning: 000002960423C540: libcurl info message cache 4 (Closing connection 46)
+[2019.07.18-09.38.29:633][684]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.18-09.40.41:102][ 76]LogHttp: Warning: 000002960423C540: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.18-09.40.41:102][ 76]LogHttp: Warning: 000002960423C540: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.18-09.40.41:102][ 76]LogHttp: Warning: 000002960423C540: libcurl info message cache 1 (Closing connection 47)
+[2019.07.18-09.40.41:103][ 76]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.18-09.47.29:545][293]LogHttp: Warning: 000002960423FB00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.18-09.47.29:545][293]LogHttp: Warning: 000002960423FB00: libcurl info message cache 0 (Connection 49 seems to be dead!)
+[2019.07.18-09.47.29:545][293]LogHttp: Warning: 000002960423FB00: libcurl info message cache 1 (Closing connection 49)
+[2019.07.18-09.47.29:545][293]LogHttp: Warning: 000002960423FB00: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.07.18-09.47.29:546][293]LogHttp: Warning: 000002960423FB00: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.18-09.47.29:546][293]LogHttp: Warning: 000002960423FB00: libcurl info message cache 4 (Closing connection 50)
+[2019.07.18-09.47.29:878][294]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.18-09.49.41:049][686]LogHttp: Warning: 000002960423FB00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.18-09.49.41:049][686]LogHttp: Warning: 000002960423FB00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.18-09.49.41:049][686]LogHttp: Warning: 000002960423FB00: libcurl info message cache 1 (Closing connection 51)
+[2019.07.18-09.49.41:049][686]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.18-09.51.52:669][ 79]LogHttp: Warning: 000002960423FB00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.18-09.51.52:669][ 79]LogHttp: Warning: 000002960423FB00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.18-09.51.52:669][ 79]LogHttp: Warning: 000002960423FB00: libcurl info message cache 1 (Closing connection 52)
+[2019.07.18-09.51.53:002][ 80]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.18-09.54.04:390][472]LogHttp: Warning: 000002960423FB00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.18-09.54.04:390][472]LogHttp: Warning: 000002960423FB00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.18-09.54.04:390][472]LogHttp: Warning: 000002960423FB00: libcurl info message cache 1 (Closing connection 53)
+[2019.07.18-09.54.04:391][472]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.18-09.57.29:157][ 83]LogHttp: Warning: 000002960423FB00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.18-09.57.29:157][ 83]LogHttp: Warning: 000002960423FB00: libcurl info message cache 0 (Connection 54 seems to be dead!)
+[2019.07.18-09.57.29:157][ 83]LogHttp: Warning: 000002960423FB00: libcurl info message cache 1 (Closing connection 54)
+[2019.07.18-09.57.29:157][ 83]LogHttp: Warning: 000002960423FB00: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.07.18-09.57.29:158][ 83]LogHttp: Warning: 000002960423FB00: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.18-09.57.29:158][ 83]LogHttp: Warning: 000002960423FB00: libcurl info message cache 4 (Closing connection 55)
+[2019.07.18-09.57.29:490][ 84]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.18-10.03.29:402][159]LogHttp: Warning: 000002960423FB00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.18-10.03.29:402][159]LogHttp: Warning: 000002960423FB00: libcurl info message cache 0 (Connection 57 seems to be dead!)
+[2019.07.18-10.03.29:402][159]LogHttp: Warning: 000002960423FB00: libcurl info message cache 1 (Closing connection 57)
+[2019.07.18-10.03.29:402][159]LogHttp: Warning: 000002960423FB00: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.07.18-10.03.29:402][159]LogHttp: Warning: 000002960423FB00: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.18-10.03.29:402][159]LogHttp: Warning: 000002960423FB00: libcurl info message cache 4 (Closing connection 58)
+[2019.07.18-10.03.29:736][160]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.18-10.07.29:722][877]LogHttp: Warning: 000002960423FB00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.18-10.07.29:722][877]LogHttp: Warning: 000002960423FB00: libcurl info message cache 0 (Connection 59 seems to be dead!)
+[2019.07.18-10.07.29:722][877]LogHttp: Warning: 000002960423FB00: libcurl info message cache 1 (Closing connection 59)
+[2019.07.18-10.07.29:723][877]LogHttp: Warning: 000002960423FB00: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.07.18-10.07.29:723][877]LogHttp: Warning: 000002960423FB00: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.18-10.07.29:723][877]LogHttp: Warning: 000002960423FB00: libcurl info message cache 4 (Closing connection 60)
+[2019.07.18-10.07.30:060][878]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.18-10.09.41:656][271]LogHttp: Warning: 000002960423FB00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.18-10.09.41:656][271]LogHttp: Warning: 000002960423FB00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.18-10.09.41:656][271]LogHttp: Warning: 000002960423FB00: libcurl info message cache 1 (Closing connection 61)
+[2019.07.18-10.09.41:991][272]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.18-10.11.53:329][664]LogHttp: Warning: 000002960423FB00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.18-10.11.53:329][664]LogHttp: Warning: 000002960423FB00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.18-10.11.53:329][664]LogHttp: Warning: 000002960423FB00: libcurl info message cache 1 (Closing connection 62)
+[2019.07.18-10.11.53:330][664]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.18-10.15.29:192][308]LogHttp: Warning: 000002960423FB00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.18-10.15.29:192][308]LogHttp: Warning: 000002960423FB00: libcurl info message cache 0 (Connection 63 seems to be dead!)
+[2019.07.18-10.15.29:192][308]LogHttp: Warning: 000002960423FB00: libcurl info message cache 1 (Closing connection 63)
+[2019.07.18-10.15.29:192][308]LogHttp: Warning: 000002960423FB00: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.07.18-10.15.29:192][308]LogHttp: Warning: 000002960423FB00: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.18-10.15.29:193][308]LogHttp: Warning: 000002960423FB00: libcurl info message cache 4 (Closing connection 64)
+[2019.07.18-10.15.29:193][308]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.18-10.17.40:679][701]LogHttp: Warning: 000002960423FB00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.18-10.17.40:679][701]LogHttp: Warning: 000002960423FB00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.18-10.17.40:679][701]LogHttp: Warning: 000002960423FB00: libcurl info message cache 1 (Closing connection 65)
+[2019.07.18-10.17.41:014][702]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.18-10.19.52:476][ 95]LogHttp: Warning: 000002960423FB00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.18-10.19.52:476][ 95]LogHttp: Warning: 000002960423FB00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.18-10.19.52:476][ 95]LogHttp: Warning: 000002960423FB00: libcurl info message cache 1 (Closing connection 66)
+[2019.07.18-10.19.52:810][ 96]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.18-10.25.29:746][103]LogHttp: Warning: 000002960423FB00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.18-10.25.29:746][103]LogHttp: Warning: 000002960423FB00: libcurl info message cache 0 (Connection 67 seems to be dead!)
+[2019.07.18-10.25.29:746][103]LogHttp: Warning: 000002960423FB00: libcurl info message cache 1 (Closing connection 67)
+[2019.07.18-10.25.29:746][103]LogHttp: Warning: 000002960423FB00: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.07.18-10.25.29:746][103]LogHttp: Warning: 000002960423FB00: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.18-10.25.29:746][103]LogHttp: Warning: 000002960423FB00: libcurl info message cache 4 (Closing connection 68)
+[2019.07.18-10.25.30:082][104]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.18-10.27.41:709][497]LogHttp: Warning: 000002960423FB00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.18-10.27.41:709][497]LogHttp: Warning: 000002960423FB00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.18-10.27.41:709][497]LogHttp: Warning: 000002960423FB00: libcurl info message cache 1 (Closing connection 69)
+[2019.07.18-10.27.42:040][498]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.18-10.29.53:124][889]LogHttp: Warning: 000002960423FB00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.18-10.29.53:124][889]LogHttp: Warning: 000002960423FB00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.18-10.29.53:124][889]LogHttp: Warning: 000002960423FB00: libcurl info message cache 1 (Closing connection 70)
+[2019.07.18-10.29.53:457][890]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.18-14.50.16:093][588]LogHttp: Warning: 000002960423F240: HTTP request timed out after 180.00 seconds URL=https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.18-14.50.16:093][588]LogHttp: Warning: 000002960423F240: request failed, libcurl error: 0 (No error)
+[2019.07.18-14.50.16:093][588]LogHttp: Warning: 000002960423F240: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x2961c967fa0 [can pipeline])
+[2019.07.18-14.50.16:093][588]LogHttp: Warning: 000002960423F240: libcurl info message cache 1 (Re-using existing connection! (#178) with host datarouter.ol.epicgames.com)
+[2019.07.18-14.50.16:093][588]LogHttp: Warning: 000002960423F240: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (18.235.61.121) port 443 (#178))
+[2019.07.18-14.50.16:094][588]LogHttp: Warning: 000002960423F240: libcurl info message cache 3 (upload completely sent off: 748 out of 748 bytes)
+[2019.07.18-14.50.16:094][588]LogHttp: Warning: 000002960423F240: libcurl info message cache 4 (Closing connection 178)
+[2019.07.18-14.50.16:094][588]LogHttp: Warning: 000002960423F240: libcurl info message cache 5 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.07.18-14.50.16:115][588]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.19-01.29.27:191][205]LogHttp: Warning: 000002960423F240: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.19-01.29.27:191][205]LogHttp: Warning: 000002960423F240: libcurl info message cache 0 (Connection 457 seems to be dead!)
+[2019.07.19-01.29.27:191][205]LogHttp: Warning: 000002960423F240: libcurl info message cache 1 (Closing connection 457)
+[2019.07.19-01.29.27:208][205]LogHttp: Warning: 000002960423F240: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.07.19-01.29.27:208][205]LogHttp: Warning: 000002960423F240: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.19-01.29.27:208][205]LogHttp: Warning: 000002960423F240: libcurl info message cache 4 (Closing connection 458)
+[2019.07.19-01.29.27:527][206]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.19-01.33.26:975][921]LogHttp: Warning: 000002960423F240: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.19-01.33.26:975][921]LogHttp: Warning: 000002960423F240: libcurl info message cache 0 (Connection 459 seems to be dead!)
+[2019.07.19-01.33.26:975][921]LogHttp: Warning: 000002960423F240: libcurl info message cache 1 (Closing connection 459)
+[2019.07.19-01.33.26:975][921]LogHttp: Warning: 000002960423F240: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.07.19-01.33.26:975][921]LogHttp: Warning: 000002960423F240: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.19-01.33.26:975][921]LogHttp: Warning: 000002960423F240: libcurl info message cache 4 (Closing connection 460)
+[2019.07.19-01.33.27:310][922]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.19-01.37.16:227][604]LogHttp: Warning: 000002960423F240: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.19-01.37.16:228][604]LogHttp: Warning: 000002960423F240: libcurl info message cache 0 (Connection 461 seems to be dead!)
+[2019.07.19-01.37.16:228][604]LogHttp: Warning: 000002960423F240: libcurl info message cache 1 (Closing connection 461)
+[2019.07.19-01.37.16:228][604]LogHttp: Warning: 000002960423F240: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.07.19-01.37.16:228][604]LogHttp: Warning: 000002960423F240: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.19-01.37.16:228][604]LogHttp: Warning: 000002960423F240: libcurl info message cache 4 (Closing connection 462)
+[2019.07.19-01.37.16:228][604]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.19-01.37.56:525][722]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2019.07.19-01.37.57:565][723]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2019.07.19-01.41.20:340][327]LogHttp: Warning: 000002960423F240: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.19-01.41.20:340][327]LogHttp: Warning: 000002960423F240: libcurl info message cache 0 (Connection 463 seems to be dead!)
+[2019.07.19-01.41.20:340][327]LogHttp: Warning: 000002960423F240: libcurl info message cache 1 (Closing connection 463)
+[2019.07.19-01.41.20:340][327]LogHttp: Warning: 000002960423F240: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.07.19-01.41.20:371][327]LogHttp: Warning: 000002960423F240: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.19-01.41.20:371][327]LogHttp: Warning: 000002960423F240: libcurl info message cache 4 (Closing connection 464)
+[2019.07.19-01.41.20:678][328]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.19-01.43.32:059][720]LogHttp: Warning: 000002960423F240: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.19-01.43.32:059][720]LogHttp: Warning: 000002960423F240: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.19-01.43.32:059][720]LogHttp: Warning: 000002960423F240: libcurl info message cache 1 (Closing connection 465)
+[2019.07.19-01.43.32:059][720]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.19-01.50.27:304][952]LogHttp: Warning: 000002960423F240: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.19-01.50.27:304][952]LogHttp: Warning: 000002960423F240: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x2961c967fa0 [can pipeline])
+[2019.07.19-01.50.27:304][952]LogHttp: Warning: 000002960423F240: libcurl info message cache 1 (Re-using existing connection! (#468) with host datarouter.ol.epicgames.com)
+[2019.07.19-01.50.27:304][952]LogHttp: Warning: 000002960423F240: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.199.243.108) port 443 (#468))
+[2019.07.19-01.50.27:304][952]LogHttp: Warning: 000002960423F240: libcurl info message cache 3 (upload completely sent off: 749 out of 749 bytes)
+[2019.07.19-01.50.27:304][952]LogHttp: Warning: 000002960423F240: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2019.07.19-01.50.27:304][952]LogHttp: Warning: 000002960423F240: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2019.07.19-01.50.27:304][952]LogHttp: Warning: 000002960423F240: libcurl info message cache 6 (Closing connection 468)
+[2019.07.19-01.50.27:304][952]LogHttp: Warning: 000002960423F240: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.07.19-01.50.27:304][952]LogHttp: Warning: 000002960423F240: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2019.07.19-01.50.27:304][952]LogHttp: Warning: 000002960423F240: libcurl info message cache 9 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.19-01.50.27:304][952]LogHttp: Warning: 000002960423F240: libcurl info message cache 10 (Closing connection 469)
+[2019.07.19-01.50.27:304][952]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.19-01.54.26:742][665]LogHttp: Warning: 000002960423F240: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.19-01.54.26:742][665]LogHttp: Warning: 000002960423F240: libcurl info message cache 0 (Connection 470 seems to be dead!)
+[2019.07.19-01.54.26:742][665]LogHttp: Warning: 000002960423F240: libcurl info message cache 1 (Closing connection 470)
+[2019.07.19-01.54.26:742][665]LogHttp: Warning: 000002960423F240: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.07.19-01.54.26:742][665]LogHttp: Warning: 000002960423F240: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.19-01.54.26:742][665]LogHttp: Warning: 000002960423F240: libcurl info message cache 4 (Closing connection 471)
+[2019.07.19-01.54.27:083][666]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.19-02.02.03:266][ 29]LogHttp: Warning: 000002960423F240: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.19-02.02.03:267][ 29]LogHttp: Warning: 000002960423F240: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x2961c967fa0 [can pipeline])
+[2019.07.19-02.02.03:267][ 29]LogHttp: Warning: 000002960423F240: libcurl info message cache 1 (Re-using existing connection! (#473) with host datarouter.ol.epicgames.com)
+[2019.07.19-02.02.03:267][ 29]LogHttp: Warning: 000002960423F240: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.2.49.65) port 443 (#473))
+[2019.07.19-02.02.03:267][ 29]LogHttp: Warning: 000002960423F240: libcurl info message cache 3 (upload completely sent off: 750 out of 750 bytes)
+[2019.07.19-02.02.03:267][ 29]LogHttp: Warning: 000002960423F240: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2019.07.19-02.02.03:267][ 29]LogHttp: Warning: 000002960423F240: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2019.07.19-02.02.03:267][ 29]LogHttp: Warning: 000002960423F240: libcurl info message cache 6 (Closing connection 473)
+[2019.07.19-02.02.03:267][ 29]LogHttp: Warning: 000002960423F240: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2019.07.19-02.02.03:267][ 29]LogHttp: Warning: 000002960423F240: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.19-02.02.03:267][ 29]LogHttp: Warning: 000002960423F240: libcurl info message cache 9 (Closing connection 474)
+[2019.07.19-02.02.03:601][ 30]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.19-02.26.27:355][396]LogHttp: Warning: 000002960423F240: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.19-02.26.27:513][396]LogHttp: Warning: 000002960423F240: libcurl info message cache 0 (Connection 484 seems to be dead!)
+[2019.07.19-02.26.27:513][396]LogHttp: Warning: 000002960423F240: libcurl info message cache 1 (Closing connection 484)
+[2019.07.19-02.26.27:545][396]LogHttp: Warning: 000002960423F240: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.07.19-02.26.27:546][396]LogHttp: Warning: 000002960423F240: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.19-02.26.27:546][396]LogHttp: Warning: 000002960423F240: libcurl info message cache 4 (Closing connection 485)
+[2019.07.19-02.26.27:546][396]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.19-02.32.27:171][470]LogHttp: Warning: 000002960423F240: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.19-02.32.27:172][470]LogHttp: Warning: 000002960423F240: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x2961c967fa0 [can pipeline])
+[2019.07.19-02.32.27:172][470]LogHttp: Warning: 000002960423F240: libcurl info message cache 1 (Re-using existing connection! (#487) with host datarouter.ol.epicgames.com)
+[2019.07.19-02.32.27:172][470]LogHttp: Warning: 000002960423F240: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.88.130.39) port 443 (#487))
+[2019.07.19-02.32.27:172][470]LogHttp: Warning: 000002960423F240: libcurl info message cache 3 (upload completely sent off: 750 out of 750 bytes)
+[2019.07.19-02.32.27:172][470]LogHttp: Warning: 000002960423F240: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2019.07.19-02.32.27:172][470]LogHttp: Warning: 000002960423F240: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2019.07.19-02.32.27:172][470]LogHttp: Warning: 000002960423F240: libcurl info message cache 6 (Closing connection 487)
+[2019.07.19-02.32.27:189][470]LogHttp: Warning: 000002960423F240: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.07.19-02.32.27:189][470]LogHttp: Warning: 000002960423F240: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2019.07.19-02.32.27:211][470]LogHttp: Warning: 000002960423F240: libcurl info message cache 9 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.19-02.32.27:211][470]LogHttp: Warning: 000002960423F240: libcurl info message cache 10 (Closing connection 488)
+[2019.07.19-02.32.27:211][470]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.19-02.36.20:589][166]LogHttp: Warning: 000002960423F240: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.19-02.36.20:589][166]LogHttp: Warning: 000002960423F240: libcurl info message cache 0 (Connection 489 seems to be dead!)
+[2019.07.19-02.36.20:589][166]LogHttp: Warning: 000002960423F240: libcurl info message cache 1 (Closing connection 489)
+[2019.07.19-02.36.20:590][166]LogHttp: Warning: 000002960423F240: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.07.19-02.36.20:590][166]LogHttp: Warning: 000002960423F240: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.19-02.36.20:595][166]LogHttp: Warning: 000002960423F240: libcurl info message cache 4 (Closing connection 490)
+[2019.07.19-02.36.20:595][166]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.19-02.42.27:839][262]LogHttp: Warning: 000002960423F240: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.19-02.42.27:891][262]LogHttp: Warning: 000002960423F240: libcurl info message cache 0 (Connection 492 seems to be dead!)
+[2019.07.19-02.42.27:891][262]LogHttp: Warning: 000002960423F240: libcurl info message cache 1 (Closing connection 492)
+[2019.07.19-02.42.27:891][262]LogHttp: Warning: 000002960423F240: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.07.19-02.42.27:891][262]LogHttp: Warning: 000002960423F240: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.19-02.42.27:891][262]LogHttp: Warning: 000002960423F240: libcurl info message cache 4 (Closing connection 493)
+[2019.07.19-02.42.27:891][262]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.19-02.46.20:554][957]LogHttp: Warning: 000002960423F240: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.19-02.46.20:554][957]LogHttp: Warning: 000002960423F240: libcurl info message cache 0 (Connection 494 seems to be dead!)
+[2019.07.19-02.46.20:554][957]LogHttp: Warning: 000002960423F240: libcurl info message cache 1 (Closing connection 494)
+[2019.07.19-02.46.20:554][957]LogHttp: Warning: 000002960423F240: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.07.19-02.46.20:554][957]LogHttp: Warning: 000002960423F240: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.19-02.46.20:554][957]LogHttp: Warning: 000002960423F240: libcurl info message cache 4 (Closing connection 495)
+[2019.07.19-02.46.20:887][958]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.19-02.48.32:566][351]LogHttp: Warning: 000002960423F240: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.19-02.48.32:567][351]LogHttp: Warning: 000002960423F240: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.19-02.48.32:567][351]LogHttp: Warning: 000002960423F240: libcurl info message cache 1 (Closing connection 496)
+[2019.07.19-02.48.32:899][352]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.19-03.13.27:527][807]LogHttp: Warning: 000002960423F240: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.19-03.13.27:766][807]LogHttp: Warning: 000002960423F240: libcurl info message cache 0 (Connection 506 seems to be dead!)
+[2019.07.19-03.13.27:798][807]LogHttp: Warning: 000002960423F240: libcurl info message cache 1 (Closing connection 506)
+[2019.07.19-03.13.27:798][807]LogHttp: Warning: 000002960423F240: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.07.19-03.13.27:798][807]LogHttp: Warning: 000002960423F240: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.19-03.13.27:798][807]LogHttp: Warning: 000002960423F240: libcurl info message cache 4 (Closing connection 507)
+[2019.07.19-03.13.27:864][808]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.19-03.58.27:470][819]LogHttp: Warning: 000002965EE5BC40: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.19-03.58.27:517][819]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 0 (Connection 526 seems to be dead!)
+[2019.07.19-03.58.27:517][819]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 1 (Closing connection 526)
+[2019.07.19-03.58.27:517][819]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.07.19-03.58.27:517][819]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.19-03.58.27:517][819]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 4 (Closing connection 527)
+[2019.07.19-03.58.27:786][820]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.19-04.07.27:219][413]LogHttp: Warning: 000002965EE5BC40: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.19-04.07.27:219][413]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 0 (Connection 530 seems to be dead!)
+[2019.07.19-04.07.27:219][413]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 1 (Closing connection 530)
+[2019.07.19-04.07.27:219][413]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.07.19-04.07.27:219][413]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.19-04.07.27:219][413]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 4 (Closing connection 531)
+[2019.07.19-04.07.27:558][414]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.19-04.11.27:339][130]LogHttp: Warning: 000002965EE5BC40: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.19-04.11.27:339][130]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 0 (Connection 532 seems to be dead!)
+[2019.07.19-04.11.27:339][130]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 1 (Closing connection 532)
+[2019.07.19-04.11.27:339][130]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.07.19-04.11.27:350][130]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.19-04.11.27:350][130]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 4 (Closing connection 533)
+[2019.07.19-04.11.27:350][130]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.19-04.35.33:396][444]LogHttp: Warning: 000002965EE5BC40: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.19-04.35.33:509][444]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 0 (Connection 541 seems to be dead!)
+[2019.07.19-04.35.33:509][444]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 1 (Closing connection 541)
+[2019.07.19-04.35.33:509][444]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.07.19-04.35.33:509][444]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.19-04.35.33:509][444]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 4 (Closing connection 542)
+[2019.07.19-04.35.33:509][444]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.19-05.00.27:386][885]LogHttp: Warning: 000002965EE5BC40: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.19-05.00.27:816][885]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x2961c967fa0 [can pipeline])
+[2019.07.19-05.00.27:816][885]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 1 (Re-using existing connection! (#553) with host datarouter.ol.epicgames.com)
+[2019.07.19-05.00.27:816][885]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (3.94.140.213) port 443 (#553))
+[2019.07.19-05.00.27:816][885]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 3 (upload completely sent off: 766 out of 766 bytes)
+[2019.07.19-05.00.27:816][885]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2019.07.19-05.00.27:816][885]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2019.07.19-05.00.27:816][885]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 6 (Closing connection 553)
+[2019.07.19-05.00.27:816][885]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.07.19-05.00.27:816][885]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2019.07.19-05.00.27:860][885]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 9 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.19-05.00.27:860][885]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 10 (Closing connection 554)
+[2019.07.19-05.00.27:872][886]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.19-05.15.27:310][560]LogHttp: Warning: 000002965EE5BC40: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.19-05.15.27:361][560]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 0 (Connection 560 seems to be dead!)
+[2019.07.19-05.15.27:362][560]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 1 (Closing connection 560)
+[2019.07.19-05.15.27:362][560]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.07.19-05.15.27:362][560]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.19-05.15.27:362][560]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 4 (Closing connection 561)
+[2019.07.19-05.15.27:362][560]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.19-05.53.22:617][362]LogHttp: Warning: 000002965EE5BC40: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.19-05.53.22:617][362]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 0 (Connection 577 seems to be dead!)
+[2019.07.19-05.53.22:617][362]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 1 (Closing connection 577)
+[2019.07.19-05.53.22:617][362]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.07.19-05.53.22:617][362]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.19-05.53.22:617][362]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 4 (Closing connection 578)
+[2019.07.19-05.53.22:617][362]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.19-05.59.16:208][420]LogHttp: Warning: 000002965EE5BC40: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.19-05.59.16:232][420]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 0 (Connection 580 seems to be dead!)
+[2019.07.19-05.59.16:232][420]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 1 (Closing connection 580)
+[2019.07.19-05.59.16:232][420]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.07.19-05.59.16:232][420]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.19-05.59.16:232][420]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 4 (Closing connection 581)
+[2019.07.19-05.59.16:232][420]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.19-06.01.27:535][813]LogHttp: Warning: 000002965EE5BC40: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.19-06.01.27:535][813]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.19-06.01.27:535][813]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 1 (Closing connection 582)
+[2019.07.19-06.01.27:868][814]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.19-06.09.16:065][ 61]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (43.169 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.07.19-06.10.02:196][179]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.07.19-06.15.27:137][153]LogHttp: Warning: 000002965EE5BC40: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.19-06.15.27:146][153]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 0 (Connection 587 seems to be dead!)
+[2019.07.19-06.15.27:146][153]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 1 (Closing connection 587)
+[2019.07.19-06.15.27:146][153]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.07.19-06.15.27:146][153]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.19-06.15.27:146][153]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 4 (Closing connection 588)
+[2019.07.19-06.15.27:419][154]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.19-06.17.38:998][547]LogHttp: Warning: 000002965EE5BC40: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.19-06.17.38:998][547]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.19-06.17.38:998][547]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 1 (Closing connection 589)
+[2019.07.19-06.17.39:331][548]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.19-06.43.27:661][148]LogHttp: Warning: 000002965EE5BC40: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.19-06.43.27:717][148]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 0 (Connection 599 seems to be dead!)
+[2019.07.19-06.43.27:717][148]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 1 (Closing connection 599)
+[2019.07.19-06.43.27:717][148]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.07.19-06.43.27:717][148]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.19-06.43.27:717][148]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 4 (Closing connection 600)
+[2019.07.19-06.43.27:717][148]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.19-06.45.39:906][542]LogHttp: Warning: 000002965EE5BC40: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.19-06.45.39:906][542]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.19-06.45.39:906][542]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 1 (Closing connection 601)
+[2019.07.19-06.45.39:906][542]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.19-06.51.27:224][578]LogHttp: Warning: 000002965EE5BC40: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.19-06.51.27:275][578]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 0 (Connection 603 seems to be dead!)
+[2019.07.19-06.51.27:275][578]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 1 (Closing connection 603)
+[2019.07.19-06.51.27:275][578]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.07.19-06.51.27:275][578]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.19-06.51.27:275][578]LogHttp: Warning: 000002965EE5BC40: libcurl info message cache 4 (Closing connection 604)
+[2019.07.19-06.51.27:275][578]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.19-07.08.27:210][624]LogHttp: Warning: 000002965EE58F40: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.19-07.08.27:210][624]LogHttp: Warning: 000002965EE58F40: libcurl info message cache 0 (Connection 611 seems to be dead!)
+[2019.07.19-07.08.27:210][624]LogHttp: Warning: 000002965EE58F40: libcurl info message cache 1 (Closing connection 611)
+[2019.07.19-07.08.27:210][624]LogHttp: Warning: 000002965EE58F40: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.07.19-07.08.27:210][624]LogHttp: Warning: 000002965EE58F40: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.19-07.08.27:210][624]LogHttp: Warning: 000002965EE58F40: libcurl info message cache 4 (Closing connection 612)
+[2019.07.19-07.08.27:210][624]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.19-07.16.27:196][ 56]LogHttp: Warning: 000002965EE58F40: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.19-07.16.27:196][ 56]LogHttp: Warning: 000002965EE58F40: libcurl info message cache 0 (Connection 615 seems to be dead!)
+[2019.07.19-07.16.27:196][ 56]LogHttp: Warning: 000002965EE58F40: libcurl info message cache 1 (Closing connection 615)
+[2019.07.19-07.16.27:202][ 56]LogHttp: Warning: 000002965EE58F40: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.07.19-07.16.27:212][ 56]LogHttp: Warning: 000002965EE58F40: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.19-07.16.27:212][ 56]LogHttp: Warning: 000002965EE58F40: libcurl info message cache 4 (Closing connection 616)
+[2019.07.19-07.16.27:213][ 56]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.19-07.20.31:395][781]LogHttp: Warning: 000002965EE58F40: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.07.19-07.20.31:713][781]LogHttp: Warning: 000002965EE58F40: libcurl info message cache 0 (Connection 617 seems to be dead!)
+[2019.07.19-07.20.31:713][781]LogHttp: Warning: 000002965EE58F40: libcurl info message cache 1 (Closing connection 617)
+[2019.07.19-07.20.31:713][781]LogHttp: Warning: 000002965EE58F40: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.07.19-07.20.31:713][781]LogHttp: Warning: 000002965EE58F40: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.07.19-07.20.31:713][781]LogHttp: Warning: 000002965EE58F40: libcurl info message cache 4 (Closing connection 618)
+[2019.07.19-07.20.31:734][782]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.19-07.29.31:397][ 70]LogHttp: Warning: 000002965EE58F40: request failed, libcurl error: 28 (Timeout was reached)
+[2019.07.19-07.29.35:506][ 70]LogHttp: Warning: 000002965EE58F40: libcurl info message cache 0 (Connection 619 seems to be dead!)
+[2019.07.19-07.29.35:506][ 70]LogHttp: Warning: 000002965EE58F40: libcurl info message cache 1 (Closing connection 619)
+[2019.07.19-07.29.35:506][ 70]LogHttp: Warning: 000002965EE58F40: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.07.19-07.29.35:506][ 70]LogHttp: Warning: 000002965EE58F40: libcurl info message cache 3 (Resolving timed out after 60000 milliseconds)
+[2019.07.19-07.29.35:527][ 70]LogHttp: Warning: 000002965EE58F40: libcurl info message cache 4 (Closing connection 620)
+[2019.07.19-07.29.53:090][ 70]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.19-07.30.29:255][ 70]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.619 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.07.19-07.36.39:415][ 71]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.027 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.07.19-07.36.44:031][ 71]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (5.154 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.07.19-07.36.44:031][ 71]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (5.154 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.07.19-07.36.44:031][ 71]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (5.154 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.07.19-07.36.44:053][ 71]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (5.176 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.07.19-07.36.44:053][ 71]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (5.176 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.07.19-07.37.36:329][ 72]LogHttp: Warning: 000002965EE58900: request failed, libcurl error: 28 (Timeout was reached)
+[2019.07.19-07.37.36:368][ 72]LogHttp: Warning: 000002965EE58900: libcurl info message cache 0 (Resolving timed out after 60000 milliseconds)
+[2019.07.19-07.37.36:368][ 72]LogHttp: Warning: 000002965EE58900: libcurl info message cache 1 (Closing connection 621)
+[2019.07.19-07.37.37:065][ 72]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.07.19-07.38.15:869][171]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (38.024 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.07.19-07.41.49:525][683]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.07.19-07.41.52:680][684]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.07.19-07.42.26:160][731]LogSlate: Window 'AboutCG - Unreal Editor' being destroyed
+[2019.07.19-07.42.27:758][731]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (搜狗拼音输入法).
+[2019.07.19-07.42.57:703][732]Cmd: QUIT_EDITOR
+[2019.07.19-07.43.09:653][732]LogExit: Preparing to exit.
+[2019.07.19-07.43.38:751][732]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.19-07.43.38:751][732]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.19-07.43.38:751][732]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.19-07.43.38:751][732]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.19-07.43.38:751][732]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.19-07.43.38:751][732]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.19-07.43.38:751][732]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.19-07.43.38:932][732]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.19-07.43.38:933][732]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.19-07.43.38:933][732]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.19-07.43.38:933][732]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.19-07.43.38:933][732]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.19-07.43.38:933][732]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.19-07.43.38:933][732]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.07.19-07.43.59:164][732]LogExit: Editor shut down
+[2019.07.19-07.43.59:500][732]LogExit: Transaction tracking system shut down
+[2019.07.19-07.44.39:176][732]LogExit: Object subsystem successfully closed.
+[2019.07.19-07.44.41:750][732]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.07.19-07.44.42:253][732]LogD3D11RHI: Shutdown
+[2019.07.19-07.44.42:253][732]LogD3D11RHI: CleanupD3DDevice
+[2019.07.19-07.44.44:909][732]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.07.19-07.45.02:484][732]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (631)
+[2019.07.19-07.45.02:508][732]LogModuleManager: Shutting down and abandoning module MyEditorStandalonePlugin (629)
+[2019.07.19-07.45.02:509][732]LogModuleManager: Shutting down and abandoning module AboutCG (627)
+[2019.07.19-07.45.02:509][732]LogModuleManager: Shutting down and abandoning module MyPlugin (626)
+[2019.07.19-07.45.02:588][732]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (624)
+[2019.07.19-07.45.02:589][732]LogModuleManager: Shutting down and abandoning module SceneOutliner (622)
+[2019.07.19-07.45.02:635][732]LogModuleManager: Shutting down and abandoning module AddContentDialog (620)
+[2019.07.19-07.45.04:646][732]LogModuleManager: Shutting down and abandoning module WidgetCarousel (619)
+[2019.07.19-07.45.04:646][732]LogModuleManager: Shutting down and abandoning module EditorWidgets (616)
+[2019.07.19-07.45.04:646][732]LogModuleManager: Shutting down and abandoning module CollectionManager (614)
+[2019.07.19-07.45.04:692][732]LogModuleManager: Shutting down and abandoning module StatsViewer (612)
+[2019.07.19-07.45.04:789][732]LogModuleManager: Shutting down and abandoning module FoliageEdit (610)
+[2019.07.19-07.45.04:812][732]LogModuleManager: Shutting down and abandoning module LandscapeEditor (608)
+[2019.07.19-07.45.05:074][732]LogModuleManager: Shutting down and abandoning module MeshPaintMode (606)
+[2019.07.19-07.45.05:096][732]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (604)
+[2019.07.19-07.45.05:096][732]LogModuleManager: Shutting down and abandoning module ActorPickerMode (602)
+[2019.07.19-07.45.05:096][732]LogModuleManager: Shutting down and abandoning module GeometryMode (600)
+[2019.07.19-07.45.05:096][732]LogModuleManager: Shutting down and abandoning module TextureAlignMode (598)
+[2019.07.19-07.45.05:096][732]LogModuleManager: Shutting down and abandoning module BspMode (596)
+[2019.07.19-07.45.05:096][732]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (594)
+[2019.07.19-07.45.05:139][732]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (592)
+[2019.07.19-07.45.05:139][732]LogModuleManager: Shutting down and abandoning module AutomationWorker (590)
+[2019.07.19-07.45.05:175][732]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (588)
+[2019.07.19-07.45.05:175][732]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (586)
+[2019.07.19-07.45.05:416][732]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (584)
+[2019.07.19-07.45.05:736][732]LogModuleManager: Shutting down and abandoning module PlacementMode (583)
+[2019.07.19-07.45.05:736][732]LogModuleManager: Shutting down and abandoning module MaterialEditor (582)
+[2019.07.19-07.45.06:032][732]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (578)
+[2019.07.19-07.45.06:119][732]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (576)
+[2019.07.19-07.45.06:120][732]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (574)
+[2019.07.19-07.45.06:273][732]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (572)
+[2019.07.19-07.45.06:273][732]LogModuleManager: Shutting down and abandoning module WebMMedia (570)
+[2019.07.19-07.45.06:273][732]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (568)
+[2019.07.19-07.45.06:322][732]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (566)
+[2019.07.19-07.45.06:618][732]LogModuleManager: Shutting down and abandoning module SequenceRecorder (565)
+[2019.07.19-07.45.06:639][732]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (562)
+[2019.07.19-07.45.06:639][732]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (560)
+[2019.07.19-07.45.06:639][732]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (558)
+[2019.07.19-07.45.06:639][732]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (556)
+[2019.07.19-07.45.06:639][732]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (554)
+[2019.07.19-07.45.06:640][732]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (552)
+[2019.07.19-07.45.06:640][732]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (550)
+[2019.07.19-07.45.06:640][732]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (548)
+[2019.07.19-07.45.06:640][732]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (546)
+[2019.07.19-07.45.06:640][732]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (544)
+[2019.07.19-07.45.06:640][732]LogModuleManager: Shutting down and abandoning module CharacterAI (542)
+[2019.07.19-07.45.06:640][732]LogModuleManager: Shutting down and abandoning module SmartSnapping (540)
+[2019.07.19-07.45.06:640][732]LogModuleManager: Shutting down and abandoning module SessionServices (538)
+[2019.07.19-07.45.06:640][732]LogModuleManager: Shutting down and abandoning module ViewportSnapping (536)
+[2019.07.19-07.45.06:640][732]LogModuleManager: Shutting down and abandoning module ViewportInteraction (534)
+[2019.07.19-07.45.06:674][732]LogModuleManager: Shutting down and abandoning module ClothPainter (532)
+[2019.07.19-07.45.06:941][732]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (531)
+[2019.07.19-07.45.07:031][732]LogModuleManager: Shutting down and abandoning module LogVisualizer (528)
+[2019.07.19-07.45.07:137][732]LogModuleManager: Shutting down and abandoning module IntroTutorials (526)
+[2019.07.19-07.45.07:243][732]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (525)
+[2019.07.19-07.45.07:348][732]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (522)
+[2019.07.19-07.45.07:348][732]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (520)
+[2019.07.19-07.45.07:373][732]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (518)
+[2019.07.19-07.45.07:374][732]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (516)
+[2019.07.19-07.45.07:374][732]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (515)
+[2019.07.19-07.45.08:592][732]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (512)
+[2019.07.19-07.45.08:593][732]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (510)
+[2019.07.19-07.45.08:593][732]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (508)
+[2019.07.19-07.45.08:593][732]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (506)
+[2019.07.19-07.45.08:593][732]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (504)
+[2019.07.19-07.45.08:624][732]LogModuleManager: Shutting down and abandoning module InputBindingEditor (502)
+[2019.07.19-07.45.08:664][732]LogModuleManager: Shutting down and abandoning module MergeActors (500)
+[2019.07.19-07.45.08:724][732]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (498)
+[2019.07.19-07.45.08:813][732]LogModuleManager: Shutting down and abandoning module LocalizationService (497)
+[2019.07.19-07.45.08:847][732]LogModuleManager: Shutting down and abandoning module HardwareTargeting (494)
+[2019.07.19-07.45.08:847][732]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (492)
+[2019.07.19-07.45.08:883][732]LogModuleManager: Shutting down and abandoning module UndoHistory (490)
+[2019.07.19-07.45.08:906][732]LogModuleManager: Shutting down and abandoning module XmlParser (488)
+[2019.07.19-07.45.08:925][732]LogModuleManager: Shutting down and abandoning module Blutility (486)
+[2019.07.19-07.45.08:925][732]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (484)
+[2019.07.19-07.45.08:926][732]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (483)
+[2019.07.19-07.45.08:968][732]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (480)
+[2019.07.19-07.45.08:968][732]LogModuleManager: Shutting down and abandoning module SettingsEditor (478)
+[2019.07.19-07.45.09:012][732]LogModuleManager: Shutting down and abandoning module ProjectLauncher (476)
+[2019.07.19-07.45.09:069][732]LogModuleManager: Shutting down and abandoning module SessionFrontend (474)
+[2019.07.19-07.45.09:130][732]LogModuleManager: Shutting down and abandoning module ProfilerClient (472)
+[2019.07.19-07.45.09:172][732]LogModuleManager: Shutting down and abandoning module DeviceManager (470)
+[2019.07.19-07.45.09:222][732]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (469)
+[2019.07.19-07.45.09:483][732]LogModuleManager: Shutting down and abandoning module AutomationController (466)
+[2019.07.19-07.45.09:541][732]LogModuleManager: Shutting down and abandoning module AutomationWindow (464)
+[2019.07.19-07.45.09:572][732]LogModuleManager: Shutting down and abandoning module Layers (462)
+[2019.07.19-07.45.09:709][732]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (460)
+[2019.07.19-07.45.09:710][732]LogModuleManager: Shutting down and abandoning module DetailCustomizations (458)
+[2019.07.19-07.45.09:725][732]LogModuleManager: Shutting down and abandoning module PackagesDialog (456)
+[2019.07.19-07.45.09:763][732]LogModuleManager: Shutting down and abandoning module Persona (454)
+[2019.07.19-07.45.09:987][732]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (453)
+[2019.07.19-07.45.09:987][732]LogModuleManager: Shutting down and abandoning module AnimGraph (451)
+[2019.07.19-07.45.09:997][732]LogModuleManager: Shutting down and abandoning module Kismet (448)
+[2019.07.19-07.45.10:156][732]LogModuleManager: Shutting down and abandoning module GraphEditor (446)
+[2019.07.19-07.45.10:398][732]LogModuleManager: Shutting down and abandoning module ClassViewer (444)
+[2019.07.19-07.45.10:480][732]LogModuleManager: Shutting down and abandoning module Toolbox (442)
+[2019.07.19-07.45.10:480][732]LogModuleManager: Shutting down and abandoning module DesktopPlatform (441)
+[2019.07.19-07.45.10:509][732]LogModuleManager: Shutting down and abandoning module ModuleUI (438)
+[2019.07.19-07.45.10:526][732]LogModuleManager: Shutting down and abandoning module MovieSceneTools (436)
+[2019.07.19-07.45.10:582][732]LogModuleManager: Shutting down and abandoning module OutputLog (434)
+[2019.07.19-07.45.10:610][732]LogModuleManager: Shutting down and abandoning module GammaUI (432)
+[2019.07.19-07.45.10:622][732]LogModuleManager: Shutting down and abandoning module Documentation (430)
+[2019.07.19-07.45.10:622][732]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (428)
+[2019.07.19-07.45.10:622][732]LogModuleManager: Shutting down and abandoning module MovieScene (426)
+[2019.07.19-07.45.10:676][732]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (424)
+[2019.07.19-07.45.10:676][732]LogModuleManager: Shutting down and abandoning module LauncherPlatform (422)
+[2019.07.19-07.45.10:676][732]LogModuleManager: Shutting down and abandoning module AnalyticsET (420)
+[2019.07.19-07.45.10:676][732]LogModuleManager: Shutting down and abandoning module PortalServices (418)
+[2019.07.19-07.45.10:676][732]LogModuleManager: Shutting down and abandoning module PortalRpc (416)
+[2019.07.19-07.45.10:677][732]LogModuleManager: Shutting down and abandoning module MessagingRpc (414)
+[2019.07.19-07.45.10:677][732]LogModuleManager: Shutting down and abandoning module AIModule (412)
+[2019.07.19-07.45.10:852][732]LogModuleManager: Shutting down and abandoning module GameplayDebugger (411)
+[2019.07.19-07.45.10:855][732]LogModuleManager: Shutting down and abandoning module AITestSuite (409)
+[2019.07.19-07.45.10:939][732]LogModuleManager: Shutting down and abandoning module NavigationSystem (407)
+[2019.07.19-07.45.10:958][732]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (404)
+[2019.07.19-07.45.11:048][732]LogModuleManager: Shutting down and abandoning module ProfilerService (402)
+[2019.07.19-07.45.11:324][732]LogModuleManager: Shutting down and abandoning module TaskGraph (400)
+[2019.07.19-07.45.11:369][732]LogModuleManager: Shutting down and abandoning module SteamVRController (398)
+[2019.07.19-07.45.11:369][732]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (396)
+[2019.07.19-07.45.11:369][732]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (394)
+[2019.07.19-07.45.11:370][732]LogModuleManager: Shutting down and abandoning module OculusInput (392)
+[2019.07.19-07.45.11:429][732]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (390)
+[2019.07.19-07.45.11:429][732]LogModuleManager: Shutting down and abandoning module EditableMesh (388)
+[2019.07.19-07.45.11:602][732]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (386)
+[2019.07.19-07.45.11:602][732]LogModuleManager: Shutting down and abandoning module CableComponent (384)
+[2019.07.19-07.45.11:602][732]LogModuleManager: Shutting down and abandoning module AudioCapture (382)
+[2019.07.19-07.45.11:602][732]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (380)
+[2019.07.19-07.45.11:602][732]LogModuleManager: Shutting down and abandoning module AndroidPermission (378)
+[2019.07.19-07.45.11:602][732]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (376)
+[2019.07.19-07.45.11:657][732]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (374)
+[2019.07.19-07.45.11:888][732]LogModuleManager: Shutting down and abandoning module MediaCompositing (372)
+[2019.07.19-07.45.11:888][732]LogModuleManager: Shutting down and abandoning module LinearTimecode (370)
+[2019.07.19-07.45.11:888][732]LogModuleManager: Shutting down and abandoning module ImgMedia (368)
+[2019.07.19-07.45.12:164][732]LogModuleManager: Shutting down and abandoning module HTML5Networking (366)
+[2019.07.19-07.45.12:164][732]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (364)
+[2019.07.19-07.45.12:164][732]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (362)
+[2019.07.19-07.45.12:164][732]LogModuleManager: Shutting down and abandoning module BackChannel (360)
+[2019.07.19-07.45.12:186][732]LogModuleManager: Shutting down and abandoning module AppleVision (358)
+[2019.07.19-07.45.12:186][732]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (356)
+[2019.07.19-07.45.12:186][732]LogModuleManager: Shutting down and abandoning module AppleImageUtils (354)
+[2019.07.19-07.45.12:186][732]LogModuleManager: Shutting down and abandoning module AlembicImporter (352)
+[2019.07.19-07.45.12:186][732]LogModuleManager: Shutting down and abandoning module AlembicLibrary (351)
+[2019.07.19-07.45.12:186][732]LogModuleManager: Shutting down and abandoning module GeometryCache (350)
+[2019.07.19-07.45.12:186][732]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (349)
+[2019.07.19-07.45.12:186][732]LogModuleManager: Shutting down and abandoning module VariantManagerContent (344)
+[2019.07.19-07.45.12:187][732]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2019.07.19-07.45.12:210][732]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (340)
+[2019.07.19-07.45.12:210][732]LogModuleManager: Shutting down and abandoning module PluginBrowser (338)
+[2019.07.19-07.45.12:325][732]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (336)
+[2019.07.19-07.45.12:351][732]LogModuleManager: Shutting down and abandoning module PolygonModeling (334)
+[2019.07.19-07.45.12:351][732]LogModuleManager: Shutting down and abandoning module MeshEditor (332)
+[2019.07.19-07.45.12:370][732]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2019.07.19-07.45.12:461][732]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2019.07.19-07.45.12:461][732]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2019.07.19-07.45.12:491][732]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2019.07.19-07.45.12:491][732]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2019.07.19-07.45.12:491][732]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2019.07.19-07.45.12:517][732]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2019.07.19-07.45.12:744][732]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2019.07.19-07.45.12:813][732]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2019.07.19-07.45.12:947][732]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2019.07.19-07.45.12:947][732]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (310)
+[2019.07.19-07.45.12:981][732]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (308)
+[2019.07.19-07.45.12:982][732]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (306)
+[2019.07.19-07.45.12:982][732]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (304)
+[2019.07.19-07.45.12:982][732]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (302)
+[2019.07.19-07.45.12:982][732]LogModuleManager: Shutting down and abandoning module Paper2DEditor (300)
+[2019.07.19-07.45.13:095][732]LogModuleManager: Shutting down and abandoning module MeshPaint (299)
+[2019.07.19-07.45.13:095][732]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (294)
+[2019.07.19-07.45.13:095][732]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (292)
+[2019.07.19-07.45.13:120][732]LogModuleManager: Shutting down and abandoning module PhysXVehicles (290)
+[2019.07.19-07.45.13:120][732]LogModuleManager: Shutting down and abandoning module OculusEditor (288)
+[2019.07.19-07.45.13:164][732]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (286)
+[2019.07.19-07.45.13:164][732]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.07.19-07.45.13:164][732]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.07.19-07.45.13:265][732]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.07.19-07.45.13:383][732]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.07.19-07.45.13:383][732]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.07.19-07.45.13:438][732]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.07.19-07.45.13:456][732]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.07.19-07.45.13:456][732]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.07.19-07.45.13:478][732]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.07.19-07.45.13:517][732]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.07.19-07.45.13:948][732]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.07.19-07.45.13:993][732]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.07.19-07.45.14:023][732]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.07.19-07.45.14:046][732]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.07.19-07.45.14:139][732]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.07.19-07.45.14:173][732]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.07.19-07.45.14:219][732]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.07.19-07.45.14:219][732]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.07.19-07.45.14:220][732]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.07.19-07.45.14:265][732]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.07.19-07.45.14:359][732]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (244)
+[2019.07.19-07.45.14:359][732]LogModuleManager: Shutting down and abandoning module WmfMedia (242)
+[2019.07.19-07.45.14:675][732]LogModuleManager: Shutting down and abandoning module Media (241)
+[2019.07.19-07.45.14:683][732]LogModuleManager: Shutting down and abandoning module PacketHandler (238)
+[2019.07.19-07.45.14:683][732]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (236)
+[2019.07.19-07.45.14:683][732]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (234)
+[2019.07.19-07.45.14:730][732]LogModuleManager: Shutting down and abandoning module MediaAssets (232)
+[2019.07.19-07.45.14:730][732]LogModuleManager: Shutting down and abandoning module Overlay (230)
+[2019.07.19-07.45.14:730][732]LogModuleManager: Shutting down and abandoning module OverlayEditor (229)
+[2019.07.19-07.45.14:730][732]LogModuleManager: Shutting down and abandoning module VREditor (226)
+[2019.07.19-07.45.14:828][732]LogModuleManager: Shutting down and abandoning module StringTableEditor (224)
+[2019.07.19-07.45.14:874][732]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (222)
+[2019.07.19-07.45.14:874][732]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (220)
+[2019.07.19-07.45.15:068][732]LogModuleManager: Shutting down and abandoning module FunctionalTesting (218)
+[2019.07.19-07.45.15:244][732]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (216)
+[2019.07.19-07.45.15:392][732]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (215)
+[2019.07.19-07.45.15:705][732]LogModuleManager: Shutting down and abandoning module UMG (212)
+[2019.07.19-07.45.15:710][732]LogModuleManager: Shutting down and abandoning module UMGEditor (211)
+[2019.07.19-07.45.15:803][732]LogModuleManager: Shutting down and abandoning module Sequencer (210)
+[2019.07.19-07.45.15:958][732]LogModuleManager: Shutting down and abandoning module MessageLog (207)
+[2019.07.19-07.45.15:958][732]LogModuleManager: Shutting down and abandoning module SlateReflector (202)
+[2019.07.19-07.45.16:045][732]LogModuleManager: Shutting down and abandoning module Slate (200)
+[2019.07.19-07.45.16:045][732]LogModuleManager: Shutting down and abandoning module EditorStyle (198)
+[2019.07.19-07.45.16:494][732]LogModuleManager: Shutting down and abandoning module MRMesh (196)
+[2019.07.19-07.45.16:495][732]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (194)
+[2019.07.19-07.45.16:506][732]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (192)
+[2019.07.19-07.45.16:515][732]LogModuleManager: Shutting down and abandoning module XAudio2 (190)
+[2019.07.19-07.45.16:515][732]LogModuleManager: Shutting down and abandoning module Networking (188)
+[2019.07.19-07.45.16:515][732]LogModuleManager: Shutting down and abandoning module Core (186)
+[2019.07.19-07.45.16:515][732]LogModuleManager: Shutting down and abandoning module LevelSequence (184)
+[2019.07.19-07.45.16:515][732]LogModuleManager: Shutting down and abandoning module KismetCompiler (182)
+[2019.07.19-07.45.16:563][732]LogModuleManager: Shutting down and abandoning module MeshUtilities (180)
+[2019.07.19-07.45.16:600][732]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (179)
+[2019.07.19-07.45.16:609][732]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (178)
+[2019.07.19-07.45.16:609][732]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (177)
+[2019.07.19-07.45.16:642][732]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (175)
+[2019.07.19-07.45.16:711][732]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (173)
+[2019.07.19-07.45.16:734][732]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (171)
+[2019.07.19-07.45.16:775][732]LogModuleManager: Shutting down and abandoning module MaterialBaking (167)
+[2019.07.19-07.45.16:832][732]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (163)
+[2019.07.19-07.45.17:172][732]LogModuleManager: Shutting down and abandoning module DerivedDataCache (160)
+[2019.07.19-07.45.17:342][732]LogDerivedDataCache: Shutdown
+[2019.07.19-07.45.17:342][732]LogModuleManager: Shutting down and abandoning module XGEController (158)
+[2019.07.19-07.45.17:392][732]LogModuleManager: Shutting down and abandoning module TargetPlatform (156)
+[2019.07.19-07.45.17:505][732]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (155)
+[2019.07.19-07.45.17:527][732]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (153)
+[2019.07.19-07.45.17:663][732]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (151)
+[2019.07.19-07.45.17:681][732]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (149)
+[2019.07.19-07.45.17:731][732]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (147)
+[2019.07.19-07.45.17:775][732]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (145)
+[2019.07.19-07.45.17:775][732]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (143)
+[2019.07.19-07.45.17:775][732]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (141)
+[2019.07.19-07.45.17:775][732]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (139)
+[2019.07.19-07.45.18:108][732]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (137)
+[2019.07.19-07.45.18:109][732]LogModuleManager: Shutting down and abandoning module ImageWrapper (136)
+[2019.07.19-07.45.18:109][732]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (133)
+[2019.07.19-07.45.18:109][732]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (131)
+[2019.07.19-07.45.18:109][732]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (129)
+[2019.07.19-07.45.18:109][732]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (127)
+[2019.07.19-07.45.18:109][732]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (125)
+[2019.07.19-07.45.19:476][732]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
+[2019.07.19-07.45.19:476][732]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (121)
+[2019.07.19-07.45.19:476][732]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (119)
+[2019.07.19-07.45.19:548][732]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (117)
+[2019.07.19-07.45.19:583][732]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (115)
+[2019.07.19-07.45.19:743][732]LogModuleManager: Shutting down and abandoning module Messaging (113)
+[2019.07.19-07.45.19:743][732]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (111)
+[2019.07.19-07.45.20:089][732]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (109)
+[2019.07.19-07.45.20:117][732]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (107)
+[2019.07.19-07.45.22:860][732]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (105)
+[2019.07.19-07.45.22:860][732]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (103)
+[2019.07.19-07.45.22:973][732]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (101)
+[2019.07.19-07.45.22:989][732]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (99)
+[2019.07.19-07.45.23:006][732]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (97)
+[2019.07.19-07.45.23:006][732]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (95)
+[2019.07.19-07.45.23:055][732]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (93)
+[2019.07.19-07.45.23:106][732]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (91)
+[2019.07.19-07.45.23:123][732]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (89)
+[2019.07.19-07.45.23:123][732]LogModuleManager: Shutting down and abandoning module InputCore (86)
+[2019.07.19-07.45.23:123][732]LogModuleManager: Shutting down and abandoning module Settings (84)
+[2019.07.19-07.45.23:246][732]LogModuleManager: Shutting down and abandoning module PhysXCooking (82)
+[2019.07.19-07.45.23:246][732]LogModuleManager: Shutting down and abandoning module SteamVR (80)
+[2019.07.19-07.45.23:246][732]LogHMD: Freeing OpenVRDLLHandle.
+[2019.07.19-07.45.23:246][732]LogModuleManager: Shutting down and abandoning module OculusHMD (78)
+[2019.07.19-07.45.23:331][732]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (76)
+[2019.07.19-07.45.23:331][732]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (74)
+[2019.07.19-07.45.23:331][732]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (72)
+[2019.07.19-07.45.23:331][732]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (68)
+[2019.07.19-07.45.23:436][732]LogModuleManager: Shutting down and abandoning module XMPP (63)
+[2019.07.19-07.45.23:625][732]LogModuleManager: Shutting down and abandoning module WebSockets (62)
+[2019.07.19-07.45.24:016][732]LogModuleManager: Shutting down and abandoning module HTTP (59)
+[2019.07.19-07.45.24:016][732]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.07.19-07.45.24:016][732]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E600BF1-49E8-DC17-FC07-4EAAFC6D2930%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=dc9c400342969088c50b8d93f2a37047%7C82a635845ccc412cbae6ee1343938b8c%7Caf512e22-2dc5-4979-8922-633ddf3b09f0&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.07.19-07.45.24:174][732]LogModuleManager: Shutting down and abandoning module SSL (58)
+[2019.07.19-07.45.24:532][732]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (54)
+[2019.07.19-07.45.24:532][732]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (52)
+[2019.07.19-07.45.24:532][732]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (50)
+[2019.07.19-07.45.24:532][732]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (48)
+[2019.07.19-07.45.24:532][732]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (46)
+[2019.07.19-07.45.24:605][732]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (44)
+[2019.07.19-07.45.24:605][732]LogModuleManager: Shutting down and abandoning module MagicLeapController (42)
+[2019.07.19-07.45.24:679][732]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.07.19-07.45.24:704][732]LogModuleManager: Shutting down and abandoning module MagicLeap (40)
+[2019.07.19-07.45.24:888][732]LogModuleManager: Shutting down and abandoning module DatasmithContent (38)
+[2019.07.19-07.45.24:948][732]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.07.19-07.45.24:997][732]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.07.19-07.45.25:195][732]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.07.19-07.45.25:389][732]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.07.19-07.45.25:583][732]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.07.19-07.45.25:583][732]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.07.19-07.45.25:583][732]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.07.19-07.45.26:046][732]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.07.19-07.45.26:096][732]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.07.19-07.45.26:096][732]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.07.19-07.45.26:096][732]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.07.19-07.45.26:096][732]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.07.19-07.45.26:096][732]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.07.19-07.45.26:096][732]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.07.19-07.45.26:139][732]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.07.19-07.45.26:139][732]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.07.19-07.45.26:163][732]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.07.19-07.45.26:229][732]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.07.19-07.45.26:527][732]LogExit: Exiting.
+[2019.07.19-07.45.27:678][732]Log file closed, 07/19/19 15:45:27
