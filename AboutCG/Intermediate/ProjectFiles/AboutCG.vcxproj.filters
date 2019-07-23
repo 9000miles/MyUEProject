@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\AboutCG.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{A6C93649-422B-4222-949C-FC5EA1A9F441}</UniqueIdentifier>
+      <UniqueIdentifier>{BDDB5CB9-BCAB-4324-9A77-84E6762DCA0E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\AboutCG.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{BC890542-5F12-4AFF-9E2E-540F4F53C043}</UniqueIdentifier>
+      <UniqueIdentifier>{6EF5F57A-D7E0-4FB9-92EA-9F2FCEA4380C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,22 +30,22 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Plugins">
-      <UniqueIdentifier>{02FFB65E-0CFC-4997-B5E0-28707C264232}</UniqueIdentifier>
+      <UniqueIdentifier>{153EAE95-127A-450E-8B6F-1C1D16AFA429}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\MyEditorStandalonePlugin">
-      <UniqueIdentifier>{D9E26767-2B0D-4F7D-9A9F-DE406A491FEB}</UniqueIdentifier>
+      <UniqueIdentifier>{84CF66ED-605B-4CC0-9F19-AE6420635ED9}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\MyEditorStandalonePlugin\Source">
-      <UniqueIdentifier>{C511F20C-C551-4DF5-A4B5-FCF38CB9DA7A}</UniqueIdentifier>
+      <UniqueIdentifier>{29517E61-B47E-4412-A233-672B028E3D25}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin">
-      <UniqueIdentifier>{4E27BC78-0533-4687-B5E5-AFC7710EAEB4}</UniqueIdentifier>
+      <UniqueIdentifier>{70A0033B-8CC4-4B80-B1C7-64DC4C82FCC1}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\MyEditorStandalonePlugin.Build.cs">
       <Filter>Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin</Filter>
     </None>
     <Filter Include="Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\Private">
-      <UniqueIdentifier>{AFF980D7-38E3-4F71-A760-82160B3CD0FF}</UniqueIdentifier>
+      <UniqueIdentifier>{6B182364-0530-4089-B207-D80F9D691685}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\Private\InputButton.cpp">
       <Filter>Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\Private</Filter>
@@ -63,7 +63,7 @@
       <Filter>Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\Private</Filter>
     </ClCompile>
     <Filter Include="Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\Public">
-      <UniqueIdentifier>{F943A1EB-68A7-40EC-B5BF-73D00F6FA7AA}</UniqueIdentifier>
+      <UniqueIdentifier>{D6FEEFD7-2758-4828-97F4-E082D4F6A0DA}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\Public\InputButton.h">
       <Filter>Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\Public</Filter>
@@ -84,7 +84,7 @@
       <Filter>Plugins\MyEditorStandalonePlugin</Filter>
     </None>
     <Filter Include="Plugins\MyEditorStandalonePlugin\Resources">
-      <UniqueIdentifier>{1979FDA2-CF64-4080-8105-15B8A6C28EF0}</UniqueIdentifier>
+      <UniqueIdentifier>{DC482428-840D-4420-A57F-773C4B31ABA0}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\MyEditorStandalonePlugin\Resources\ButtonIcon_40x.png">
       <Filter>Plugins\MyEditorStandalonePlugin\Resources</Filter>
@@ -93,40 +93,40 @@
       <Filter>Plugins\MyEditorStandalonePlugin\Resources</Filter>
     </None>
     <Filter Include="Plugins\MyPlugin">
-      <UniqueIdentifier>{AD2A6859-5142-4BD6-87A7-5010EC80E674}</UniqueIdentifier>
+      <UniqueIdentifier>{B208BC8C-F746-4A55-B2CC-2C756D1341A8}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\MyPlugin\MyPlugin.uplugin">
       <Filter>Plugins\MyPlugin</Filter>
     </None>
     <Filter Include="Plugins\MyPlugin\Resources">
-      <UniqueIdentifier>{2A0818DB-9E3C-479E-AAAD-BECC11D786A0}</UniqueIdentifier>
+      <UniqueIdentifier>{CF358B98-F867-4433-8FAB-DB2C47651093}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\MyPlugin\Resources\Icon128.png">
       <Filter>Plugins\MyPlugin\Resources</Filter>
     </None>
     <Filter Include="Plugins\MyPlugin\Source">
-      <UniqueIdentifier>{2F2D8BC5-2280-4655-A1CB-1344E8640739}</UniqueIdentifier>
+      <UniqueIdentifier>{3B76AAF1-12A7-4538-BAE6-050E45940894}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\MyPlugin\Source\MyPlugin">
-      <UniqueIdentifier>{B3482A34-6916-4410-95A2-170807CDF390}</UniqueIdentifier>
+      <UniqueIdentifier>{1234F473-057B-4EA1-A5A8-571D1854B3B4}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\MyPlugin\Source\MyPlugin\MyPlugin.Build.cs">
       <Filter>Plugins\MyPlugin\Source\MyPlugin</Filter>
     </None>
     <Filter Include="Plugins\MyPlugin\Source\MyPlugin\Private">
-      <UniqueIdentifier>{60847824-6C02-416F-8D7F-EFF3015D3E1F}</UniqueIdentifier>
+      <UniqueIdentifier>{8C418960-AE69-47BA-963A-E27D180032E6}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\MyPlugin\Source\MyPlugin\Private\MyPlugin.cpp">
       <Filter>Plugins\MyPlugin\Source\MyPlugin\Private</Filter>
     </ClCompile>
     <Filter Include="Plugins\MyPlugin\Source\MyPlugin\Public">
-      <UniqueIdentifier>{D46585DC-038A-49C2-AE21-D00D30B24076}</UniqueIdentifier>
+      <UniqueIdentifier>{745808DD-CD80-4358-9EB9-24DE4EE27D9F}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\MyPlugin\Source\MyPlugin\Public\MyPlugin.h">
       <Filter>Plugins\MyPlugin\Source\MyPlugin\Public</Filter>
     </ClInclude>
     <Filter Include="Source\AboutCG">
-      <UniqueIdentifier>{DCF5F608-94D6-4B98-8EA8-FB0490B30B83}</UniqueIdentifier>
+      <UniqueIdentifier>{11134CFA-258E-4B5B-BF19-ECEAFED2019A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\AboutCG\AboutCG.Build.cs">
       <Filter>Source\AboutCG</Filter>
