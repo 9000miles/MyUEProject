@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\AboutCG.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{BDDB5CB9-BCAB-4324-9A77-84E6762DCA0E}</UniqueIdentifier>
+      <UniqueIdentifier>{2F4F1B73-7B61-4BF3-95D8-79AEEC9AFFC2}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\AboutCG.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{6EF5F57A-D7E0-4FB9-92EA-9F2FCEA4380C}</UniqueIdentifier>
+      <UniqueIdentifier>{1BEDFDAF-EDEF-4DB4-9BC8-B6CDD4AF37FF}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -29,23 +29,221 @@
     <None Include="..\..\Config\DefaultInput.ini">
       <Filter>Config</Filter>
     </None>
+    <Filter Include="Config\Localization">
+      <UniqueIdentifier>{7B2985C3-F751-4EB6-A010-2462460B2932}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Localization\Game_Compile.ini">
+      <Filter>Config\Localization</Filter>
+    </None>
+    <None Include="..\..\Config\Localization\Game_Export.ini">
+      <Filter>Config\Localization</Filter>
+    </None>
+    <None Include="..\..\Config\Localization\Game_ExportDialogueScript.ini">
+      <Filter>Config\Localization</Filter>
+    </None>
+    <None Include="..\..\Config\Localization\Game_Gather.ini">
+      <Filter>Config\Localization</Filter>
+    </None>
+    <None Include="..\..\Config\Localization\Game_GenerateReports.ini">
+      <Filter>Config\Localization</Filter>
+    </None>
+    <None Include="..\..\Config\Localization\Game_Import.ini">
+      <Filter>Config\Localization</Filter>
+    </None>
+    <None Include="..\..\Config\Localization\Game_ImportDialogue.ini">
+      <Filter>Config\Localization</Filter>
+    </None>
+    <None Include="..\..\Config\Localization\Game_ImportDialogueScript.ini">
+      <Filter>Config\Localization</Filter>
+    </None>
     <Filter Include="Plugins">
-      <UniqueIdentifier>{153EAE95-127A-450E-8B6F-1C1D16AFA429}</UniqueIdentifier>
+      <UniqueIdentifier>{EC7324E2-D73D-49D0-9654-2BBFFF609A01}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Plugins\BlueprintReflection">
+      <UniqueIdentifier>{51912FAB-336C-43E7-AAD1-FC6AAF987EC2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\BlueprintReflection\Source">
+      <UniqueIdentifier>{14781DBD-26CF-4372-B09B-EAFDADD0697F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin">
+      <UniqueIdentifier>{1E7C2B20-F240-49C4-BC3B-A2932E659D4A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin\BlueprintReflectionPlugin.Build.cs">
+      <Filter>Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin</Filter>
+    </None>
+    <Filter Include="Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin\Classes">
+      <UniqueIdentifier>{E74928E5-9681-4B0B-90C8-32AB1D7E3B4E}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin\Classes\BlueprintReflectionFunctions.h">
+      <Filter>Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin\Classes</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin\Private">
+      <UniqueIdentifier>{F14ADA1B-B815-4284-97E4-3C0D2FCD3984}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin\Private\BlueprintReflectionFunctions.cpp">
+      <Filter>Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin\Private\BlueprintReflectionPlugin.cpp">
+      <Filter>Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin\Private\BlueprintReflectionPluginPrivatePCH.h">
+      <Filter>Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin\Private</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin\Public">
+      <UniqueIdentifier>{2846EC50-B901-41C8-925D-D39428EE8D98}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin\Public\IBlueprintReflectionPlugin.h">
+      <Filter>Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\BlueprintReflection\BlueprintReflection.uplugin">
+      <Filter>Plugins\BlueprintReflection</Filter>
+    </None>
+    <Filter Include="Plugins\BlueprintReflection\Resources">
+      <UniqueIdentifier>{518D5CEB-63D7-4C68-AF92-DAD43C9EAA68}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\BlueprintReflection\Resources\ConstructObjectFromClass.png">
+      <Filter>Plugins\BlueprintReflection\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\BlueprintReflection\Resources\ConstructObjectFromClassName.png">
+      <Filter>Plugins\BlueprintReflection\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\BlueprintReflection\Resources\EnableThePlugin.png">
+      <Filter>Plugins\BlueprintReflection\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\BlueprintReflection\Resources\GetClassByName.png">
+      <Filter>Plugins\BlueprintReflection\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\BlueprintReflection\Resources\Icon128.png">
+      <Filter>Plugins\BlueprintReflection\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\BlueprintReflection\Resources\PackagingSettings.png">
+      <Filter>Plugins\BlueprintReflection\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\GameSavePlugin">
+      <UniqueIdentifier>{011FDB8B-8431-41DA-8478-26B77AC5C8BD}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\GameSavePlugin\GameSavePlugin.uplugin">
+      <Filter>Plugins\GameSavePlugin</Filter>
+    </None>
+    <Filter Include="Plugins\GameSavePlugin\Resources">
+      <UniqueIdentifier>{9F8A98C9-A134-4E6E-AB54-8D14C2B8C1C3}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\GameSavePlugin\Resources\GameSavePlugin.vsdx">
+      <Filter>Plugins\GameSavePlugin\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\GameSavePlugin\Resources\Icon128.png">
+      <Filter>Plugins\GameSavePlugin\Resources</Filter>
+    </None>
     <Filter Include="Plugins\MyEditorStandalonePlugin">
-      <UniqueIdentifier>{84CF66ED-605B-4CC0-9F19-AE6420635ED9}</UniqueIdentifier>
+      <UniqueIdentifier>{6F44CB13-5FF7-487B-982C-AD68D0BB84EE}</UniqueIdentifier>
     </Filter>
+    <None Include="..\..\Plugins\MyEditorStandalonePlugin\MyEditorStandalonePlugin.uplugin">
+      <Filter>Plugins\MyEditorStandalonePlugin</Filter>
+    </None>
+    <Filter Include="Plugins\MyEditorStandalonePlugin\Resources">
+      <UniqueIdentifier>{013CEB98-B38F-478D-B9F0-967008B7BB02}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\MyEditorStandalonePlugin\Resources\ButtonIcon_40x.png">
+      <Filter>Plugins\MyEditorStandalonePlugin\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\MyEditorStandalonePlugin\Resources\Icon128.png">
+      <Filter>Plugins\MyEditorStandalonePlugin\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\MyPlugin">
+      <UniqueIdentifier>{45AFB3C5-2D56-4406-9A53-2E5955B2F957}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\MyPlugin\MyPlugin.uplugin">
+      <Filter>Plugins\MyPlugin</Filter>
+    </None>
+    <Filter Include="Plugins\MyPlugin\Resources">
+      <UniqueIdentifier>{D805F49D-2E15-42D2-AC4C-7430D13BE2A2}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\MyPlugin\Resources\Icon128.png">
+      <Filter>Plugins\MyPlugin\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\GameSavePlugin\Source">
+      <UniqueIdentifier>{375C3673-6D90-48D3-B157-DF776C394ADE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\GameSavePlugin\Source\GameSavePlugin">
+      <UniqueIdentifier>{3EC4A173-818F-44CD-950B-FD90FA453283}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\GameSavePlugin\Source\GameSavePlugin\GameSavePlugin.Build.cs">
+      <Filter>Plugins\GameSavePlugin\Source\GameSavePlugin</Filter>
+    </None>
+    <Filter Include="Plugins\GameSavePlugin\Source\GameSavePlugin\Classes">
+      <UniqueIdentifier>{C434AD1E-ADAD-4500-BEDF-F99B8CCE7AED}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\GameSavePlugin\Source\GameSavePlugin\Classes\GameSaveBPLibrary.h">
+      <Filter>Plugins\GameSavePlugin\Source\GameSavePlugin\Classes</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\GameSavePlugin\Source\GameSavePlugin\Private">
+      <UniqueIdentifier>{478918A7-86E0-41B2-85D5-F705DEB1095D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\GameSavePlugin\Source\GameSavePlugin\Private\GameSaveBPLibrary.cpp">
+      <Filter>Plugins\GameSavePlugin\Source\GameSavePlugin\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameSavePlugin\Source\GameSavePlugin\Private\GameSaveInfo.cpp">
+      <Filter>Plugins\GameSavePlugin\Source\GameSavePlugin\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameSavePlugin\Source\GameSavePlugin\Private\GameSavePlugin.cpp">
+      <Filter>Plugins\GameSavePlugin\Source\GameSavePlugin\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\GameSavePlugin\Source\GameSavePlugin\Private\GameSavePluginPrivatePCH.h">
+      <Filter>Plugins\GameSavePlugin\Source\GameSavePlugin\Private</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\GameSavePlugin\Source\GameSavePlugin\Private\Define">
+      <UniqueIdentifier>{F76A3359-7C56-4205-B8FA-C6B7E67DFA27}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\GameSavePlugin\Source\GameSavePlugin\Private\Define\SaveDataManager.cpp">
+      <Filter>Plugins\GameSavePlugin\Source\GameSavePlugin\Private\Define</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameSavePlugin\Source\GameSavePlugin\Private\Define\SaveDataStruct.cpp">
+      <Filter>Plugins\GameSavePlugin\Source\GameSavePlugin\Private\Define</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameSavePlugin\Source\GameSavePlugin\Private\Define\SaveSlotManager.cpp">
+      <Filter>Plugins\GameSavePlugin\Source\GameSavePlugin\Private\Define</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\GameSavePlugin\Source\GameSavePlugin\Public">
+      <UniqueIdentifier>{A874BDF2-CE4C-48D2-B97B-1AC5B782EDCE}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\GameSavePlugin\Source\GameSavePlugin\Public\GameSaveInfo.h">
+      <Filter>Plugins\GameSavePlugin\Source\GameSavePlugin\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GameSavePlugin\Source\GameSavePlugin\Public\GameSavePlugin.h">
+      <Filter>Plugins\GameSavePlugin\Source\GameSavePlugin\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\GameSavePlugin\Source\GameSavePlugin\Public\Define">
+      <UniqueIdentifier>{DC15B562-3BC8-4D8A-8C79-BA6DA6FAD79C}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\GameSavePlugin\Source\GameSavePlugin\Public\Define\EventDefineType.h">
+      <Filter>Plugins\GameSavePlugin\Source\GameSavePlugin\Public\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GameSavePlugin\Source\GameSavePlugin\Public\Define\SaveDataManager.h">
+      <Filter>Plugins\GameSavePlugin\Source\GameSavePlugin\Public\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GameSavePlugin\Source\GameSavePlugin\Public\Define\SaveDataStruct.h">
+      <Filter>Plugins\GameSavePlugin\Source\GameSavePlugin\Public\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GameSavePlugin\Source\GameSavePlugin\Public\Define\SaveSlotManager.h">
+      <Filter>Plugins\GameSavePlugin\Source\GameSavePlugin\Public\Define</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\GameSavePlugin\Source\GameSavePlugin\Public\Define\SaveSlotType.cpp">
+      <Filter>Plugins\GameSavePlugin\Source\GameSavePlugin\Public\Define</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\GameSavePlugin\Source\GameSavePlugin\Public\Define\SaveSlotType.h">
+      <Filter>Plugins\GameSavePlugin\Source\GameSavePlugin\Public\Define</Filter>
+    </ClInclude>
     <Filter Include="Plugins\MyEditorStandalonePlugin\Source">
-      <UniqueIdentifier>{29517E61-B47E-4412-A233-672B028E3D25}</UniqueIdentifier>
+      <UniqueIdentifier>{B1B23217-6369-4613-AAA7-1221E5888497}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin">
-      <UniqueIdentifier>{70A0033B-8CC4-4B80-B1C7-64DC4C82FCC1}</UniqueIdentifier>
+      <UniqueIdentifier>{6C044AA2-B22E-4750-84D2-1C893DE39964}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\MyEditorStandalonePlugin.Build.cs">
       <Filter>Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin</Filter>
     </None>
     <Filter Include="Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\Private">
-      <UniqueIdentifier>{6B182364-0530-4089-B207-D80F9D691685}</UniqueIdentifier>
+      <UniqueIdentifier>{6A5A5434-A4C8-4456-AD5E-B298F1C80C1F}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\Private\InputButton.cpp">
       <Filter>Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\Private</Filter>
@@ -63,7 +261,7 @@
       <Filter>Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\Private</Filter>
     </ClCompile>
     <Filter Include="Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\Public">
-      <UniqueIdentifier>{D6FEEFD7-2758-4828-97F4-E082D4F6A0DA}</UniqueIdentifier>
+      <UniqueIdentifier>{64AE2261-3B13-4653-BE3C-E69E2D770B52}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\Public\InputButton.h">
       <Filter>Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\Public</Filter>
@@ -80,53 +278,29 @@
     <ClInclude Include="..\..\Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\Public\MyEditorStandalonePluginStyle.h">
       <Filter>Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\Public</Filter>
     </ClInclude>
-    <None Include="..\..\Plugins\MyEditorStandalonePlugin\MyEditorStandalonePlugin.uplugin">
-      <Filter>Plugins\MyEditorStandalonePlugin</Filter>
-    </None>
-    <Filter Include="Plugins\MyEditorStandalonePlugin\Resources">
-      <UniqueIdentifier>{DC482428-840D-4420-A57F-773C4B31ABA0}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Plugins\MyEditorStandalonePlugin\Resources\ButtonIcon_40x.png">
-      <Filter>Plugins\MyEditorStandalonePlugin\Resources</Filter>
-    </None>
-    <None Include="..\..\Plugins\MyEditorStandalonePlugin\Resources\Icon128.png">
-      <Filter>Plugins\MyEditorStandalonePlugin\Resources</Filter>
-    </None>
-    <Filter Include="Plugins\MyPlugin">
-      <UniqueIdentifier>{B208BC8C-F746-4A55-B2CC-2C756D1341A8}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Plugins\MyPlugin\MyPlugin.uplugin">
-      <Filter>Plugins\MyPlugin</Filter>
-    </None>
-    <Filter Include="Plugins\MyPlugin\Resources">
-      <UniqueIdentifier>{CF358B98-F867-4433-8FAB-DB2C47651093}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Plugins\MyPlugin\Resources\Icon128.png">
-      <Filter>Plugins\MyPlugin\Resources</Filter>
-    </None>
     <Filter Include="Plugins\MyPlugin\Source">
-      <UniqueIdentifier>{3B76AAF1-12A7-4538-BAE6-050E45940894}</UniqueIdentifier>
+      <UniqueIdentifier>{E833A39A-FC1F-4E1B-8887-F1DE15DCBBC0}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\MyPlugin\Source\MyPlugin">
-      <UniqueIdentifier>{1234F473-057B-4EA1-A5A8-571D1854B3B4}</UniqueIdentifier>
+      <UniqueIdentifier>{D044A502-42F3-45D3-B086-780D3CE09F9D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\MyPlugin\Source\MyPlugin\MyPlugin.Build.cs">
       <Filter>Plugins\MyPlugin\Source\MyPlugin</Filter>
     </None>
     <Filter Include="Plugins\MyPlugin\Source\MyPlugin\Private">
-      <UniqueIdentifier>{8C418960-AE69-47BA-963A-E27D180032E6}</UniqueIdentifier>
+      <UniqueIdentifier>{298B892A-1BCB-46CA-A04B-529D096A5A12}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\MyPlugin\Source\MyPlugin\Private\MyPlugin.cpp">
       <Filter>Plugins\MyPlugin\Source\MyPlugin\Private</Filter>
     </ClCompile>
     <Filter Include="Plugins\MyPlugin\Source\MyPlugin\Public">
-      <UniqueIdentifier>{745808DD-CD80-4358-9EB9-24DE4EE27D9F}</UniqueIdentifier>
+      <UniqueIdentifier>{E0ED8163-5F0A-47A6-99F2-F4C747E4B762}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\MyPlugin\Source\MyPlugin\Public\MyPlugin.h">
       <Filter>Plugins\MyPlugin\Source\MyPlugin\Public</Filter>
     </ClInclude>
     <Filter Include="Source\AboutCG">
-      <UniqueIdentifier>{11134CFA-258E-4B5B-BF19-ECEAFED2019A}</UniqueIdentifier>
+      <UniqueIdentifier>{65B8331E-8F98-414C-9D63-8F2B44C04434}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\AboutCG\AboutCG.Build.cs">
       <Filter>Source\AboutCG</Filter>

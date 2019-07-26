@@ -74,7 +74,6 @@ TSharedRef<SDockTab> FMyEditorStandalonePluginModule::OnSpawnPluginTab(const FSp
 		.TabRole(ETabRole::NomadTab)
 		[
 			SAssignNew(MainSlate, SMainSlate)
-			SPanel
 		];
 	// Put your tab content here!
 	//SNew(SBox)

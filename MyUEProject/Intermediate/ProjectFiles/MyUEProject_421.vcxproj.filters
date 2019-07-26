@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\MyUEProject_421.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{B219CE7F-7BB1-4E26-95DA-0B726570E746}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MyUEProject_421.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\MyUEProject_421Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{98494EF0-773E-43F8-ADB7-23713ED10539}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\MyUEProject_421">
+      <UniqueIdentifier>{B4672F1D-1BA8-4A38-A2FE-C3C695896464}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MyUEProject_421\MyUEProject_421.Build.cs">
+      <Filter>Source\MyUEProject_421</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\MyUEProject_421\MyUEProject_421.cpp">
+      <Filter>Source\MyUEProject_421</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyUEProject_421\MyUEProject_421.h">
+      <Filter>Source\MyUEProject_421</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyUEProject_421\MyUEProject_421Character.cpp">
+      <Filter>Source\MyUEProject_421</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyUEProject_421\MyUEProject_421Character.h">
+      <Filter>Source\MyUEProject_421</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyUEProject_421\MyUEProject_421GameMode.cpp">
+      <Filter>Source\MyUEProject_421</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyUEProject_421\MyUEProject_421GameMode.h">
+      <Filter>Source\MyUEProject_421</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

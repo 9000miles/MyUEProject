@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\MyUEProject.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{CECCB340-6BAB-4C57-8478-A9A42F22C009}</UniqueIdentifier>
+      <UniqueIdentifier>{956D146C-345B-428A-B5DD-FC1E1716137D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\MyUEProject.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{20F5977E-94CB-4AB3-B0DA-E7C49D60B74F}</UniqueIdentifier>
+      <UniqueIdentifier>{0C281AAB-F1E5-43AD-B16A-7B9CE7511721}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\MyUEProject">
-      <UniqueIdentifier>{0632EB1A-0930-4954-986F-2A37C17047A6}</UniqueIdentifier>
+      <UniqueIdentifier>{073423FE-ABA4-4DBE-9BF5-EDE38958706D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\MyUEProject\MyUEProject.Build.cs">
       <Filter>Source\MyUEProject</Filter>
@@ -52,6 +52,18 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\MyUEProject\MyUEProjectGameMode.h">
       <Filter>Source\MyUEProject</Filter>
+    </ClInclude>
+    <Filter Include="Source\MyUEProject\Private">
+      <UniqueIdentifier>{334074E5-1FBA-489F-B890-92BF1B4F3712}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MyUEProject\Private\ManagerSystem.cpp">
+      <Filter>Source\MyUEProject\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\MyUEProject\Public">
+      <UniqueIdentifier>{AFA12328-C850-4AD7-B944-3A74F0624C37}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\MyUEProject\Public\ManagerSystem.h">
+      <Filter>Source\MyUEProject\Public</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

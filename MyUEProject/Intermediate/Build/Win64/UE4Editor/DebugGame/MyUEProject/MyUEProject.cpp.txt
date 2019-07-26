@@ -1,2 +1,0 @@
-E:\MyUEProject.git\MyUEProject\Intermediate\Build\Win64\UE4Editor\DebugGame\MyUEProject\Definitions.MyUEProject.h
-e:\myueproject.git\myueproject\source\myueproject\MyUEProject.h

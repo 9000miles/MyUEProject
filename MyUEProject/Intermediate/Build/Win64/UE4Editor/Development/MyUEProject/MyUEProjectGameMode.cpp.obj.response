@@ -28,8 +28,10 @@
 /wd4838
 /we4668
 /I .
+/I E:\MyUEProject.git\MyUEProject\Source\MyUEProject\Private
 /I E:\MyUEProject.git\MyUEProject\Intermediate\Build\Win64\UE4Editor\Inc\MyUEProject
 /I E:\MyUEProject.git\MyUEProject\Source
+/I E:\MyUEProject.git\MyUEProject\Source\MyUEProject\Public
 /I E:\MyUEProject.git\MyUEProject\Source\MyUEProject
 /I Runtime
 /I Runtime\Core\Public

@@ -1,4 +1,6 @@
 E:\MyUEProject.git\AboutCG\Source\AboutCG\AboutCG.Build.cs
+E:\MyUEProject.git\AboutCG\Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin\BlueprintReflectionPlugin.Build.cs
+E:\MyUEProject.git\AboutCG\Plugins\GameSavePlugin\Source\GameSavePlugin\GameSavePlugin.Build.cs
 E:\MyUEProject.git\AboutCG\Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\MyEditorStandalonePlugin.Build.cs
 E:\MyUEProject.git\AboutCG\Plugins\MyPlugin\Source\MyPlugin\MyPlugin.Build.cs
 E:\MyUEProject.git\AboutCG\Source\AboutCG.Target.cs
