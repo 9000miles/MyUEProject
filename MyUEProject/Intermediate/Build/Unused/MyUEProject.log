@@ -1,13 +1,9 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (E:\MyUEProject.git).
+  Creating makefile for MyUEProjectEditor (no existing makefile)
+E:\MyUEProject.git\MyUEProject\Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin\BlueprintReflectionPlugin.Build.cs : warning : Modules must specify an explicit precompiled header (eg. PrivatePCHHeaderFile = "Classes/BlueprintReflectionFunctions.h") from UE 4.21 onwards.
   Parsing headers for MyUEProjectEditor
     Running UnrealHeaderTool "E:\MyUEProject.git\MyUEProject\MyUEProject.uproject" "E:\MyUEProject.git\MyUEProject\Intermediate\Build\Win64\MyUEProjectEditor\Development\MyUEProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for MyUEProjectEditor in 6.3623164 seconds
+  Reflection code generated for MyUEProjectEditor in 44.0771022 seconds
   Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 3 actions with 8 processes...
-    [1/3] UE4Editor-MyUEProject-0002.lib
-      正在创建库 E:\MyUEProject.git\MyUEProject\Intermediate\Build\Win64\UE4Editor\Development\MyUEProject\UE4Editor-MyUEProject-0002.lib 和对象 E:\MyUEProject.git\MyUEProject\Intermediate\Build\Win64\UE4Editor\Development\MyUEProject\UE4Editor-MyUEProject-0002.exp
-    [2/3] UE4Editor-MyUEProject-0002.dll
-      正在创建库 E:\MyUEProject.git\MyUEProject\Intermediate\Build\Win64\UE4Editor\Development\MyUEProject\UE4Editor-MyUEProject-0002.suppressed.lib 和对象 E:\MyUEProject.git\MyUEProject\Intermediate\Build\Win64\UE4Editor\Development\MyUEProject\UE4Editor-MyUEProject-0002.suppressed.exp
-    [3/3] MyUEProjectEditor.target
-  Total time in Parallel executor: 1.81 seconds
-  Total execution time: 9.12 seconds
+  Building 9 actions with 8 processes...
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(44,5): warning MSB5021: 终止任务可执行文件“cmd”及其子进程，因为已取消生成。

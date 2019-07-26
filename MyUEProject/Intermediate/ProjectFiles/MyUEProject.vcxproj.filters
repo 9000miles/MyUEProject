@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\MyUEProject.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{956D146C-345B-428A-B5DD-FC1E1716137D}</UniqueIdentifier>
+      <UniqueIdentifier>{A8D609C0-6A1B-4D51-8A1B-81837CFC9060}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\MyUEProject.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{0C281AAB-F1E5-43AD-B16A-7B9CE7511721}</UniqueIdentifier>
+      <UniqueIdentifier>{3D7F5AE0-C539-45FF-9A72-EEB8B729D201}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -29,8 +29,71 @@
     <None Include="..\..\Config\DefaultInput.ini">
       <Filter>Config</Filter>
     </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{6231AF9B-37E5-4242-84E8-FC917E369810}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\BlueprintReflection">
+      <UniqueIdentifier>{61F960DF-01F5-4A59-AE0B-A8E6B7035961}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\BlueprintReflection\Source">
+      <UniqueIdentifier>{53EB41E7-5384-4F9B-A370-D1770ACEE129}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin">
+      <UniqueIdentifier>{D0E56B70-373A-4EA3-B261-6AAC390CBB17}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin\BlueprintReflectionPlugin.Build.cs">
+      <Filter>Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin</Filter>
+    </None>
+    <Filter Include="Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin\Classes">
+      <UniqueIdentifier>{BD64D7BF-6D80-4647-8970-E1466A2EFA41}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin\Classes\BlueprintReflectionFunctions.h">
+      <Filter>Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin\Classes</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin\Private">
+      <UniqueIdentifier>{3FC39956-D17A-4DDB-9318-9169522772B2}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin\Private\BlueprintReflectionFunctions.cpp">
+      <Filter>Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin\Private\BlueprintReflectionPlugin.cpp">
+      <Filter>Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin\Private\BlueprintReflectionPluginPrivatePCH.h">
+      <Filter>Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin\Private</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin\Public">
+      <UniqueIdentifier>{C8CAA6CF-2E7B-4964-92C9-60D519827551}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin\Public\IBlueprintReflectionPlugin.h">
+      <Filter>Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\BlueprintReflection\BlueprintReflection.uplugin">
+      <Filter>Plugins\BlueprintReflection</Filter>
+    </None>
+    <Filter Include="Plugins\BlueprintReflection\Resources">
+      <UniqueIdentifier>{BD419D7E-44EC-4C92-BFBF-19B5AD3663A1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\BlueprintReflection\Resources\ConstructObjectFromClass.png">
+      <Filter>Plugins\BlueprintReflection\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\BlueprintReflection\Resources\ConstructObjectFromClassName.png">
+      <Filter>Plugins\BlueprintReflection\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\BlueprintReflection\Resources\EnableThePlugin.png">
+      <Filter>Plugins\BlueprintReflection\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\BlueprintReflection\Resources\GetClassByName.png">
+      <Filter>Plugins\BlueprintReflection\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\BlueprintReflection\Resources\Icon128.png">
+      <Filter>Plugins\BlueprintReflection\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\BlueprintReflection\Resources\PackagingSettings.png">
+      <Filter>Plugins\BlueprintReflection\Resources</Filter>
+    </None>
     <Filter Include="Source\MyUEProject">
-      <UniqueIdentifier>{073423FE-ABA4-4DBE-9BF5-EDE38958706D}</UniqueIdentifier>
+      <UniqueIdentifier>{917DD250-F3B4-4A33-BF28-4FC151018F3B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\MyUEProject\MyUEProject.Build.cs">
       <Filter>Source\MyUEProject</Filter>
@@ -54,15 +117,15 @@
       <Filter>Source\MyUEProject</Filter>
     </ClInclude>
     <Filter Include="Source\MyUEProject\Private">
-      <UniqueIdentifier>{334074E5-1FBA-489F-B890-92BF1B4F3712}</UniqueIdentifier>
+      <UniqueIdentifier>{5D44F0FD-2EEF-40AC-AA31-80839A11CFB0}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\MyUEProject\Private\ManagerSystem.cpp">
+    <ClCompile Include="..\..\Source\MyUEProject\Private\GameManager.cpp">
       <Filter>Source\MyUEProject\Private</Filter>
     </ClCompile>
     <Filter Include="Source\MyUEProject\Public">
-      <UniqueIdentifier>{AFA12328-C850-4AD7-B944-3A74F0624C37}</UniqueIdentifier>
+      <UniqueIdentifier>{66933535-DA23-4C4C-90E0-871F1E6ADA7A}</UniqueIdentifier>
     </Filter>
-    <ClInclude Include="..\..\Source\MyUEProject\Public\ManagerSystem.h">
+    <ClInclude Include="..\..\Source\MyUEProject\Public\GameManager.h">
       <Filter>Source\MyUEProject\Public</Filter>
     </ClInclude>
   </ItemGroup>

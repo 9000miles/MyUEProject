@@ -1,0 +1,6 @@
+E:\MyUEProject.git\AboutUE\Source\AboutUE\AboutUE.Build.cs
+E:\MyUEProject.git\AboutUE\Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin\BlueprintReflectionPlugin.Build.cs
+E:\MyUEProject.git\AboutUE\Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\MyEditorStandalonePlugin.Build.cs
+E:\MyUEProject.git\AboutUE\Plugins\MyPlugin\Source\MyPlugin\MyPlugin.Build.cs
+E:\MyUEProject.git\AboutUE\Source\AboutUE.Target.cs
+E:\MyUEProject.git\AboutUE\Source\AboutUEEditor.Target.cs

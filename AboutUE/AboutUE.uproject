@@ -1,0 +1,20 @@
+{
+  "FileVersion": 3,
+  "EngineAssociation": "4.22",
+  "Category": "",
+  "Description": "",
+  "Modules": [
+    {
+      "Name": "AboutCG",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "BlueprintReflection",
+      "Enabled": true,
+      "MarketplaceURL": ""
+    }
+  ]
+}

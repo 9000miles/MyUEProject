@@ -1,9 +1,0 @@
-E:\MyUEProject.git\AboutCG\Intermediate\Build\Win64\UE4Editor\Development\AboutCG\Definitions.AboutCG.h
-E:\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-E:\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-E:\MyUEProject.git\AboutCG\Source\AboutCG/AboutCGGameMode.h
-E:\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
-E:\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
-E:\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
-E:\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-e:\myueproject.git\aboutcg\intermediate\build\win64\ue4editor\inc\aboutcg\AboutCGGameMode.generated.h

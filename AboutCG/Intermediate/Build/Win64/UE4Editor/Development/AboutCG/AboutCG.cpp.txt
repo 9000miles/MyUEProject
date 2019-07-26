@@ -1,2 +1,0 @@
-E:\MyUEProject.git\AboutCG\Intermediate\Build\Win64\UE4Editor\Development\AboutCG\Definitions.AboutCG.h
-e:\myueproject.git\aboutcg\source\aboutcg\AboutCG.h
