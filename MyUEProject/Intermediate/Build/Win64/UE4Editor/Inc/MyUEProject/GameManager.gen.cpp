@@ -19,12 +19,13 @@ void EmptyLinkFunctionForGeneratedCodeGameManager() {}
 	ENGINE_API UClass* Z_Construct_UClass_UGameInstanceSubsystem();
 	UPackage* Z_Construct_UPackage__Script_MyUEProject();
 	MYUEPROJECT_API UFunction* Z_Construct_UFunction_UGameManager_AddManager();
+	MYUEPROJECT_API UClass* Z_Construct_UClass_UManagerBase_NoRegister();
 	MYUEPROJECT_API UFunction* Z_Construct_UFunction_UGameManager_GetGameManager();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UObject_NoRegister();
+	MYUEPROJECT_API UFunction* Z_Construct_UFunction_UGameManager_GetManager();
 	MYUEPROJECT_API UFunction* Z_Construct_UFunction_UGameManager_RemoveAll();
 	MYUEPROJECT_API UFunction* Z_Construct_UFunction_UGameManager_RemoveManager();
-	MYUEPROJECT_API UFunction* Z_Construct_UFunction_UGameManager_TickManager();
-	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
+	MYUEPROJECT_API UFunction* Z_Construct_UFunction_UGameManager_Test();
 // End Cross Module References
 	void UGameManager::StaticRegisterNativesUGameManager()
 	{
@@ -32,9 +33,10 @@ void EmptyLinkFunctionForGeneratedCodeGameManager() {}
 		static const FNameNativePtrPair Funcs[] = {
 			{ "AddManager", &UGameManager::execAddManager },
 			{ "GetGameManager", &UGameManager::execGetGameManager },
+			{ "GetManager", &UGameManager::execGetManager },
 			{ "RemoveAll", &UGameManager::execRemoveAll },
 			{ "RemoveManager", &UGameManager::execRemoveManager },
-			{ "TickManager", &UGameManager::execTickManager },
+			{ "Test", &UGameManager::execTest },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
 	}
@@ -42,22 +44,26 @@ void EmptyLinkFunctionForGeneratedCodeGameManager() {}
 	{
 		struct GameManager_eventAddManager_Parms
 		{
-			FString ManagerName;
+			FName Name;
+			UManagerBase* Manager;
 		};
-		static const UE4CodeGen_Private::FStrPropertyParams NewProp_ManagerName;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Manager;
+		static const UE4CodeGen_Private::FNamePropertyParams NewProp_Name;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UGameManager_AddManager_Statics::NewProp_ManagerName = { "ManagerName", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(GameManager_eventAddManager_Parms, ManagerName), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UGameManager_AddManager_Statics::NewProp_Manager = { "Manager", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(GameManager_eventAddManager_Parms, Manager), Z_Construct_UClass_UManagerBase_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FNamePropertyParams Z_Construct_UFunction_UGameManager_AddManager_Statics::NewProp_Name = { "Name", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(GameManager_eventAddManager_Parms, Name), METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UGameManager_AddManager_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UGameManager_AddManager_Statics::NewProp_ManagerName,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UGameManager_AddManager_Statics::NewProp_Manager,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UGameManager_AddManager_Statics::NewProp_Name,
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGameManager_AddManager_Statics::Function_MetaDataParams[] = {
-		{ "Category", "Test" },
+		{ "Category", "GameManager" },
 		{ "ModuleRelativePath", "Public/GameManager.h" },
 	};
 #endif
@@ -106,7 +112,7 @@ void EmptyLinkFunctionForGeneratedCodeGameManager() {}
 		{ "DeprecatedFunction", "" },
 		{ "DeprecationMessage", "Use 'Get GameManager' instead" },
 		{ "ModuleRelativePath", "Public/GameManager.h" },
-		{ "ToolTip", "Get the global manager system" },
+		{ "ToolTip", "Get the global GameManager" },
 		{ "WorldContext", "ContextObject" },
 	};
 #endif
@@ -120,6 +126,43 @@ void EmptyLinkFunctionForGeneratedCodeGameManager() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_UGameManager_GetManager_Statics
+	{
+		struct GameManager_eventGetManager_Parms
+		{
+			FName Name;
+			UManagerBase* ReturnValue;
+		};
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FNamePropertyParams NewProp_Name;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UGameManager_GetManager_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(GameManager_eventGetManager_Parms, ReturnValue), Z_Construct_UClass_UManagerBase_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FNamePropertyParams Z_Construct_UFunction_UGameManager_GetManager_Statics::NewProp_Name = { "Name", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(GameManager_eventGetManager_Parms, Name), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UGameManager_GetManager_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UGameManager_GetManager_Statics::NewProp_ReturnValue,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UGameManager_GetManager_Statics::NewProp_Name,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGameManager_GetManager_Statics::Function_MetaDataParams[] = {
+		{ "Category", "GameManager" },
+		{ "ModuleRelativePath", "Public/GameManager.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UGameManager_GetManager_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGameManager, nullptr, "GetManager", sizeof(GameManager_eventGetManager_Parms), Z_Construct_UFunction_UGameManager_GetManager_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UGameManager_GetManager_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UGameManager_GetManager_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UGameManager_GetManager_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UGameManager_GetManager()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UGameManager_GetManager_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_UGameManager_RemoveAll_Statics
 	{
 #if WITH_METADATA
@@ -129,7 +172,7 @@ void EmptyLinkFunctionForGeneratedCodeGameManager() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGameManager_RemoveAll_Statics::Function_MetaDataParams[] = {
-		{ "Category", "Test" },
+		{ "Category", "GameManager" },
 		{ "ModuleRelativePath", "Public/GameManager.h" },
 	};
 #endif
@@ -147,22 +190,22 @@ void EmptyLinkFunctionForGeneratedCodeGameManager() {}
 	{
 		struct GameManager_eventRemoveManager_Parms
 		{
-			FString ManagerName;
+			FName Name;
 		};
-		static const UE4CodeGen_Private::FStrPropertyParams NewProp_ManagerName;
+		static const UE4CodeGen_Private::FNamePropertyParams NewProp_Name;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UGameManager_RemoveManager_Statics::NewProp_ManagerName = { "ManagerName", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(GameManager_eventRemoveManager_Parms, ManagerName), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FNamePropertyParams Z_Construct_UFunction_UGameManager_RemoveManager_Statics::NewProp_Name = { "Name", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(GameManager_eventRemoveManager_Parms, Name), METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UGameManager_RemoveManager_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UGameManager_RemoveManager_Statics::NewProp_ManagerName,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UGameManager_RemoveManager_Statics::NewProp_Name,
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGameManager_RemoveManager_Statics::Function_MetaDataParams[] = {
-		{ "Category", "Test" },
+		{ "Category", "GameManager" },
 		{ "ModuleRelativePath", "Public/GameManager.h" },
 	};
 #endif
@@ -176,7 +219,7 @@ void EmptyLinkFunctionForGeneratedCodeGameManager() {}
 		}
 		return ReturnFunction;
 	}
-	struct Z_Construct_UFunction_UGameManager_TickManager_Statics
+	struct Z_Construct_UFunction_UGameManager_Test_Statics
 	{
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
@@ -184,18 +227,18 @@ void EmptyLinkFunctionForGeneratedCodeGameManager() {}
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGameManager_TickManager_Statics::Function_MetaDataParams[] = {
-		{ "Category", "Test" },
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGameManager_Test_Statics::Function_MetaDataParams[] = {
+		{ "Category", "GameManager" },
 		{ "ModuleRelativePath", "Public/GameManager.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UGameManager_TickManager_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGameManager, nullptr, "TickManager", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UGameManager_TickManager_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UGameManager_TickManager_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_UGameManager_TickManager()
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UGameManager_Test_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGameManager, nullptr, "Test", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UGameManager_Test_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UGameManager_Test_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UGameManager_Test()
 	{
 		static UFunction* ReturnFunction = nullptr;
 		if (!ReturnFunction)
 		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UGameManager_TickManager_Statics::FuncParams);
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UGameManager_Test_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -211,10 +254,11 @@ void EmptyLinkFunctionForGeneratedCodeGameManager() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Managers_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ManagerMap_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_Managers;
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Managers_Inner;
+		static const UE4CodeGen_Private::FMapPropertyParams NewProp_ManagerMap;
+		static const UE4CodeGen_Private::FNamePropertyParams NewProp_ManagerMap_Key_KeyProp;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ManagerMap_ValueProp;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Index_MetaData[];
 #endif
@@ -228,11 +272,12 @@ void EmptyLinkFunctionForGeneratedCodeGameManager() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_MyUEProject,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UGameManager_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UGameManager_AddManager, "AddManager" }, // 2899637704
-		{ &Z_Construct_UFunction_UGameManager_GetGameManager, "GetGameManager" }, // 119750501
-		{ &Z_Construct_UFunction_UGameManager_RemoveAll, "RemoveAll" }, // 770638593
-		{ &Z_Construct_UFunction_UGameManager_RemoveManager, "RemoveManager" }, // 1313928506
-		{ &Z_Construct_UFunction_UGameManager_TickManager, "TickManager" }, // 4107642746
+		{ &Z_Construct_UFunction_UGameManager_AddManager, "AddManager" }, // 126076527
+		{ &Z_Construct_UFunction_UGameManager_GetGameManager, "GetGameManager" }, // 1487363235
+		{ &Z_Construct_UFunction_UGameManager_GetManager, "GetManager" }, // 2364759107
+		{ &Z_Construct_UFunction_UGameManager_RemoveAll, "RemoveAll" }, // 3571534538
+		{ &Z_Construct_UFunction_UGameManager_RemoveManager, "RemoveManager" }, // 708859634
+		{ &Z_Construct_UFunction_UGameManager_Test, "Test" }, // 2303923567
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGameManager_Statics::Class_MetaDataParams[] = {
@@ -241,13 +286,14 @@ void EmptyLinkFunctionForGeneratedCodeGameManager() {}
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGameManager_Statics::NewProp_Managers_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGameManager_Statics::NewProp_ManagerMap_MetaData[] = {
 		{ "Category", "GameManager" },
 		{ "ModuleRelativePath", "Public/GameManager.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UGameManager_Statics::NewProp_Managers = { "Managers", nullptr, (EPropertyFlags)0x0010000000000014, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UGameManager, Managers), METADATA_PARAMS(Z_Construct_UClass_UGameManager_Statics::NewProp_Managers_MetaData, ARRAY_COUNT(Z_Construct_UClass_UGameManager_Statics::NewProp_Managers_MetaData)) };
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UGameManager_Statics::NewProp_Managers_Inner = { "Managers", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FMapPropertyParams Z_Construct_UClass_UGameManager_Statics::NewProp_ManagerMap = { "ManagerMap", nullptr, (EPropertyFlags)0x0010000000000014, UE4CodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UGameManager, ManagerMap), METADATA_PARAMS(Z_Construct_UClass_UGameManager_Statics::NewProp_ManagerMap_MetaData, ARRAY_COUNT(Z_Construct_UClass_UGameManager_Statics::NewProp_ManagerMap_MetaData)) };
+	const UE4CodeGen_Private::FNamePropertyParams Z_Construct_UClass_UGameManager_Statics::NewProp_ManagerMap_Key_KeyProp = { "ManagerMap_Key", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UGameManager_Statics::NewProp_ManagerMap_ValueProp = { "ManagerMap", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 1, Z_Construct_UClass_UManagerBase_NoRegister, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGameManager_Statics::NewProp_Index_MetaData[] = {
 		{ "Category", "Test" },
@@ -256,8 +302,9 @@ void EmptyLinkFunctionForGeneratedCodeGameManager() {}
 #endif
 	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_UGameManager_Statics::NewProp_Index = { "Index", nullptr, (EPropertyFlags)0x0010000000000004, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UGameManager, Index), METADATA_PARAMS(Z_Construct_UClass_UGameManager_Statics::NewProp_Index_MetaData, ARRAY_COUNT(Z_Construct_UClass_UGameManager_Statics::NewProp_Index_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UGameManager_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGameManager_Statics::NewProp_Managers,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGameManager_Statics::NewProp_Managers_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGameManager_Statics::NewProp_ManagerMap,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGameManager_Statics::NewProp_ManagerMap_Key_KeyProp,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGameManager_Statics::NewProp_ManagerMap_ValueProp,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGameManager_Statics::NewProp_Index,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UGameManager_Statics::StaticCppClassTypeInfo = {
@@ -287,7 +334,7 @@ void EmptyLinkFunctionForGeneratedCodeGameManager() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UGameManager, 1580218466);
+	IMPLEMENT_CLASS(UGameManager, 4108060467);
 	template<> MYUEPROJECT_API UClass* StaticClass<UGameManager>()
 	{
 		return UGameManager::StaticClass();

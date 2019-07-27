@@ -6,10 +6,11 @@ public class MyPlugin : ModuleRules
 {
     public MyPlugin(ReadOnlyTargetRules Target) : base(Target)
     {
-        PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
-
         //该模块不需要编译  true 不编译
-        //bUsePrecompiled = true;
+        bUsePrecompiled = true;
+
+        PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
+        
         PublicIncludePaths.AddRange(
             new string[] {
 				// ... add public include paths required here ...

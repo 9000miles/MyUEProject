@@ -6,7 +6,11 @@ public class MyEditorStandalonePlugin : ModuleRules
 {
 	public MyEditorStandalonePlugin(ReadOnlyTargetRules Target) : base(Target)
 	{
-		PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
+
+        //该模块不需要编译  true 不编译
+        bUsePrecompiled = true;
+
+        PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
 		
 		PublicIncludePaths.AddRange(
 			new string[] {

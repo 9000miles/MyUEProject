@@ -10,12 +10,13 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 class UObject;
 class UGameManager;
+class UManagerBase;
 #ifdef MYUEPROJECT_GameManager_generated_h
 #error "GameManager.generated.h already included, missing '#pragma once' in GameManager.h"
 #endif
 #define MYUEPROJECT_GameManager_generated_h
 
-#define MyUEProject_Source_MyUEProject_Public_GameManager_h_14_RPC_WRAPPERS \
+#define MyUEProject_Source_MyUEProject_Public_GameManager_h_15_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execGetGameManager) \
 	{ \
@@ -26,11 +27,11 @@ class UGameManager;
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execTickManager) \
+	DECLARE_FUNCTION(execTest) \
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->TickManager(); \
+		P_THIS->Test(); \
 		P_NATIVE_END; \
 	} \
  \
@@ -44,24 +45,34 @@ class UGameManager;
  \
 	DECLARE_FUNCTION(execRemoveManager) \
 	{ \
-		P_GET_PROPERTY(UStrProperty,Z_Param_ManagerName); \
+		P_GET_PROPERTY(UNameProperty,Z_Param_Name); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->RemoveManager(Z_Param_ManagerName); \
+		P_THIS->RemoveManager(Z_Param_Name); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetManager) \
+	{ \
+		P_GET_PROPERTY(UNameProperty,Z_Param_Name); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(UManagerBase**)Z_Param__Result=P_THIS->GetManager(Z_Param_Name); \
 		P_NATIVE_END; \
 	} \
  \
 	DECLARE_FUNCTION(execAddManager) \
 	{ \
-		P_GET_PROPERTY(UStrProperty,Z_Param_ManagerName); \
+		P_GET_PROPERTY(UNameProperty,Z_Param_Name); \
+		P_GET_OBJECT(UManagerBase,Z_Param_Manager); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->AddManager(Z_Param_ManagerName); \
+		P_THIS->AddManager(Z_Param_Name,Z_Param_Manager); \
 		P_NATIVE_END; \
 	}
 
 
-#define MyUEProject_Source_MyUEProject_Public_GameManager_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+#define MyUEProject_Source_MyUEProject_Public_GameManager_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execGetGameManager) \
 	{ \
@@ -72,11 +83,11 @@ class UGameManager;
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execTickManager) \
+	DECLARE_FUNCTION(execTest) \
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->TickManager(); \
+		P_THIS->Test(); \
 		P_NATIVE_END; \
 	} \
  \
@@ -90,24 +101,34 @@ class UGameManager;
  \
 	DECLARE_FUNCTION(execRemoveManager) \
 	{ \
-		P_GET_PROPERTY(UStrProperty,Z_Param_ManagerName); \
+		P_GET_PROPERTY(UNameProperty,Z_Param_Name); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->RemoveManager(Z_Param_ManagerName); \
+		P_THIS->RemoveManager(Z_Param_Name); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetManager) \
+	{ \
+		P_GET_PROPERTY(UNameProperty,Z_Param_Name); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(UManagerBase**)Z_Param__Result=P_THIS->GetManager(Z_Param_Name); \
 		P_NATIVE_END; \
 	} \
  \
 	DECLARE_FUNCTION(execAddManager) \
 	{ \
-		P_GET_PROPERTY(UStrProperty,Z_Param_ManagerName); \
+		P_GET_PROPERTY(UNameProperty,Z_Param_Name); \
+		P_GET_OBJECT(UManagerBase,Z_Param_Manager); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->AddManager(Z_Param_ManagerName); \
+		P_THIS->AddManager(Z_Param_Name,Z_Param_Manager); \
 		P_NATIVE_END; \
 	}
 
 
-#define MyUEProject_Source_MyUEProject_Public_GameManager_h_14_INCLASS_NO_PURE_DECLS \
+#define MyUEProject_Source_MyUEProject_Public_GameManager_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUGameManager(); \
 	friend struct Z_Construct_UClass_UGameManager_Statics; \
@@ -118,7 +139,7 @@ public: \
 
 
 
-#define MyUEProject_Source_MyUEProject_Public_GameManager_h_14_INCLASS \
+#define MyUEProject_Source_MyUEProject_Public_GameManager_h_15_INCLASS \
 private: \
 	static void StaticRegisterNativesUGameManager(); \
 	friend struct Z_Construct_UClass_UGameManager_Statics; \
@@ -129,7 +150,7 @@ public: \
 
 
 
-#define MyUEProject_Source_MyUEProject_Public_GameManager_h_14_STANDARD_CONSTRUCTORS \
+#define MyUEProject_Source_MyUEProject_Public_GameManager_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UGameManager(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UGameManager) \
@@ -142,7 +163,7 @@ private: \
 public:
 
 
-#define MyUEProject_Source_MyUEProject_Public_GameManager_h_14_ENHANCED_CONSTRUCTORS \
+#define MyUEProject_Source_MyUEProject_Public_GameManager_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UGameManager(UGameManager&&); \
@@ -153,26 +174,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UGameManager); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UGameManager)
 
 
-#define MyUEProject_Source_MyUEProject_Public_GameManager_h_14_PRIVATE_PROPERTY_OFFSET
-#define MyUEProject_Source_MyUEProject_Public_GameManager_h_11_PROLOG
-#define MyUEProject_Source_MyUEProject_Public_GameManager_h_14_GENERATED_BODY_LEGACY \
+#define MyUEProject_Source_MyUEProject_Public_GameManager_h_15_PRIVATE_PROPERTY_OFFSET
+#define MyUEProject_Source_MyUEProject_Public_GameManager_h_12_PROLOG
+#define MyUEProject_Source_MyUEProject_Public_GameManager_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	MyUEProject_Source_MyUEProject_Public_GameManager_h_14_PRIVATE_PROPERTY_OFFSET \
-	MyUEProject_Source_MyUEProject_Public_GameManager_h_14_RPC_WRAPPERS \
-	MyUEProject_Source_MyUEProject_Public_GameManager_h_14_INCLASS \
-	MyUEProject_Source_MyUEProject_Public_GameManager_h_14_STANDARD_CONSTRUCTORS \
+	MyUEProject_Source_MyUEProject_Public_GameManager_h_15_PRIVATE_PROPERTY_OFFSET \
+	MyUEProject_Source_MyUEProject_Public_GameManager_h_15_RPC_WRAPPERS \
+	MyUEProject_Source_MyUEProject_Public_GameManager_h_15_INCLASS \
+	MyUEProject_Source_MyUEProject_Public_GameManager_h_15_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define MyUEProject_Source_MyUEProject_Public_GameManager_h_14_GENERATED_BODY \
+#define MyUEProject_Source_MyUEProject_Public_GameManager_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	MyUEProject_Source_MyUEProject_Public_GameManager_h_14_PRIVATE_PROPERTY_OFFSET \
-	MyUEProject_Source_MyUEProject_Public_GameManager_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
-	MyUEProject_Source_MyUEProject_Public_GameManager_h_14_INCLASS_NO_PURE_DECLS \
-	MyUEProject_Source_MyUEProject_Public_GameManager_h_14_ENHANCED_CONSTRUCTORS \
+	MyUEProject_Source_MyUEProject_Public_GameManager_h_15_PRIVATE_PROPERTY_OFFSET \
+	MyUEProject_Source_MyUEProject_Public_GameManager_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	MyUEProject_Source_MyUEProject_Public_GameManager_h_15_INCLASS_NO_PURE_DECLS \
+	MyUEProject_Source_MyUEProject_Public_GameManager_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
