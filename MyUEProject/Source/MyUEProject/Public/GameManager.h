@@ -35,9 +35,9 @@ public:
 	//	void Test();
 	//UFUNCTION(BlueprintCallable, Category = "Test")
 	//	void Test();
-	//UFUNCTION(BlueprintCallable, Category = "Test")
-	//	void Test();
 
+	UFUNCTION(BlueprintCallable, Category = "Test")
+		void Test();
 
 	/** STATIC */
 public:

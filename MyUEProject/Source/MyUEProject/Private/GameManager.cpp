@@ -4,12 +4,10 @@
 
 UGameManager::UGameManager()
 {
-
 }
 
 void UGameManager::Test()
 {
-
 	UKismetSystemLibrary::PrintString(GetWorld(), FString::FromInt(Index).Append("*********************************"));
 }
 
@@ -24,14 +22,13 @@ void UGameManager::RemoveManager(FString ManagerName)
 
 void UGameManager::RemoveAll()
 {
-		Managers.RemoveAll();
+	//Managers.RemoveAll();
 }
 
 void UGameManager::TickManager()
 {
-	for (int Index=0;Index<Managers.Num();Index++)
+	for (int Index = 0; Index < Managers.Num(); Index++)
 	{
-
 	}
 }
 
