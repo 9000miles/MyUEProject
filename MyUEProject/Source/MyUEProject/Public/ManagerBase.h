@@ -6,7 +6,7 @@
 #include "TickObject.h"
 #include "ManagerBase.generated.h"
 
-UCLASS(config = Game)
+UCLASS(config = Game, BlueprintType, Blueprintable)
 class UManagerBase : public UTickObject
 {
 	GENERATED_BODY()
@@ -17,5 +17,4 @@ public:
 	//UFUNCTION(BlueprintNativeEvent, Category = "ManagerBase")
 	UFUNCTION(BlueprintImplementableEvent, Category = "ManagerBase")
 		void Init();
-
 };

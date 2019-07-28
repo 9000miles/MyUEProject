@@ -4,7 +4,7 @@
 
 UManagerBase::UManagerBase()
 {
-	Init();
+	//Init();
 }
 
 //void UManagerBase::Init()

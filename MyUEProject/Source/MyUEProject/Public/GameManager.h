@@ -24,7 +24,14 @@ public:
 	UPROPERTY(BlueprintReadOnly, Category = "GameManager")
 		TMap<FName, UManagerBase*> ManagerMap;
 
+	virtual void Initialize(FSubsystemCollectionBase& Collection) override;
+
+	virtual void Deinitialize() override;
 public:
+
+	UFUNCTION(BlueprintImplementableEvent, Category = "TickObject")
+		void InitManagerMap();
+
 	UFUNCTION(BlueprintCallable, Category = "GameManager")
 		void AddManager(FName Name, UManagerBase* Manager);
 

@@ -8,7 +8,7 @@
 #include "ObjectMacros.h"
 #include "TickObject.generated.h"
 
-UCLASS(config = Game)
+UCLASS(config = Game, BlueprintType, Blueprintable)
 class UTickObject : public UObject, public FTickableGameObject
 {
 	GENERATED_BODY()
@@ -22,9 +22,8 @@ public:
 	//UFUNCTION(BlueprintNativeEvent, Category = "TickObject")
 	virtual void Tick(float DeltaTime) override;
 
-	//UFUNCTION(BlueprintNativeEvent, Category = "TickObject")
-	//	void TickFunction(float DeltaTime);
+	UFUNCTION(BlueprintImplementableEvent, Category = "TickObject")
+		void TickFunction(float DeltaTime);
 
 	virtual TStatId GetStatId() const override;
-
 };

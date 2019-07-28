@@ -8,12 +8,11 @@ UTickObject::UTickObject()
 
 void UTickObject::Tick(float DeltaTime)
 {
-	//TickFunction(DeltaTime);
+	TickFunction(DeltaTime);
 }
 
 //void UTickObject::TickFunction(float DeltaTime)
 //{
-//
 //}
 
 TStatId UTickObject::GetStatId() const
