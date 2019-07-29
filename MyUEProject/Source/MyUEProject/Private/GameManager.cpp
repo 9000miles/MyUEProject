@@ -9,6 +9,9 @@ UGameManager::UGameManager()
 
 void UGameManager::Test()
 {
+	float a = 0.0f;
+	int32 b = 2;
+
 	UKismetSystemLibrary::PrintString(GetWorld(), FString::FromInt(Index).Append("*********************************"));
 }
 
