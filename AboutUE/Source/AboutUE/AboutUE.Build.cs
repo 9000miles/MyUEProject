@@ -9,7 +9,7 @@ public class AboutUE : ModuleRules
         PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
         PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "HeadMountedDisplay",
-            "MyPlugin", "BlueprintReflectionPlugin" });
+            "MyPlugin"});
     }
 }
 //,

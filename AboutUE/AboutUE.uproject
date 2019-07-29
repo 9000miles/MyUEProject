@@ -5,16 +5,9 @@
   "Description": "",
   "Modules": [
     {
-      "Name": "AboutCG",
+      "Name": "AboutUE",
       "Type": "Runtime",
       "LoadingPhase": "Default"
-    }
-  ],
-  "Plugins": [
-    {
-      "Name": "BlueprintReflection",
-      "Enabled": true,
-      "MarketplaceURL": ""
     }
   ]
 }

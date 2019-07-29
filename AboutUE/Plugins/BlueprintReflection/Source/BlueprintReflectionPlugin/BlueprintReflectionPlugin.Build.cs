@@ -13,7 +13,7 @@ namespace UnrealBuildTool.Rules
 		{
 
             //该模块不需要编译  true 不编译
-            //bUsePrecompiled = true;
+            bUsePrecompiled = true;
 
             PrivateIncludePaths.AddRange(
 				new string[] {

@@ -9,5 +9,5 @@ public class MyUEProjectTarget : TargetRules
 	{
 		Type = TargetType.Game;
 		ExtraModuleNames.Add("MyUEProject");
-	}
+    }
 }
