@@ -29,7 +29,7 @@ public:
 	virtual void Deinitialize() override;
 public:
 
-	UFUNCTION(BlueprintImplementableEvent, Category = "TickObject")
+	UFUNCTION(BlueprintCallable, Category = "TickObject")
 		void InitManagerMap();
 
 	UFUNCTION(BlueprintCallable, Category = "GameManager")

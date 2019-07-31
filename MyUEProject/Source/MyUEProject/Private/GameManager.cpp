@@ -26,18 +26,17 @@ void UGameManager::Deinitialize()
 	RemoveAll();
 }
 
-//void UGameManager::InitManagerMap()
-//{
-//	FStringAssetReference asset = "Blueprint'/Game/BluePrints/Manager/InputManager.InputManager'";
-//	UObject* itemObj = asset.ResolveObject();
-//	UManagerBase* gen = Cast<UManagerBase>(itemObj);
-//	if (gen != NULL)
-//	{
-//		//GetWorld()->construct
-//		//NewObject<UManagerBase*>(gen);
-//		//AActor* spawnActor = GetWorld()->SpawnActor<AActor>(gen->GeneratedClass);
-//	}
-//}
+void UGameManager::InitManagerMap()
+{
+	for (TMap<FName, UManagerBase*>::TIterator It(ManagerMap); It; ++It)
+	{
+		UManagerBase* const Manager = It.Value();
+		if (Manager != nullptr)
+		{
+			Manager->InitManager();
+		}
+	}
+}
 
 void UGameManager::AddManager(FName Name, UManagerBase* Manager)
 {
@@ -49,6 +48,7 @@ void UGameManager::AddManager(FName Name, UManagerBase* Manager)
 
 	if (!ManagerMap.Contains(Name))
 	{
+		Manager->InitManager();
 		ManagerMap.Add(Name, Manager);
 	}
 }
@@ -57,7 +57,9 @@ UManagerBase* UGameManager::GetManager(FName Name)
 {
 	if (ManagerMap.Contains(Name))
 	{
-		return *ManagerMap.Find(Name);
+		UManagerBase* Manager = *ManagerMap.Find(Name);
+		Manager->CheckActor();
+		return Manager;
 	}
 	return nullptr;
 }
