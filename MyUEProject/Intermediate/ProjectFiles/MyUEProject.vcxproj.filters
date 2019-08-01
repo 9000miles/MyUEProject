@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\MyUEProject.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{A8D609C0-6A1B-4D51-8A1B-81837CFC9060}</UniqueIdentifier>
+      <UniqueIdentifier>{DA2A3F28-FF9E-4FCC-A3D3-8B67B7D4862A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\MyUEProject.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{3D7F5AE0-C539-45FF-9A72-EEB8B729D201}</UniqueIdentifier>
+      <UniqueIdentifier>{FBD7A3BF-58B8-48F3-A752-83015CE48658}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,28 +30,28 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Plugins">
-      <UniqueIdentifier>{6231AF9B-37E5-4242-84E8-FC917E369810}</UniqueIdentifier>
+      <UniqueIdentifier>{144C4E19-0310-49D7-904B-45EB8812499D}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\BlueprintReflection">
-      <UniqueIdentifier>{61F960DF-01F5-4A59-AE0B-A8E6B7035961}</UniqueIdentifier>
+      <UniqueIdentifier>{278ED1FF-E60B-4C61-8B2A-EF608A8B0028}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\BlueprintReflection\Source">
-      <UniqueIdentifier>{53EB41E7-5384-4F9B-A370-D1770ACEE129}</UniqueIdentifier>
+      <UniqueIdentifier>{3C2ADCD9-EEB5-4B08-B20E-E5C4726042B1}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin">
-      <UniqueIdentifier>{D0E56B70-373A-4EA3-B261-6AAC390CBB17}</UniqueIdentifier>
+      <UniqueIdentifier>{44EC17F2-D875-4324-AB42-FAAF024AB05A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin\BlueprintReflectionPlugin.Build.cs">
       <Filter>Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin</Filter>
     </None>
     <Filter Include="Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin\Classes">
-      <UniqueIdentifier>{BD64D7BF-6D80-4647-8970-E1466A2EFA41}</UniqueIdentifier>
+      <UniqueIdentifier>{1B6D16A4-1B40-4FF9-BB4E-DC0DD7A5AE34}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin\Classes\BlueprintReflectionFunctions.h">
       <Filter>Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin\Classes</Filter>
     </ClInclude>
     <Filter Include="Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin\Private">
-      <UniqueIdentifier>{3FC39956-D17A-4DDB-9318-9169522772B2}</UniqueIdentifier>
+      <UniqueIdentifier>{1FEA42AE-3653-424D-9043-A650AF584CB9}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin\Private\BlueprintReflectionFunctions.cpp">
       <Filter>Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin\Private</Filter>
@@ -63,7 +63,7 @@
       <Filter>Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin\Private</Filter>
     </ClInclude>
     <Filter Include="Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin\Public">
-      <UniqueIdentifier>{C8CAA6CF-2E7B-4964-92C9-60D519827551}</UniqueIdentifier>
+      <UniqueIdentifier>{CF894022-0985-4639-9945-47FF9FF559CE}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin\Public\IBlueprintReflectionPlugin.h">
       <Filter>Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin\Public</Filter>
@@ -72,7 +72,7 @@
       <Filter>Plugins\BlueprintReflection</Filter>
     </None>
     <Filter Include="Plugins\BlueprintReflection\Resources">
-      <UniqueIdentifier>{BD419D7E-44EC-4C92-BFBF-19B5AD3663A1}</UniqueIdentifier>
+      <UniqueIdentifier>{4C78599B-C1C3-4C4C-8BD2-61A808B92784}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\BlueprintReflection\Resources\ConstructObjectFromClass.png">
       <Filter>Plugins\BlueprintReflection\Resources</Filter>
@@ -93,7 +93,7 @@
       <Filter>Plugins\BlueprintReflection\Resources</Filter>
     </None>
     <Filter Include="Source\MyUEProject">
-      <UniqueIdentifier>{917DD250-F3B4-4A33-BF28-4FC151018F3B}</UniqueIdentifier>
+      <UniqueIdentifier>{76FDEF67-F3FB-4CA4-B979-EEFA61C26A41}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\MyUEProject\MyUEProject.Build.cs">
       <Filter>Source\MyUEProject</Filter>
@@ -110,22 +110,49 @@
     <ClInclude Include="..\..\Source\MyUEProject\MyUEProjectCharacter.h">
       <Filter>Source\MyUEProject</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\MyUEProject\MyUEProjectGameInstance.cpp">
+      <Filter>Source\MyUEProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyUEProject\MyUEProjectGameInstance.h">
+      <Filter>Source\MyUEProject</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\MyUEProject\MyUEProjectGameMode.cpp">
       <Filter>Source\MyUEProject</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\MyUEProject\MyUEProjectGameMode.h">
       <Filter>Source\MyUEProject</Filter>
     </ClInclude>
+    <Filter Include="Source\MyUEProject\LearningNote">
+      <UniqueIdentifier>{C92FCBF0-AFB1-4CD9-AC64-23790075BF58}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MyUEProject\LearningNote\LearningNote.hpp">
+      <Filter>Source\MyUEProject\LearningNote</Filter>
+    </None>
+    <None Include="..\..\Source\MyUEProject\LearningNote\LearningNotjowe.hpp">
+      <Filter>Source\MyUEProject\LearningNote</Filter>
+    </None>
     <Filter Include="Source\MyUEProject\Private">
-      <UniqueIdentifier>{5D44F0FD-2EEF-40AC-AA31-80839A11CFB0}</UniqueIdentifier>
+      <UniqueIdentifier>{CEDF8D73-E58F-408D-B8A8-ABBC1F1FB6F8}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\MyUEProject\Private\GameManager.cpp">
       <Filter>Source\MyUEProject\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\MyUEProject\Private\ManagerBase.cpp">
+      <Filter>Source\MyUEProject\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyUEProject\Private\TickObject.cpp">
+      <Filter>Source\MyUEProject\Private</Filter>
+    </ClCompile>
     <Filter Include="Source\MyUEProject\Public">
-      <UniqueIdentifier>{66933535-DA23-4C4C-90E0-871F1E6ADA7A}</UniqueIdentifier>
+      <UniqueIdentifier>{473E0554-7085-4A70-9B43-6A486DE36734}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\MyUEProject\Public\GameManager.h">
+      <Filter>Source\MyUEProject\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MyUEProject\Public\ManagerBase.h">
+      <Filter>Source\MyUEProject\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MyUEProject\Public\TickObject.h">
       <Filter>Source\MyUEProject\Public</Filter>
     </ClInclude>
   </ItemGroup>

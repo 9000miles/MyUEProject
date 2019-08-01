@@ -7,14 +7,6 @@ UGameManager::UGameManager()
 {
 }
 
-void UGameManager::Test()
-{
-	float a = 0.0f;
-	int32 b = 2;
-
-	UKismetSystemLibrary::PrintString(GetWorld(), FString::FromInt(Index).Append("*********************************"));
-}
-
 void UGameManager::Initialize(FSubsystemCollectionBase& Collection)
 {
 	RemoveAll();
@@ -28,9 +20,9 @@ void UGameManager::Deinitialize()
 
 void UGameManager::InitManagerMap()
 {
-	for (TMap<FName, UManagerBase*>::TIterator It(ManagerMap); It; ++It)
+	for (TMap<TSubclassOf<AManagerBase>, AManagerBase*>::TIterator It(ManagerMap); It; ++It)
 	{
-		UManagerBase* const Manager = It.Value();
+		AManagerBase* const Manager = It.Value();
 		if (Manager != nullptr)
 		{
 			Manager->InitManager();
@@ -38,49 +30,75 @@ void UGameManager::InitManagerMap()
 	}
 }
 
-void UGameManager::AddManager(FName Name, UManagerBase* Manager)
+void UGameManager::AddManager(AManagerBase* ManagerInstance)
 {
-	if (Name.IsNone())
+	if (ManagerInstance == nullptr)
 	{
-		UKismetSystemLibrary::PrintString(GetWorld(), "Name cannot be None");
+		GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Red, "ManagerInstance cannot be nullptr");
 		return;
 	}
 
-	if (!ManagerMap.Contains(Name))
+	UClass* ManagerClass = ManagerInstance->GetClass();
+	if (!ManagerMap.Contains(ManagerClass))
 	{
-		Manager->InitManager();
-		ManagerMap.Add(Name, Manager);
+		ManagerInstance->InitManager();
+		ManagerMap.Add(ManagerClass, ManagerInstance);
+
+		if (GameManagerParentActor != nullptr)
+		{
+			ManagerInstance->AttachToActor(GameManagerParentActor, FAttachmentTransformRules(EAttachmentRule::KeepRelative, true));
+		}
+
+		GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Blue, ManagerInstance->GetName());
+	}
+	else
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Blue, "this ManagerClass is already exist");
 	}
 }
 
-UManagerBase* UGameManager::GetManager(FName Name)
+AManagerBase* UGameManager::GetManager(TSubclassOf<AManagerBase> ManagerClass)
 {
-	if (ManagerMap.Contains(Name))
+	if (ManagerMap.Contains(ManagerClass))
 	{
-		UManagerBase* Manager = *ManagerMap.Find(Name);
-		Manager->CheckActor();
+		AManagerBase* Manager = *ManagerMap.Find(ManagerClass);
+		//Manager->CheckActor();
 		return Manager;
 	}
 	return nullptr;
 }
 
-void UGameManager::RemoveManager(FName Name)
+void UGameManager::RemoveManager(TSubclassOf<AManagerBase> ManagerClass)
 {
-	if (ManagerMap.Contains(Name))
+	if (ManagerMap.Contains(ManagerClass))
 	{
-		ManagerMap.Remove(Name);
+		ManagerMap.Remove(ManagerClass);
 	}
 }
 
 void UGameManager::RemoveAll()
 {
+	for (TMap<TSubclassOf<AManagerBase>, AManagerBase*>::TIterator It(ManagerMap); It; ++It)
+	{
+		AManagerBase* const Manager = It.Value();
+		if (Manager != nullptr)
+		{
+			Manager->Destroy();
+		}
+	}
 	ManagerMap.Empty();
 }
 
 void UGameManager::Tick(float DeltaTime)
 {
-	//GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Blue, "GameManager");
-	//UKismetSystemLibrary::PrintString(GetWorld(), "GameManager -----------");
+	for (TMap<TSubclassOf<AManagerBase>, AManagerBase*>::TIterator It(ManagerMap); It; ++It)
+	{
+		AManagerBase* const Manager = It.Value();
+		if (Manager != nullptr)
+		{
+			Manager->TickFunction(DeltaTime);
+		}
+	}
 }
 
 TStatId UGameManager::GetStatId() const

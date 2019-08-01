@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-BlueprintReflectionPlugin-0013.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\MyUEProject.git\MyUEProject\Intermediate\Build\Win64\MyUEProjectEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"E:\MyUEProject.git\MyUEProject\Plugins\BlueprintReflection\Intermediate\Build\Win64\UE4Editor\Development\BlueprintReflectionPlugin\Module.BlueprintReflectionPlugin.cpp.obj"
+"E:\MyUEProject.git\MyUEProject\Plugins\BlueprintReflection\Intermediate\Build\Win64\UE4Editor\Development\BlueprintReflectionPlugin\Module.BlueprintReflectionPlugin.gen.cpp.obj"
+"E:\MyUEProject.git\MyUEProject\Plugins\BlueprintReflection\Intermediate\Build\Win64\UE4Editor\Development\BlueprintReflectionPlugin\Default.rc2.res"
+/OUT:"E:\MyUEProject.git\MyUEProject\Plugins\BlueprintReflection\Intermediate\Build\Win64\UE4Editor\Development\BlueprintReflectionPlugin\UE4Editor-BlueprintReflectionPlugin-0013.lib"
+/INCLUDE:IMPLEMENT_MODULE_BlueprintReflectionPlugin

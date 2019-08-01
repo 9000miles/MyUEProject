@@ -10,7 +10,7 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 class UObject;
 class UGameManager;
-class UManagerBase;
+class AManagerBase;
 #ifdef MYUEPROJECT_GameManager_generated_h
 #error "GameManager.generated.h already included, missing '#pragma once' in GameManager.h"
 #endif
@@ -27,14 +27,6 @@ class UManagerBase;
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execTest) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->Test(); \
-		P_NATIVE_END; \
-	} \
- \
 	DECLARE_FUNCTION(execRemoveAll) \
 	{ \
 		P_FINISH; \
@@ -45,29 +37,36 @@ class UManagerBase;
  \
 	DECLARE_FUNCTION(execRemoveManager) \
 	{ \
-		P_GET_PROPERTY(UNameProperty,Z_Param_Name); \
+		P_GET_OBJECT(UClass,Z_Param_ManagerClass); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->RemoveManager(Z_Param_Name); \
+		P_THIS->RemoveManager(Z_Param_ManagerClass); \
 		P_NATIVE_END; \
 	} \
  \
 	DECLARE_FUNCTION(execGetManager) \
 	{ \
-		P_GET_PROPERTY(UNameProperty,Z_Param_Name); \
+		P_GET_OBJECT(UClass,Z_Param_ManagerClass); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		*(UManagerBase**)Z_Param__Result=P_THIS->GetManager(Z_Param_Name); \
+		*(AManagerBase**)Z_Param__Result=P_THIS->GetManager(Z_Param_ManagerClass); \
 		P_NATIVE_END; \
 	} \
  \
 	DECLARE_FUNCTION(execAddManager) \
 	{ \
-		P_GET_PROPERTY(UNameProperty,Z_Param_Name); \
-		P_GET_OBJECT(UManagerBase,Z_Param_Manager); \
+		P_GET_OBJECT(AManagerBase,Z_Param_ManagerInstance); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->AddManager(Z_Param_Name,Z_Param_Manager); \
+		P_THIS->AddManager(Z_Param_ManagerInstance); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execInitManagerMap) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->InitManagerMap(); \
 		P_NATIVE_END; \
 	}
 
@@ -83,14 +82,6 @@ class UManagerBase;
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execTest) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->Test(); \
-		P_NATIVE_END; \
-	} \
- \
 	DECLARE_FUNCTION(execRemoveAll) \
 	{ \
 		P_FINISH; \
@@ -101,29 +92,36 @@ class UManagerBase;
  \
 	DECLARE_FUNCTION(execRemoveManager) \
 	{ \
-		P_GET_PROPERTY(UNameProperty,Z_Param_Name); \
+		P_GET_OBJECT(UClass,Z_Param_ManagerClass); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->RemoveManager(Z_Param_Name); \
+		P_THIS->RemoveManager(Z_Param_ManagerClass); \
 		P_NATIVE_END; \
 	} \
  \
 	DECLARE_FUNCTION(execGetManager) \
 	{ \
-		P_GET_PROPERTY(UNameProperty,Z_Param_Name); \
+		P_GET_OBJECT(UClass,Z_Param_ManagerClass); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		*(UManagerBase**)Z_Param__Result=P_THIS->GetManager(Z_Param_Name); \
+		*(AManagerBase**)Z_Param__Result=P_THIS->GetManager(Z_Param_ManagerClass); \
 		P_NATIVE_END; \
 	} \
  \
 	DECLARE_FUNCTION(execAddManager) \
 	{ \
-		P_GET_PROPERTY(UNameProperty,Z_Param_Name); \
-		P_GET_OBJECT(UManagerBase,Z_Param_Manager); \
+		P_GET_OBJECT(AManagerBase,Z_Param_ManagerInstance); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->AddManager(Z_Param_Name,Z_Param_Manager); \
+		P_THIS->AddManager(Z_Param_ManagerInstance); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execInitManagerMap) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->InitManagerMap(); \
 		P_NATIVE_END; \
 	}
 

@@ -32,10 +32,10 @@
 /NODEFAULTLIB:"LIBCD"
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN
-"E:\MyUEProject.git\AboutUE\Intermediate\Build\Win64\AboutUEEditor\Development\Engine\SharedPCH.Engine.h.obj"
-"E:\MyUEProject.git\AboutUE\Plugins\BlueprintReflection\Intermediate\Build\Win64\UE4Editor\Development\BlueprintReflectionPlugin\Module.BlueprintReflectionPlugin.cpp.obj"
-"E:\MyUEProject.git\AboutUE\Plugins\BlueprintReflection\Intermediate\Build\Win64\UE4Editor\Development\BlueprintReflectionPlugin\Module.BlueprintReflectionPlugin.gen.cpp.obj"
-"E:\MyUEProject.git\AboutUE\Plugins\BlueprintReflection\Intermediate\Build\Win64\UE4Editor\Development\BlueprintReflectionPlugin\Default.rc2.res"
+"E:\MyUEProject.git\MyUEProject\Intermediate\Build\Win64\MyUEProjectEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"E:\MyUEProject.git\MyUEProject\Plugins\BlueprintReflection\Intermediate\Build\Win64\UE4Editor\Development\BlueprintReflectionPlugin\Module.BlueprintReflectionPlugin.cpp.obj"
+"E:\MyUEProject.git\MyUEProject\Plugins\BlueprintReflection\Intermediate\Build\Win64\UE4Editor\Development\BlueprintReflectionPlugin\Module.BlueprintReflectionPlugin.gen.cpp.obj"
+"E:\MyUEProject.git\MyUEProject\Plugins\BlueprintReflection\Intermediate\Build\Win64\UE4Editor\Development\BlueprintReflectionPlugin\Default.rc2.res"
 "delayimp.lib"
 "wininet.lib"
 "rpcrt4.lib"
@@ -63,8 +63,8 @@
 "E:\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Development\Core\UE4Editor-Core.lib"
 "E:\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Development\CoreUObject\UE4Editor-CoreUObject.lib"
 "E:\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\UE4Editor-Engine.lib"
-/OUT:"E:\MyUEProject.git\AboutUE\Plugins\BlueprintReflection\Binaries\Win64\UE4Editor-BlueprintReflectionPlugin-0001.dll"
-/IMPLIB:"E:\MyUEProject.git\AboutUE\Plugins\BlueprintReflection\Intermediate\Build\Win64\UE4Editor\Development\BlueprintReflectionPlugin\UE4Editor-BlueprintReflectionPlugin-0001.suppressed.lib"
-/PDB:"E:\MyUEProject.git\AboutUE\Plugins\BlueprintReflection\Binaries\Win64\UE4Editor-BlueprintReflectionPlugin-0001.pdb"
+/OUT:"E:\MyUEProject.git\MyUEProject\Plugins\BlueprintReflection\Binaries\Win64\UE4Editor-BlueprintReflectionPlugin-0001.dll"
+/IMPLIB:"E:\MyUEProject.git\MyUEProject\Plugins\BlueprintReflection\Intermediate\Build\Win64\UE4Editor\Development\BlueprintReflectionPlugin\UE4Editor-BlueprintReflectionPlugin-0001.suppressed.lib"
+/PDB:"E:\MyUEProject.git\MyUEProject\Plugins\BlueprintReflection\Binaries\Win64\UE4Editor-BlueprintReflectionPlugin-0001.pdb"
 /ignore:4078
 /INCLUDE:IMPLEMENT_MODULE_BlueprintReflectionPlugin
