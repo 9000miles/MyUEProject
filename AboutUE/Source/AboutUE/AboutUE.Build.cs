@@ -8,18 +8,6 @@ public class AboutUE : ModuleRules
     {
         PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
-        PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "HeadMountedDisplay",
-            "MyPlugin"});
+        PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "HeadMountedDisplay"});
     }
 }
-//,
-//    {
-//      "Name": "GameSavePlugin",
-//      "Type": "Runtime",
-//      "LoadingPhase": "Default"
-//    },
-//    {
-//      "Name": "BlueprintReflection",
-//      "Type": "Runtime",
-//      "LoadingPhase": "Default"
-//    }

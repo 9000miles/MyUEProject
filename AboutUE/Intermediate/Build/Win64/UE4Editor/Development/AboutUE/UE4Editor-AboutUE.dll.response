@@ -69,8 +69,6 @@
 "E:\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\UE4Editor-Engine.lib"
 "E:\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Development\InputCore\UE4Editor-InputCore.lib"
 "E:\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Development\HeadMountedDisplay\UE4Editor-HeadMountedDisplay.lib"
-"E:\MyUEProject.git\AboutUE\Plugins\MyPlugin\Intermediate\Build\Win64\UE4Editor\Development\MyPlugin\UE4Editor-MyPlugin.lib"
-"E:\MyUEProject.git\AboutUE\Plugins\BlueprintReflection\Intermediate\Build\Win64\UE4Editor\Development\BlueprintReflectionPlugin\UE4Editor-BlueprintReflectionPlugin.lib"
 /OUT:"E:\MyUEProject.git\AboutUE\Binaries\Win64\UE4Editor-AboutUE.dll"
 /IMPLIB:"E:\MyUEProject.git\AboutUE\Intermediate\Build\Win64\UE4Editor\Development\AboutUE\UE4Editor-AboutUE.suppressed.lib"
 /PDB:"E:\MyUEProject.git\AboutUE\Binaries\Win64\UE4Editor-AboutUE.pdb"
