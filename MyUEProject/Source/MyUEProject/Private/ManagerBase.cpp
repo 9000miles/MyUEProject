@@ -3,29 +3,21 @@
 #include "ManagerBase.h"
 #include "Object.h"
 #include "Engine\World.h"
+#include "GameFramework\Actor.h"
 
-UManagerBase::UManagerBase()
+AManagerBase::AManagerBase()
 {
-	//Init();
+	PrimaryActorTick.bCanEverTick = false;
 }
 
-//void UManagerBase::Init()
-//{
-//
-//}
-
-void UManagerBase::InitManager_Implementation()
+void AManagerBase::InitManager_Implementation()
 {
-	if (ActorClass != nullptr&&Actor == nullptr)
-	{
-		Actor = GetWorld()->SpawnActor<AActor>(ActorClass, FTransform());
-	}
 }
 
-void UManagerBase::CheckActor()
+void AManagerBase::Tick(float DeltaSeconds)
 {
-	if (Actor == nullptr)
-	{
-		InitManager();
-	}
+}
+
+void AManagerBase::TickFunction_Implementation(float DeltaTime)
+{
 }

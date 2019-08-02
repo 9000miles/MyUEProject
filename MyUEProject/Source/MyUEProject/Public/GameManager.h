@@ -18,34 +18,31 @@ public:
 
 	UGameManager();
 
-	UPROPERTY(BlueprintReadWrite, Category = "Test")
-		int32 Index;
+	UPROPERTY(BlueprintReadWrite, Category = "GameManager")
+		AActor* GameManagerParentActor;
 
 	UPROPERTY(BlueprintReadOnly, Category = "GameManager")
-		TMap<FName, UManagerBase*> ManagerMap;
+		TMap<TSubclassOf<AManagerBase>, AManagerBase*> ManagerMap;
 
 	virtual void Initialize(FSubsystemCollectionBase& Collection) override;
 
 	virtual void Deinitialize() override;
 public:
 
-	UFUNCTION(BlueprintCallable, Category = "TickObject")
+	UFUNCTION(BlueprintCallable, Category = "GameManager")
 		void InitManagerMap();
 
 	UFUNCTION(BlueprintCallable, Category = "GameManager")
-		void AddManager(FName Name, UManagerBase* Manager);
+		void AddManager(AManagerBase* ManagerInstance);
 
 	UFUNCTION(BlueprintCallable, Category = "GameManager")
-		UManagerBase* GetManager(FName Name);
+		AManagerBase* GetManager(TSubclassOf<AManagerBase> ManagerClass);
 
 	UFUNCTION(BlueprintCallable, Category = "GameManager")
-		void RemoveManager(FName Name);
+		void RemoveManager(TSubclassOf<AManagerBase> ManagerClass);
 
 	UFUNCTION(BlueprintCallable, Category = "GameManager")
 		void RemoveAll();
-
-	UFUNCTION(BlueprintCallable, Category = "GameManager")
-		void Test();
 
 	/** STATIC */
 public:

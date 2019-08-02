@@ -8,25 +8,19 @@
 #include "ManagerBase.generated.h"
 
 UCLASS(config = Game, BlueprintType, Blueprintable)
-class UManagerBase : public UTickObject
+class AManagerBase : public AActor
 {
 	GENERATED_BODY()
 
 public:
-	UManagerBase();
+	AManagerBase();
 
-	UPROPERTY(EditAnywhere, Category = "ManagerBase")
-		TSubclassOf<AActor> ActorClass;
-
-	UPROPERTY(BlueprintReadOnly, Category = "ManagerBase")
-		AActor* Actor;
+	virtual void Tick(float DeltaSeconds) override;
 
 public:
-
 	UFUNCTION(BlueprintNativeEvent, Category = "ManagerBase")
-	//UFUNCTION(BlueprintImplementableEvent, Category = "ManagerBase")
 		void InitManager();
 
-	UFUNCTION(BlueprintCallable, Category = "ManagerBase")
-		void CheckActor();
+	UFUNCTION(BlueprintNativeEvent, Category = "ManagerBase")
+		void TickFunction(float DeltaTime);
 };
