@@ -1,14 +1,6 @@
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
-AboutUE/DerivedDataCache
-AboutUE/Intermediate
-AboutUE/Plugins/SplineCameraSystem/Intermediate
-AboutUE/Plugins/WrinkleComponentPlugin/Intermediate
-AboutUE/Saved/*
-AboutUE/Saved/Config/EditorPerProjectUserSettings.ini
-AboutUE/Saved/Config/CrashReportClient
-
 MyUEProject/DerivedDataCache
 MyUEProject/Intermediate
 MyUEProject/Plugins/SplineCameraSystem/Intermediate
@@ -17,7 +9,6 @@ MyUEProject/Saved/*
 MyUEProject/Saved/Config/EditorPerProjectUserSettings.ini
 MyUEProject/Saved/Config/CrashReportClient
 *.log
-AboutUE/.vs
 MyUEProject/.vs
 *.sln
 *.db
