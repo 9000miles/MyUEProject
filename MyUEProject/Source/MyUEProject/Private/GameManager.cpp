@@ -12,7 +12,9 @@ void UGameManager::Initialize(FSubsystemCollectionBase& Collection)
 {
 	FActorSpawnParameters SpawnParameters = FActorSpawnParameters();
 	SpawnParameters.Name = FName(TEXT("============  GameManger  ============"));
-	GameManagerParentActor = GetWorld()->SpawnActor<AActor>(SpawnParameters);
+	GameManagerParentActor = GetWorld()->SpawnActor<AActor>();
+	//GameManagerParentActor = GetWorld()->SpawnActor<AActor>(SpawnParameters);
+	//GetWorld()->SpawnActor<AActor>();
 
 	RemoveAll();
 	InitManagerMap();
