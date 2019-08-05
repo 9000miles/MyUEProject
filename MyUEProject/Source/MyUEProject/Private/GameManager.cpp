@@ -2,6 +2,7 @@
 #include "ManagerBase.h"
 #include "Engine.h"
 #include "UnrealString.h"
+#include "LogMacros.h"
 
 UGameManager::UGameManager()
 {
@@ -9,6 +10,9 @@ UGameManager::UGameManager()
 
 void UGameManager::Initialize(FSubsystemCollectionBase& Collection)
 {
+	FActorSpawnParameters SpawnParameters = FActorSpawnParameters();
+	SpawnParameters;
+	GameManagerParentActor = GetWorld()->SpawnActor<AActor>(SpawnParameters);
 	RemoveAll();
 	InitManagerMap();
 }
@@ -27,6 +31,35 @@ void UGameManager::InitManagerMap()
 		{
 			Manager->InitManager();
 		}
+	}
+}
+
+
+void UGameManager::AddManagerClass(TSubclassOf< AManagerBase> ManagerClass)
+{
+	if (ManagerClass == nullptr)
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Red, "ManagerClass cannot be nullptr");
+		return;
+	}
+
+	if (!ManagerMap.Contains(ManagerClass))
+	{
+		AManagerBase* ManagerInstance = GetWorld()->SpawnActor<AManagerBase>(ManagerClass);
+
+		ManagerInstance->InitManager();
+		ManagerMap.Add(ManagerClass, ManagerInstance);
+
+		if (GameManagerParentActor != nullptr)
+		{
+			ManagerInstance->AttachToActor(GameManagerParentActor, FAttachmentTransformRules(EAttachmentRule::KeepRelative, true));
+		}
+
+		GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Blue, ManagerInstance->GetName());
+	}
+	else
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Blue, "this ManagerClass is already exist");
 	}
 }
 
@@ -62,7 +95,6 @@ AManagerBase* UGameManager::GetManager(TSubclassOf<AManagerBase> ManagerClass)
 	if (ManagerMap.Contains(ManagerClass))
 	{
 		AManagerBase* Manager = *ManagerMap.Find(ManagerClass);
-		//Manager->CheckActor();
 		return Manager;
 	}
 	return nullptr;
@@ -72,6 +104,7 @@ void UGameManager::RemoveManager(TSubclassOf<AManagerBase> ManagerClass)
 {
 	if (ManagerMap.Contains(ManagerClass))
 	{
+		(*ManagerMap.Find(ManagerClass))->Destroy();
 		ManagerMap.Remove(ManagerClass);
 	}
 }

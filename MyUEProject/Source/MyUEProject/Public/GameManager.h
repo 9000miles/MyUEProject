@@ -24,6 +24,9 @@ public:
 	UPROPERTY(BlueprintReadOnly, Category = "GameManager")
 		TMap<TSubclassOf<AManagerBase>, AManagerBase*> ManagerMap;
 
+	UPROPERTY(BlueprintReadOnly, Category = "GameManager")
+		TArray<AActor*> ManagerArray;
+
 	virtual void Initialize(FSubsystemCollectionBase& Collection) override;
 
 	virtual void Deinitialize() override;
@@ -31,6 +34,9 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "GameManager")
 		void InitManagerMap();
+
+	UFUNCTION(BlueprintCallable, Category = "GameManager")
+		void AddManagerClass(TSubclassOf< AManagerBase> ManagerClass);
 
 	UFUNCTION(BlueprintCallable, Category = "GameManager")
 		void AddManager(AManagerBase* ManagerInstance);
