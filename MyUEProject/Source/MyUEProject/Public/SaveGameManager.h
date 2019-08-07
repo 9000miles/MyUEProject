@@ -108,7 +108,7 @@ public:
 
 	/** Get the global GameManager*/
 	UFUNCTION(BlueprintPure, Category = "SaveGameManager", meta = (WorldContext = "ContextObject", DeprecatedFunction, DeprecationMessage = "Use 'Get SaveGameManager' instead"))
-		static USaveGameManager* GetGameManager(const UObject* ContextObject)
+		static USaveGameManager* SaveGameManager(const UObject* ContextObject)
 	{
 		UWorld* World = GEngine->GetWorldFromContextObject(ContextObject, EGetWorldErrorMode::LogAndReturnNull);
 
