@@ -1,0 +1,2 @@
+E:\MyUEProject.git\MyUEProject\Plugins\MyPlugin\Intermediate\Build\Win64\UE4Editor\Development\MyPlugin\Definitions.MyPlugin.h
+E:\MyUEProject.git\MyUEProject\Plugins\MyPlugin\Source\MyPlugin\Public\MyPlugin.h

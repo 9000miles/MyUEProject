@@ -1,0 +1,29 @@
+E:\MyUEProject.git\MyUEProject\Plugins\MyEditorStandalonePlugin\Intermediate\Build\Win64\UE4Editor\Development\MyEditorStandalonePlugin\Definitions.MyEditorStandalonePlugin.h
+E:\MyUEProject.git\MyUEProject\Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\Private\InputButton.cpp
+E:\MyUEProject.git\MyUEProject\Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\Public\InputButton.h
+E:\MyUEProject.git\MyUEProject\Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\Private\MainSlate.cpp
+E:\MyUEProject.git\MyUEProject\Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\Public\MainSlate.h
+E:\MyUEProject.git\MyUEProject\Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\Private\MyEditorStandalonePlugin.cpp
+E:\MyUEProject.git\MyUEProject\Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\Public\MyEditorStandalonePlugin.h
+E:\MyUEProject.git\MyUEProject\Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\Public\MyEditorStandalonePluginStyle.h
+E:\Epic Games\UE_4.22\Engine\Source\Runtime\SlateCore\Public\Styling/SlateStyle.h
+E:\Epic Games\UE_4.22\Engine\Source\Runtime\SlateCore\Public\Brushes/SlateBorderBrush.h
+E:\Epic Games\UE_4.22\Engine\Source\Runtime\SlateCore\Public\Brushes/SlateBoxBrush.h
+E:\Epic Games\UE_4.22\Engine\Source\Runtime\SlateCore\Public\Brushes/SlateColorBrush.h
+E:\Epic Games\UE_4.22\Engine\Source\Runtime\SlateCore\Public\Brushes/SlateImageBrush.h
+E:\MyUEProject.git\MyUEProject\Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\Public\MyEditorStandalonePluginCommands.h
+E:\Epic Games\UE_4.22\Engine\Source\Editor\LevelEditor\Public\LevelEditor.h
+e:\epic games\ue_4.22\engine\source\editor\leveleditor\public\ILevelEditor.h
+e:\epic games\ue_4.22\engine\source\editor\leveleditor\public\ViewportTypeDefinition.h
+E:\MyUEProject.git\MyUEProject\Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\Private\MyEditorStandalonePluginCommands.cpp
+E:\MyUEProject.git\MyUEProject\Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\Private\MyEditorStandalonePluginStyle.cpp
+E:\Epic Games\UE_4.22\Engine\Source\Runtime\SlateCore\Public\Styling/SlateStyleRegistry.h
+E:\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Public\Slate/SlateGameResources.h
+E:\Epic Games\UE_4.22\Engine\Source\Runtime\Projects\Public\Interfaces/IPluginManager.h
+E:\Epic Games\UE_4.22\Engine\Source\Runtime\Projects\Public\PluginDescriptor.h
+e:\epic games\ue_4.22\engine\source\runtime\projects\public\ModuleDescriptor.h
+E:\Epic Games\UE_4.22\Engine\Source\Runtime\Json\Public\Serialization/JsonWriter.h
+E:\Epic Games\UE_4.22\Engine\Source\Runtime\Json\Public\Serialization/JsonTypes.h
+e:\epic games\ue_4.22\engine\source\runtime\projects\public\CustomBuildSteps.h
+e:\epic games\ue_4.22\engine\source\runtime\projects\public\LocalizationDescriptor.h
+e:\epic games\ue_4.22\engine\source\runtime\projects\public\PluginReferenceDescriptor.h

@@ -1,0 +1,5 @@
+E:\MyUEProject.git\MyUEProject\Plugins\MyPlugin\Intermediate\Build\Win64\UE4Editor\DebugGame\MyPlugin\Definitions.MyPlugin.h
+E:\MyUEProject.git\MyUEProject\Plugins\MyPlugin\Source\MyPlugin\Private\Body.cpp
+E:\MyUEProject.git\MyUEProject\Plugins\MyPlugin\Source\MyPlugin\Private\MyPlugin.cpp
+E:\MyUEProject.git\MyUEProject\Plugins\MyPlugin\Source\MyPlugin\Public\MyPlugin.h
+E:\MyUEProject.git\MyUEProject\Plugins\MyPlugin\Source\MyPlugin\Private\UMGBody.cpp
