@@ -17,20 +17,16 @@ class USaveGameManager : public UGameInstanceSubsystem, public FTickableGameObje
 	GENERATED_BODY()
 
 public:
-
-	TSubclassOf<USaveGame> SaveGameClass;
-
 	UPROPERTY(BlueprintReadOnly, Category = "SaveGameManager")
 		TMap<FString, USaveGameData*> SaveDataMap;
-
-	//UPROPERTY(BlueprintReadOnly, Category = "SaveGameManager")
-		TMap<FString, TArray<USaveGameData *>> GroupSaveDataMap;
 
 	UPROPERTY(BlueprintReadOnly, Category = "SaveGameManager")
 		USaveGameInstance* CurSaveGameInstance;
 
-public:
+private:
+	TMap<FString, TArray<USaveGameData *>> GroupSaveDataMap;
 
+public:
 	USaveGameManager();
 
 	virtual void Initialize(FSubsystemCollectionBase& Collection) override;
@@ -38,7 +34,6 @@ public:
 	virtual void Deinitialize() override;
 
 public:
-
 	UFUNCTION(BlueprintCallable, Category = "SaveGameManager")
 		bool SaveGameData(const FString& SlotName, const int32 UserIndex);
 
@@ -69,6 +64,8 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "SaveGameManager")
 		bool DeleteGameData(FString SlotName, int32 UserIndex);
 
+	UFUNCTION(BlueprintCallable, Category = "SaveGameManager")
+		void ClearMap();
 	/** STATIC */
 public:
 

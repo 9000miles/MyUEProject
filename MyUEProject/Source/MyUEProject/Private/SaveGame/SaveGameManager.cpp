@@ -1,9 +1,9 @@
-#include "..\Public\SaveGameManager.h"
+#include "..\..\Public\SaveGame\SaveGameManager.h"
 #include "Engine.h"
-#include "..\Public\SaveGameData.h"
 #include "LogMacros.h"
 #include "Runtime\Engine\Classes\Kismet\KismetMathLibrary.h"
 #include "Runtime\Core\Public\Misc\DateTime.h"
+#include "..\..\Public\SaveGame\SaveGameData.h"
 
 USaveGameManager::USaveGameManager()
 {
@@ -51,8 +51,15 @@ bool USaveGameManager::SaveGameData(const FString& SlotName, const int32 UserInd
 
 void USaveGameManager::LoadGameData(const FString& SlotName, const int32 UserIndex)
 {
-	//if (UGameplayStatics::E)
-	
+	if (!UGameplayStatics::DoesSaveGameExist(SlotName, UserIndex))
+	{
+		return;
+	}
+	else
+	{
+		UE_LOG(LogTemp, Error, TEXT("This %s SaveGame is not Exist"), *SlotName);
+	}
+
 	USaveGame* SaveGameObject = UGameplayStatics::LoadGameFromSlot(SlotName, UserIndex);
 
 	CurSaveGameInstance = Cast< USaveGameInstance>(SaveGameObject);
@@ -210,6 +217,11 @@ bool USaveGameManager::DeleteGameData(FString SlotName, int32 UserIndex)
 {
 	bool Result = UGameplayStatics::DeleteGameInSlot(SlotName, UserIndex);
 	return Result;
+}
+
+void USaveGameManager::ClearMap()
+{
+
 }
 
 void USaveGameManager::Tick(float DeltaTime)

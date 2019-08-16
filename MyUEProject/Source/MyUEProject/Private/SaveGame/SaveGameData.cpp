@@ -1,7 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
-#include "..\Public\SaveGameData.h"
+#include "..\..\Public\SaveGame\SaveGameData.h"
 
 USaveGameData::USaveGameData()
 {

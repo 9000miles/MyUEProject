@@ -1,8 +1,8 @@
-#include "..\Public\ManagerBase.h"
-#include "..\Public\GameManager.h"
+#include "..\..\Public\GameManager\GameManager.h"
 #include "Engine.h"
 #include "UnrealString.h"
 #include "LogMacros.h"
+#include "..\..\Public\GameManager\ManagerBase.h"
 
 UGameManager::UGameManager()
 {
