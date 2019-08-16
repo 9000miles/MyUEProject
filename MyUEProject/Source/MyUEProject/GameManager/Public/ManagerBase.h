@@ -3,7 +3,6 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "TickObject.h"
 #include "GameFramework\Actor.h"
 #include "ManagerBase.generated.h"
 

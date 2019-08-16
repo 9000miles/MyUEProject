@@ -24,7 +24,7 @@ public:
 		TMap<FString, USaveGameData*> SaveDataMap;
 
 	//UPROPERTY(BlueprintReadOnly, Category = "SaveGameManager")
-	TMap<FString, TArray<USaveGameData *>> GroupSaveDataMap;
+		TMap<FString, TArray<USaveGameData *>> GroupSaveDataMap;
 
 	UPROPERTY(BlueprintReadOnly, Category = "SaveGameManager")
 		USaveGameInstance* CurSaveGameInstance;
@@ -36,6 +36,7 @@ public:
 	virtual void Initialize(FSubsystemCollectionBase& Collection) override;
 
 	virtual void Deinitialize() override;
+
 public:
 
 	UFUNCTION(BlueprintCallable, Category = "SaveGameManager")
@@ -63,10 +64,7 @@ public:
 		TArray< USaveGameData*> GetGroupSaveData(FString DataGroup) const;
 
 	UFUNCTION(BlueprintCallable, Category = "SaveGameManager")
-		bool RemoveSaveData(FString DataName, ESaveGameDataType::Type DataType) const;
-
-	UFUNCTION(BlueprintCallable, Category = "SaveGameManager")
-		bool RemoveGameData(FString SlotName);
+		bool RemoveSaveData(FString DataName, ESaveGameDataType::Type DataType);
 
 	UFUNCTION(BlueprintCallable, Category = "SaveGameManager")
 		bool DeleteGameData(FString SlotName, int32 UserIndex);
@@ -89,6 +87,7 @@ public:
 	virtual TStatId GetStatId() const override;
 
 private:
-	void AddGroupSaveDataMap(FString DataGroup, USaveGameData* SaveData);
-	void ChangeSaveDataGroup(USaveGameData* SaveData, FString DataGroup);
+	void UpdateGroupSaveDataMap();
+	//void AddGroupSaveDataMap(FString DataGroup, USaveGameData* SaveData);
+	//void ChangeSaveDataGroup(USaveGameData* SaveData, FString DataGroup);
 };

@@ -1,5 +1,5 @@
-#include "GameManager.h"
-#include "ManagerBase.h"
+#include "..\Public\ManagerBase.h"
+#include "..\Public\GameManager.h"
 #include "Engine.h"
 #include "UnrealString.h"
 #include "LogMacros.h"
@@ -10,9 +10,9 @@ UGameManager::UGameManager()
 
 void UGameManager::Initialize(FSubsystemCollectionBase& Collection)
 {
-	FActorSpawnParameters SpawnParameters = FActorSpawnParameters();
-	SpawnParameters.Name = FName(TEXT("============  GameManger  ============"));
-	GameManagerParentActor = GetWorld()->SpawnActor<AActor>();
+	//FActorSpawnParameters SpawnParameters = FActorSpawnParameters();
+	//SpawnParameters.Name = FName(TEXT("============  GameManger  ============"));
+	//GameManagerParentActor = GetWorld()->SpawnActor<AActor>();
 	//GameManagerParentActor = GetWorld()->SpawnActor<AActor>(SpawnParameters);
 	//GetWorld()->SpawnActor<AActor>();
 

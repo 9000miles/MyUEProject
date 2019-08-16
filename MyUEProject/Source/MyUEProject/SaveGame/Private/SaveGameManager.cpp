@@ -7,15 +7,18 @@
 
 USaveGameManager::USaveGameManager()
 {
-	//SaveGameClass = USaveGameInstance::GetClass();
 }
 
 void USaveGameManager::Initialize(FSubsystemCollectionBase& Collection)
 {
+	SaveDataMap.Empty();
+	GroupSaveDataMap.Empty();
 }
 
 void USaveGameManager::Deinitialize()
 {
+	SaveDataMap.Empty();
+	GroupSaveDataMap.Empty();
 }
 
 bool USaveGameManager::SaveGameData(const FString& SlotName, const int32 UserIndex)
@@ -42,15 +45,20 @@ bool USaveGameManager::SaveGameData(const FString& SlotName, const int32 UserInd
 		.Append(FString::Printf(TEXT("%d"), NowTime.GetMillisecond()));
 	SaveGameObject->SaveDataTime = TimeStr;
 
+	UE_LOG(LogTemp, Log, TEXT("[ ------------------------------------------------ ] Save Game Data :: == >>  %s [ ------------------------------------------------ ]"), *SaveGameObject->DataString);
 	return UGameplayStatics::SaveGameToSlot(SaveGameObject, SlotName, UserIndex);
 }
 
 void USaveGameManager::LoadGameData(const FString& SlotName, const int32 UserIndex)
 {
+	//if (UGameplayStatics::E)
+	
 	USaveGame* SaveGameObject = UGameplayStatics::LoadGameFromSlot(SlotName, UserIndex);
+
 	CurSaveGameInstance = Cast< USaveGameInstance>(SaveGameObject);
 
 	StringToSaveDataMap(CurSaveGameInstance->DataString);
+	UE_LOG(LogTemp, Log, TEXT("[ ****************************************** ] Load Game Data :: == >>  %s [ ****************************************** ]"), *CurSaveGameInstance->DataString);
 }
 
 FString USaveGameManager::SaveDataMapToString()
@@ -87,8 +95,9 @@ void USaveGameManager::StringToSaveDataMap(FString DataString)
 		GameData->DataType = ESaveGameDataType::Type(EnumIndex);
 
 		GameData->ValueString = Strs[2];
-
 		GameData->DataGroup = Strs[3];
+
+		SaveDataMap.Add(GameData->DataName, GameData);
 	}
 }
 
@@ -107,15 +116,16 @@ bool USaveGameManager::AddSaveData(FString DataName, ESaveGameDataType::Type Dat
 
 		SaveDataMap.Add(DataName, SaveData);
 
-		AddGroupSaveDataMap(DataGroup, SaveData);
+		UpdateGroupSaveDataMap();
+		//AddGroupSaveDataMap(DataGroup, SaveData);
 	}
 	else
 	{
-		UE_LOG(LogTemp, Log, TEXT("This DataName %s is Contains in Map"), *DataName);
+		UE_LOG(LogTemp, Warning, TEXT("This DataName %s is Contains in Map"), *DataName);
 		return false;
 	}
 
-	return true;
+	return false;
 }
 
 bool USaveGameManager::SetSaveDataValue(FString DataName, ESaveGameDataType::Type DataType, FString ValueString, FString DataGroup, bool bSetDataGroup)
@@ -132,17 +142,18 @@ bool USaveGameManager::SetSaveDataValue(FString DataName, ESaveGameDataType::Typ
 			if (bSetDataGroup)
 			{
 				(*Data)->DataGroup = DataGroup;
-				ChangeSaveDataGroup(*Data, DataGroup);
+				UpdateGroupSaveDataMap();
+				//ChangeSaveDataGroup(*Data, DataGroup);
 			}
 		}
 	}
 	else
 	{
-		UE_LOG(LogTemp, Log, TEXT("This DataName %s is Contains in Map"), *DataName);
+		UE_LOG(LogTemp, Warning, TEXT("This DataName %s is Not Contains in Map"), *DataName);
 		return false;
 	}
 
-	return true;
+	return false;
 }
 
 FString USaveGameManager::GetSaveDataValue(FString DataName, ESaveGameDataType::Type DataType) const
@@ -158,7 +169,7 @@ FString USaveGameManager::GetSaveDataValue(FString DataName, ESaveGameDataType::
 	}
 	else
 	{
-		UE_LOG(LogTemp, Log, TEXT("This DataName %s is Contains in Map"), *DataName);
+		UE_LOG(LogTemp, Warning, TEXT("This DataName %s is Not Contains in Map"), *DataName);
 	}
 	return Result;
 }
@@ -173,35 +184,32 @@ TArray< USaveGameData*> USaveGameManager::GetGroupSaveData(FString DataGroup) co
 	return Result;
 }
 
-bool USaveGameManager::RemoveSaveData(FString DataName, ESaveGameDataType::Type DataType) const
+bool USaveGameManager::RemoveSaveData(FString DataName, ESaveGameDataType::Type DataType)
 {
 	if (SaveDataMap.Contains(DataName))
 	{
-		//SaveDataMap.FindChecked(DataName);
-		//SaveDataMap.Remove(DataName);
-		////SaveDataMap.Remove(DataName);
-		//USaveGameData* SaveData = SaveDataMap.FindAndRemoveChecked(DataName);
-		//TArray<USaveGameData *> DataArray = GroupSaveDataMap.FindRef(SaveData->DataGroup);
-		//(&DataArray)->Remove(SaveData);
+		USaveGameData* SaveData = SaveDataMap.FindAndRemoveChecked(DataName);
+		TArray<USaveGameData *> DataArray = GroupSaveDataMap.FindRef(SaveData->DataGroup);
+		(&DataArray)->Remove(SaveData);
+		if (DataArray.Num() <= 0)
+		{
+			GroupSaveDataMap.Remove(SaveData->DataGroup);
+		}
+		return true;
 	}
 	else
 	{
-		UE_LOG(LogTemp, Log, TEXT("This DataName %s is Contains in Map"), *DataName);
+		UE_LOG(LogTemp, Warning, TEXT("This DataName %s is Not Contains in Map"), *DataName);
 		return false;
 	}
 
-	return true;
-}
-
-bool USaveGameManager::RemoveGameData(FString DataName)
-{
-	return true;
-
+	return false;
 }
 
 bool USaveGameManager::DeleteGameData(FString SlotName, int32 UserIndex)
 {
-	return true;
+	bool Result = UGameplayStatics::DeleteGameInSlot(SlotName, UserIndex);
+	return Result;
 }
 
 void USaveGameManager::Tick(float DeltaTime)
@@ -213,55 +221,78 @@ TStatId USaveGameManager::GetStatId() const
 	return TStatId();
 }
 
-void USaveGameManager::AddGroupSaveDataMap(FString DataGroup, USaveGameData * SaveData)
+void USaveGameManager::UpdateGroupSaveDataMap()
 {
-	if (GroupSaveDataMap.Contains(DataGroup))
-	{
-		GroupSaveDataMap[DataGroup].Add(SaveData);
-	}
-	else
-	{
-		TArray<USaveGameData*> GroupArray;
-		GroupArray.Add(SaveData);
-		GroupSaveDataMap.Add(DataGroup, GroupArray);
-	}
-}
+	GroupSaveDataMap.Empty();
 
-void USaveGameManager::ChangeSaveDataGroup(USaveGameData* SaveData, FString DataGroup)
-{
-	if (GroupSaveDataMap.Contains(SaveData->DataGroup))
+	for (TMap<FString, USaveGameData*>::TIterator It(SaveDataMap); It; ++It)
 	{
-		TArray<USaveGameData*>* GroupArray = GroupSaveDataMap.Find(SaveData->DataGroup);
-		bool bContains;
-		FString NameStr = SaveData->DataName;
-		bContains = GroupArray->ContainsByPredicate([=](USaveGameData* DataSave) {
-			return DataSave->DataName.Compare(NameStr);
-		});
-
-		if (bContains)
+		USaveGameData* const Data = It.Value();
+		if (Data != nullptr)
 		{
-			//USaveGameData** mSaveData = GroupArray->FindByKey(SaveData->DataName);
-			USaveGameData** mSaveData = GroupArray->FindByPredicate([=](const  USaveGameData* InSaveData)
+			if (!GroupSaveDataMap.Contains(Data->DataGroup))
 			{
-				return InSaveData->DataName == SaveData->DataName;
-			});
-
-			(*mSaveData)->DataGroup = DataGroup;
-			GroupArray->Remove(*mSaveData);
-
-			AddGroupSaveDataMap(DataGroup, SaveData);
-
-			if (GroupArray->Num() <= 0)
+				TArray<USaveGameData*> GroupArray;
+				(&GroupArray)->Add(Data);
+				GroupSaveDataMap.Add(Data->DataGroup, GroupArray);
+			}
+			else
 			{
-				GroupSaveDataMap.Remove(DataGroup);
+				GroupSaveDataMap[Data->DataGroup].Add(Data);
 			}
 		}
 	}
-	else
-	{
-		AddGroupSaveDataMap(SaveData->DataGroup, SaveData);
-	}
-
-
 }
+
+//void USaveGameManager::AddGroupSaveDataMap(FString DataGroup, USaveGameData * SaveData)
+//{
+//	if (GroupSaveDataMap.Contains(DataGroup))
+//	{
+//		GroupSaveDataMap[DataGroup].Add(SaveData);
+//	}
+//	else
+//	{
+//		TArray<USaveGameData*> GroupArray;
+//		GroupArray.Add(SaveData);
+//		GroupSaveDataMap.Add(DataGroup, GroupArray);
+//	}
+//}
+
+//void USaveGameManager::ChangeSaveDataGroup(USaveGameData* SaveData, FString DataGroup)
+//{
+//	if (GroupSaveDataMap.Contains(SaveData->DataGroup))
+//	{
+//		TArray<USaveGameData*>* GroupArray = GroupSaveDataMap.Find(SaveData->DataGroup);
+//		bool bContains;
+//		FString NameStr = SaveData->DataName;
+//		bContains = GroupArray->ContainsByPredicate([=](USaveGameData* DataSave) {
+//			return DataSave->DataName.Compare(NameStr);
+//		});
+//
+//		if (bContains)
+//		{
+//			//USaveGameData** mSaveData = GroupArray->FindByKey(SaveData->DataName);
+//			USaveGameData** mSaveData = GroupArray->FindByPredicate([=](const  USaveGameData* InSaveData)
+//			{
+//				return InSaveData->DataName == SaveData->DataName;
+//			});
+//
+//			(*mSaveData)->DataGroup = DataGroup;
+//			GroupArray->Remove(*mSaveData);
+//
+//			AddGroupSaveDataMap(DataGroup, SaveData);
+//
+//			if (GroupArray->Num() <= 0)
+//			{
+//				GroupSaveDataMap.Remove(DataGroup);
+//			}
+//		}
+//	}
+//	else
+//	{
+//		AddGroupSaveDataMap(SaveData->DataGroup, SaveData);
+//	}
+//
+//
+//}
 
