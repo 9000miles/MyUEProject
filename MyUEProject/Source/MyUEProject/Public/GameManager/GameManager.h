@@ -41,6 +41,9 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "GameManager")
 		void AddManager(AManagerBase* ManagerInstance);
 
+	//template<class T>
+	//T* GetManager(TSubclassOf<AManagerBase> ManagerClass);
+
 	UFUNCTION(BlueprintCallable, Category = "GameManager")
 		AManagerBase* GetManager(TSubclassOf<AManagerBase> ManagerClass);
 

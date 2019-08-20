@@ -23,6 +23,9 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	UFUNCTION(BlueprintImplementableEvent, Category = "TickObject")
+		void InitObject();
+
+	UFUNCTION(BlueprintImplementableEvent, Category = "TickObject")
 		void TickFunction(float DeltaTime);
 
 	virtual TStatId GetStatId() const override;

@@ -93,6 +93,17 @@ void UGameManager::AddManager(AManagerBase* ManagerInstance)
 	}
 }
 
+//template<class T>
+//T* UGameManager::GetManager(TSubclassOf<AManagerBase> ManagerClass)
+//{
+//	if (ManagerMap.Contains(ManagerClass))
+//	{
+//		AManagerBase* Manager = *ManagerMap.Find(ManagerClass);
+//		return Manager;
+//	}
+//	return nullptr;
+//}
+
 AManagerBase* UGameManager::GetManager(TSubclassOf<AManagerBase> ManagerClass)
 {
 	if (ManagerMap.Contains(ManagerClass))

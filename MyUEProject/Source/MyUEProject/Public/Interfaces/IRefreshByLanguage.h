@@ -2,7 +2,17 @@
 
 #pragma once
 
-#include "RefreshByLanguage.generated.h"
+#include "IRefreshByLanguage.generated.h"
+
+UENUM(BlueprintType)
+namespace ELocalLanguage
+{
+	enum Type
+	{
+		Chinese,
+		English,
+	};
+}
 
 /** Interface for actors which can be selected */
 UINTERFACE(Blueprintable)
@@ -17,6 +27,6 @@ class IRefreshByLanguage
 
 public:
 	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, Category = "Refresh By Language Interface")
-		void RefreshByLanguage();
+		void RefreshByLanguage(ELocalLanguage::Type LocalLanguage);
 };
 
