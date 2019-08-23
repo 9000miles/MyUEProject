@@ -11,7 +11,7 @@
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FInputAxisValueDelegate_Con, float, VerticalValue, float, HorzontalValue);
 
 UCLASS(Blueprintable)
-class MYUEPROJECT_API AAxialInputController :public AActor, public IInputReceiveTarget
+class MYUEPROJECT_API AAxialInputController :public AActor//, public IInputReceiveTarget
 {
 	GENERATED_BODY()
 
@@ -25,11 +25,11 @@ public:
 	FInputAxisValueDelegate_Con OnAxisValue;
 
 	virtual void Destroyed() override;
-//
-//public:
-//
-//	virtual void ReceiveKey_Implementation(EInputKey::Type Key, bool Pressed) override;
-//	virtual void ReceiveAxis_Implementation(float MoveForwardAxis, float MoveRightAxis, float LookUpAxis, float LookRateAxis) override;
+	//
+	//public:
+	//
+	//	virtual void ReceiveKey_Implementation(EInputKey::Type Key, bool Pressed) override;
+	//	virtual void ReceiveAxis_Implementation(float MoveForwardAxis, float MoveRightAxis, float LookUpAxis, float LookRateAxis) override;
 
 protected:
 	virtual void BeginPlay() override;
