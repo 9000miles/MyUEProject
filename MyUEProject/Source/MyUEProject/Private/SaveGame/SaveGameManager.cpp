@@ -28,9 +28,9 @@ bool USaveGameManager::SaveGameData(const FString& SlotName, const int32 UserInd
 	SaveGameObject->UserIndex = UserIndex;
 	SaveGameObject->DataString = SaveDataMapToString();
 
-	FString TimeStr = FString();
+	FString NowTimeStr = FString();
 	FDateTime NowTime = UKismetMathLibrary::Now();
-	TimeStr.Append(FString::Printf(TEXT("%d"), NowTime.GetYear()))
+	NowTimeStr.Append(FString::Printf(TEXT("%d"), NowTime.GetYear()))
 		.Append("-")
 		.Append(FString::Printf(TEXT("%d"), NowTime.GetMonth()))
 		.Append("-")
@@ -43,9 +43,9 @@ bool USaveGameManager::SaveGameData(const FString& SlotName, const int32 UserInd
 		.Append(FString::Printf(TEXT("%d"), NowTime.GetSecond()))
 		.Append("-")
 		.Append(FString::Printf(TEXT("%d"), NowTime.GetMillisecond()));
-	SaveGameObject->SaveDataTime = TimeStr;
+	SaveGameObject->SaveDataTime = NowTimeStr;
 
-	UE_LOG(LogTemp, Log, TEXT("[ ------------------------------------------------ ] Save Game Data :: == >>  %s [ ------------------------------------------------ ]"), *SaveGameObject->DataString);
+	UE_LOG(LogTemp, Log, TEXT("[ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ ] Save Game Data :: == >>  %s [ ///////////////////////////////////////////////////////// ]"), *SaveGameObject->DataString);
 	return UGameplayStatics::SaveGameToSlot(SaveGameObject, SlotName, UserIndex);
 }
 
@@ -53,11 +53,8 @@ void USaveGameManager::LoadGameData(const FString& SlotName, const int32 UserInd
 {
 	if (!UGameplayStatics::DoesSaveGameExist(SlotName, UserIndex))
 	{
-		return;
-	}
-	else
-	{
 		UE_LOG(LogTemp, Error, TEXT("This %s SaveGame is not Exist"), *SlotName);
+		return;
 	}
 
 	USaveGame* SaveGameObject = UGameplayStatics::LoadGameFromSlot(SlotName, UserIndex);
@@ -65,7 +62,7 @@ void USaveGameManager::LoadGameData(const FString& SlotName, const int32 UserInd
 	CurSaveGameInstance = Cast< USaveGameInstance>(SaveGameObject);
 
 	StringToSaveDataMap(CurSaveGameInstance->DataString);
-	UE_LOG(LogTemp, Log, TEXT("[ ****************************************** ] Load Game Data :: == >>  %s [ ****************************************** ]"), *CurSaveGameInstance->DataString);
+	UE_LOG(LogTemp, Log, TEXT("[ ///////////////////////////////////////////////////////// ] Load Game Data :: == >>  %s [ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ ]"), *CurSaveGameInstance->DataString);
 }
 
 FString USaveGameManager::SaveDataMapToString()
@@ -253,6 +250,19 @@ void USaveGameManager::UpdateGroupSaveDataMap()
 				GroupSaveDataMap[Data->DataGroup].Add(Data);
 			}
 		}
+	}
+
+	GroupSaveDataMap.KeySort([](const FString& StrA, const FString& StrB) {	return StrA < StrB; });
+
+	for (TMap<FString, TArray< USaveGameData*>>::TIterator It(GroupSaveDataMap); It; ++It)
+	{
+		It.Value().Sort([](const USaveGameData& DataA, const USaveGameData& DataB) {return DataA.DataName < DataB.DataName; });
+
+		//UE_LOG(LogTemp, Warning, TEXT("Group Key::   %s "), *It.Key());
+		//for (int32 Index = 0; Index < GroupSaveDataMap[It.Key()].Num(); ++Index)
+		//{
+		//	UE_LOG(LogTemp, Warning, TEXT("Group Value::   %s "), *GroupSaveDataMap[It.Key()][Index]->DataName);
+		//}
 	}
 }
 
