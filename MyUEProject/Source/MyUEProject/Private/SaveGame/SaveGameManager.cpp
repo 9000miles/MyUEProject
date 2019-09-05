@@ -44,6 +44,7 @@ bool USaveGameManager::SaveGameData(const FString& SlotName, const int32 UserInd
 		.Append("-")
 		.Append(FString::Printf(TEXT("%d"), NowTime.GetMillisecond()));
 	SaveGameObject->SaveDataTime = NowTimeStr;
+	bIsAnyDataNotSaved = false;
 
 	UE_LOG(LogTemp, Log, TEXT("[ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ ] Save Game Data :: == >>  %s [ ///////////////////////////////////////////////////////// ]"), *SaveGameObject->DataString);
 	return UGameplayStatics::SaveGameToSlot(SaveGameObject, SlotName, UserIndex);
@@ -58,6 +59,7 @@ void USaveGameManager::LoadGameData(const FString& SlotName, const int32 UserInd
 	}
 
 	USaveGame* SaveGameObject = UGameplayStatics::LoadGameFromSlot(SlotName, UserIndex);
+	if (!SaveGameObject) return;
 
 	CurSaveGameInstance = Cast< USaveGameInstance>(SaveGameObject);
 
@@ -71,6 +73,8 @@ FString USaveGameManager::SaveDataMapToString()
 	for (TMap<FString, USaveGameData*>::TIterator It(SaveDataMap); It; ++It)
 	{
 		USaveGameData* const Data = It.Value();
+		Data->SaveStateType = ESaveGameDataSaveStateType::Saved;
+		Data->OnSaveStateChenged.Broadcast(ESaveGameDataSaveStateType::Saved);
 		if (Data != nullptr)
 		{
 			ResultData.Append(Data->DataToString());
@@ -82,6 +86,8 @@ FString USaveGameManager::SaveDataMapToString()
 void USaveGameManager::StringToSaveDataMap(FString DataString)
 {
 	SaveDataMap.Empty();
+	GroupSortNames.Empty();
+	GroupSaveDataMap.Empty();
 
 	TArray<FString> Datas;
 	DataString.ParseIntoArray(Datas, TEXT(";"));
@@ -97,12 +103,17 @@ void USaveGameManager::StringToSaveDataMap(FString DataString)
 		static const UEnum* EnumTemp = StaticEnum<ESaveGameDataType::Type>();
 		int32 EnumIndex = EnumTemp->GetValueByNameString(*Strs[1]);
 		GameData->DataType = ESaveGameDataType::Type(EnumIndex);
+		GameData->SaveStateType = ESaveGameDataSaveStateType::Saved;
+		GameData->OnSaveStateChenged.Broadcast(ESaveGameDataSaveStateType::Saved);
 
 		GameData->ValueString = Strs[2];
 		GameData->DataGroup = Strs[3];
 
 		SaveDataMap.Add(GameData->DataName, GameData);
 	}
+
+	bIsAnyDataNotSaved = false;
+	UpdateGroupSaveDataMap();
 }
 
 bool USaveGameManager::AddSaveData(FString DataName, ESaveGameDataType::Type DataType, FString ValueString, FString DataGroup)
@@ -112,16 +123,18 @@ bool USaveGameManager::AddSaveData(FString DataName, ESaveGameDataType::Type Dat
 	if (!SaveDataMap.Contains(DataName))
 	{
 		USaveGameData* SaveData = NewObject<USaveGameData>();
-		//USaveGameData* SaveData = NewObject<USaveGameData>(DataName, DataType, ValueString, DataGroup);
 		SaveData->DataName = DataName;
 		SaveData->DataType = DataType;
+		SaveData->SaveStateType = ESaveGameDataSaveStateType::NotSaved;
+		SaveData->OnSaveStateChenged.Broadcast(ESaveGameDataSaveStateType::NotSaved);
 		SaveData->ValueString = ValueString;
 		SaveData->DataGroup = DataGroup;
 
 		SaveDataMap.Add(DataName, SaveData);
+		bIsAnyDataNotSaved = true;
 
 		UpdateGroupSaveDataMap();
-		//AddGroupSaveDataMap(DataGroup, SaveData);
+		return true;
 	}
 	else
 	{
@@ -142,17 +155,21 @@ bool USaveGameManager::SetSaveDataValue(FString DataName, ESaveGameDataType::Typ
 		if (DataType == (*Data)->DataType)
 		{
 			(*Data)->ValueString = ValueString;
+			(*Data)->SaveStateType = ESaveGameDataSaveStateType::NotSaved;
+			(*Data)->OnSaveStateChenged.Broadcast(ESaveGameDataSaveStateType::NotSaved);
 
+			bIsAnyDataNotSaved = true;
 			if (bSetDataGroup)
 			{
 				(*Data)->DataGroup = DataGroup;
 				UpdateGroupSaveDataMap();
-				//ChangeSaveDataGroup(*Data, DataGroup);
+				return true;
 			}
 		}
 	}
 	else
 	{
+		bIsAnyDataNotSaved = false;
 		UE_LOG(LogTemp, Warning, TEXT("This DataName %s is Not Contains in Map"), *DataName);
 		return false;
 	}
@@ -170,12 +187,59 @@ FString USaveGameManager::GetSaveDataValue(FString DataName, ESaveGameDataType::
 		{
 			return (*Data)->ValueString;
 		}
+		else if (DataType == ESaveGameDataType::None)
+		{
+			return (*Data)->ValueString;
+		}
 	}
 	else
 	{
 		UE_LOG(LogTemp, Warning, TEXT("This DataName %s is Not Contains in Map"), *DataName);
 	}
 	return Result;
+}
+
+FSaveDataStruct USaveGameManager::GetSaveData(FString DataName, ESaveGameDataType::Type DataType) const
+{
+	FSaveDataStruct SaveDataStruct = FSaveDataStruct();
+	FVector4 Vector4 = FVector4();
+	bool bSuccessful = false;
+	FString ValueStr = GetSaveDataValue(DataName, DataType);
+	switch (DataType)
+	{
+	case ESaveGameDataType::None:
+		break;
+	case ESaveGameDataType::Bool:
+		SaveDataStruct.var_Bool = ValueStr.ToBool();
+		break;
+	case ESaveGameDataType::Byte:
+		SaveDataStruct.var_Byte = (uint8)FCString::Atoi(*ValueStr);
+		break;
+	case ESaveGameDataType::Int32:
+		SaveDataStruct.var_Int32 = FCString::Atoi(*ValueStr);
+		break;
+	case ESaveGameDataType::Float:
+		SaveDataStruct.var_Float = FCString::Atof(*ValueStr);
+		break;
+	case ESaveGameDataType::String:
+		SaveDataStruct.var_String = ValueStr;
+		break;
+	case ESaveGameDataType::Vector2:
+		SaveDataStruct.var_Vector2.InitFromString(ValueStr);
+		break;
+	case ESaveGameDataType::Vector3:
+		SaveDataStruct.var_Vector3.InitFromString(ValueStr);
+		break;
+	case ESaveGameDataType::Vector4:
+		bSuccessful = FParse::Value(*ValueStr, TEXT("X="), Vector4.X) && FParse::Value(*ValueStr, TEXT("Y="), Vector4.Y) &&
+			FParse::Value(*ValueStr, TEXT("Z="), Vector4.Z) && FParse::Value(*ValueStr, TEXT("W="), Vector4.W);
+		if (bSuccessful)
+			SaveDataStruct.var_Vector4 = Vector4;
+		break;
+	case ESaveGameDataType::DateTime:
+		break;
+	}
+	return SaveDataStruct;
 }
 
 TArray< USaveGameData*> USaveGameManager::GetGroupSaveData(FString DataGroup) const
@@ -232,6 +296,7 @@ TStatId USaveGameManager::GetStatId() const
 
 void USaveGameManager::UpdateGroupSaveDataMap()
 {
+	GroupSortNames.Empty();
 	GroupSaveDataMap.Empty();
 
 	for (TMap<FString, USaveGameData*>::TIterator It(SaveDataMap); It; ++It)
@@ -256,65 +321,10 @@ void USaveGameManager::UpdateGroupSaveDataMap()
 
 	for (TMap<FString, TArray< USaveGameData*>>::TIterator It(GroupSaveDataMap); It; ++It)
 	{
+		GroupSortNames.Add(It.Key());
 		It.Value().Sort([](const USaveGameData& DataA, const USaveGameData& DataB) {return DataA.DataName < DataB.DataName; });
-
-		//UE_LOG(LogTemp, Warning, TEXT("Group Key::   %s "), *It.Key());
-		//for (int32 Index = 0; Index < GroupSaveDataMap[It.Key()].Num(); ++Index)
-		//{
-		//	UE_LOG(LogTemp, Warning, TEXT("Group Value::   %s "), *GroupSaveDataMap[It.Key()][Index]->DataName);
-		//}
 	}
 }
 
-//void USaveGameManager::AddGroupSaveDataMap(FString DataGroup, USaveGameData * SaveData)
-//{
-//	if (GroupSaveDataMap.Contains(DataGroup))
-//	{
-//		GroupSaveDataMap[DataGroup].Add(SaveData);
-//	}
-//	else
-//	{
-//		TArray<USaveGameData*> GroupArray;
-//		GroupArray.Add(SaveData);
-//		GroupSaveDataMap.Add(DataGroup, GroupArray);
-//	}
-//}
 
-//void USaveGameManager::ChangeSaveDataGroup(USaveGameData* SaveData, FString DataGroup)
-//{
-//	if (GroupSaveDataMap.Contains(SaveData->DataGroup))
-//	{
-//		TArray<USaveGameData*>* GroupArray = GroupSaveDataMap.Find(SaveData->DataGroup);
-//		bool bContains;
-//		FString NameStr = SaveData->DataName;
-//		bContains = GroupArray->ContainsByPredicate([=](USaveGameData* DataSave) {
-//			return DataSave->DataName.Compare(NameStr);
-//		});
-//
-//		if (bContains)
-//		{
-//			//USaveGameData** mSaveData = GroupArray->FindByKey(SaveData->DataName);
-//			USaveGameData** mSaveData = GroupArray->FindByPredicate([=](const  USaveGameData* InSaveData)
-//			{
-//				return InSaveData->DataName == SaveData->DataName;
-//			});
-//
-//			(*mSaveData)->DataGroup = DataGroup;
-//			GroupArray->Remove(*mSaveData);
-//
-//			AddGroupSaveDataMap(DataGroup, SaveData);
-//
-//			if (GroupArray->Num() <= 0)
-//			{
-//				GroupSaveDataMap.Remove(DataGroup);
-//			}
-//		}
-//	}
-//	else
-//	{
-//		AddGroupSaveDataMap(SaveData->DataGroup, SaveData);
-//	}
-//
-//
-//}
 

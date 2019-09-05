@@ -23,6 +23,12 @@ public:
 	UPROPERTY(BlueprintReadOnly, Category = "SaveGameManager")
 		USaveGameInstance* CurSaveGameInstance;
 
+	UPROPERTY(BlueprintReadOnly, Category = "SaveGameManager")
+		TArray<FString> GroupSortNames;
+
+	UPROPERTY(BlueprintReadOnly, Category = "SaveGameManager")
+		bool bIsAnyDataNotSaved;
+
 private:
 	TMap<FString, TArray<USaveGameData *>> GroupSaveDataMap;
 
@@ -56,6 +62,9 @@ public:
 		FString GetSaveDataValue(FString DataName, ESaveGameDataType::Type DataType) const;
 
 	UFUNCTION(BlueprintCallable, Category = "SaveGameManager")
+		FSaveDataStruct GetSaveData(FString DataName, ESaveGameDataType::Type DataType) const;
+
+	UFUNCTION(BlueprintCallable, Category = "SaveGameManager")
 		TArray< USaveGameData*> GetGroupSaveData(FString DataGroup) const;
 
 	UFUNCTION(BlueprintCallable, Category = "SaveGameManager")
@@ -85,6 +94,4 @@ public:
 
 private:
 	void UpdateGroupSaveDataMap();
-	//void AddGroupSaveDataMap(FString DataGroup, USaveGameData* SaveData);
-	//void ChangeSaveDataGroup(USaveGameData* SaveData, FString DataGroup);
 };

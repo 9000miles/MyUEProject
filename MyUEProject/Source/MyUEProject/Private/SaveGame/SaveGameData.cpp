@@ -6,12 +6,15 @@
 USaveGameData::USaveGameData()
 {
 	this->DataGroup = TEXT("Default");
+	this->SaveStateType = ESaveGameDataSaveStateType::NotSaved;
 }
 
-USaveGameData::USaveGameData(FString DataName, ESaveGameDataType::Type DataType, FString ValueString, FString DataGroup = TEXT("Default"))
+USaveGameData::USaveGameData(FString DataName, ESaveGameDataType::Type DataType, ESaveGameDataSaveStateType::Type SaveStateType, FString ValueString, FString DataGroup = TEXT("Default"))
 {
 	this->DataName = DataName;
 	this->DataType = DataType;
+	this->SaveStateType = SaveStateType;
+	this->OnSaveStateChenged.Broadcast(SaveStateType);
 	this->ValueString = ValueString;
 	this->DataGroup = DataGroup;
 }

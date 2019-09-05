@@ -14,28 +14,60 @@ namespace ESaveGameDataType
 		None,
 
 		Bool,
-		Int8,
-		Int16,
+		Byte,
 		Int32,
-		Int64,
 		Float,
-		Double,
-		Char,
 		String,
-		Vector2D,
+		Vector2,
 		Vector3,
-		Quaternion,
-		Transform,
-		Color,
-		Guid,
-		Timespan,
+		Vector4,
+		DateTime,
 	};
 }
 
+UENUM(BlueprintType)
+namespace ESaveGameDataSaveStateType
+{
+	enum Type
+	{
+		None,
+
+		Saved,
+		NotSaved,
+		Selected,
+	};
+}
+
+USTRUCT(BlueprintType)
+struct FSaveDataStruct
+{
+	GENERATED_USTRUCT_BODY()
+		UPROPERTY(BlueprintReadOnly, Category = "Save Data Struct")
+		bool var_Bool;
+	UPROPERTY(BlueprintReadOnly, Category = "Save Data Struct")
+		uint8 var_Byte;
+	UPROPERTY(BlueprintReadOnly, Category = "Save Data Struct")
+		int32 var_Int32;
+	UPROPERTY(BlueprintReadOnly, Category = "Save Data Struct")
+		float var_Float;
+	UPROPERTY(BlueprintReadOnly, Category = "Save Data Struct")
+		FString var_String;
+	UPROPERTY(BlueprintReadOnly, Category = "Save Data Struct")
+		FVector2D var_Vector2;
+	UPROPERTY(BlueprintReadOnly, Category = "Save Data Struct")
+		FVector var_Vector3;
+	UPROPERTY(BlueprintReadOnly, Category = "Save Data Struct")
+		FVector4 var_Vector4;
+	UPROPERTY(BlueprintReadOnly, Category = "Save Data Struct")
+		FDateTime var_DataTime;
+};
+
+
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnSaveStateChange, ESaveGameDataSaveStateType::Type, SaveStateType);
 /**
  *
  */
-UCLASS()
+UCLASS(BlueprintType)
 class MYUEPROJECT_API USaveGameData : public UObject
 {
 	GENERATED_BODY()
@@ -43,7 +75,7 @@ class MYUEPROJECT_API USaveGameData : public UObject
 public:
 	USaveGameData();
 
-	USaveGameData(FString DataName, ESaveGameDataType::Type DataType, FString ValueString, FString DataGroup);
+	USaveGameData(FString DataName, ESaveGameDataType::Type DataType, ESaveGameDataSaveStateType::Type SaveStateType, FString ValueString, FString DataGroup);
 
 	UPROPERTY(BlueprintReadWrite, Category = "SaveGameData")
 		FString DataName;
@@ -52,10 +84,16 @@ public:
 		TEnumAsByte<ESaveGameDataType::Type> DataType;
 
 	UPROPERTY(BlueprintReadWrite, Category = "SaveGameData")
+		TEnumAsByte<ESaveGameDataSaveStateType::Type> SaveStateType;
+
+	UPROPERTY(BlueprintReadWrite, Category = "SaveGameData")
 		FString DataGroup;
 
 	UPROPERTY(BlueprintReadWrite, Category = "SaveGameData")
 		FString ValueString;
+
+	UPROPERTY(BlueprintAssignable, Category = "SaveGameData")
+		FOnSaveStateChange OnSaveStateChenged;
 
 public:
 	UFUNCTION(BlueprintCallable, Category = "SaveGameData")
