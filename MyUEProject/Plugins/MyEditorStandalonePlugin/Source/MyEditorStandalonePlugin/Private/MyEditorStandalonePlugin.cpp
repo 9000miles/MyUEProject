@@ -39,12 +39,12 @@ void FMyEditorStandalonePluginModule::StartupModule()
 		LevelEditorModule.GetMenuExtensibilityManager()->AddExtender(MenuExtender);
 	}
 
-	{
-		TSharedPtr<FExtender> ToolbarExtender = MakeShareable(new FExtender);
-		ToolbarExtender->AddToolBarExtension("Settings", EExtensionHook::After, PluginCommands, FToolBarExtensionDelegate::CreateRaw(this, &FMyEditorStandalonePluginModule::AddToolbarExtension));
+	//{
+	//	TSharedPtr<FExtender> ToolbarExtender = MakeShareable(new FExtender);
+	//	ToolbarExtender->AddToolBarExtension("Settings", EExtensionHook::After, PluginCommands, FToolBarExtensionDelegate::CreateRaw(this, &FMyEditorStandalonePluginModule::AddToolbarExtension));
 
-		LevelEditorModule.GetToolBarExtensibilityManager()->AddExtender(ToolbarExtender);
-	}
+	//	LevelEditorModule.GetToolBarExtensibilityManager()->AddExtender(ToolbarExtender);
+	//}
 
 	FGlobalTabmanager::Get()->RegisterNomadTabSpawner(MyEditorStandalonePluginTabName, FOnSpawnTab::CreateRaw(this, &FMyEditorStandalonePluginModule::OnSpawnPluginTab))
 		.SetDisplayName(LOCTEXT("FMyEditorStandalonePluginTabTitle", "MyEditorStandalonePlugin"))

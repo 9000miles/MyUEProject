@@ -1,6 +1,13 @@
-E:\MyUEProject.git\MyUEProject\Source\MyUEProject\Public\GameManager.h
-E:\MyUEProject.git\MyUEProject\Source\MyUEProject\Public\TickObject.h
-E:\MyUEProject.git\MyUEProject\Source\MyUEProject\Public\ManagerBase.h
+E:\MyUEProject.git\MyUEProject\Source\MyUEProject\Public\Common\TickObject.h
+E:\MyUEProject.git\MyUEProject\Source\MyUEProject\Public\GameManager\GameManager.h
+E:\MyUEProject.git\MyUEProject\Source\MyUEProject\Public\GameManager\ManagerBase.h
+E:\MyUEProject.git\MyUEProject\Source\MyUEProject\Public\Input\InputAxisComponent.h
+E:\MyUEProject.git\MyUEProject\Source\MyUEProject\Public\Input\InputManager.h
+E:\MyUEProject.git\MyUEProject\Source\MyUEProject\Public\Interfaces\IRefreshByLanguage.h
+E:\MyUEProject.git\MyUEProject\Source\MyUEProject\Public\SaveGame\SaveGameInstance.h
+E:\MyUEProject.git\MyUEProject\Source\MyUEProject\Public\SaveGame\SaveGameManager.h
+E:\MyUEProject.git\MyUEProject\Source\MyUEProject\Public\Input\AxialInputController.h
+E:\MyUEProject.git\MyUEProject\Source\MyUEProject\Public\SaveGame\SaveGameData.h
 E:\MyUEProject.git\MyUEProject\Source\MyUEProject\MyUEProjectCharacter.h
-E:\MyUEProject.git\MyUEProject\Source\MyUEProject\MyUEProjectGameMode.h
 E:\MyUEProject.git\MyUEProject\Source\MyUEProject\MyUEProjectGameInstance.h
+E:\MyUEProject.git\MyUEProject\Source\MyUEProject\MyUEProjectGameMode.h

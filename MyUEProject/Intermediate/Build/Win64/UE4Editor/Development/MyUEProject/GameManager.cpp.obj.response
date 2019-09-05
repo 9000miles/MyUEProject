@@ -29,11 +29,31 @@
 /we4668
 /I .
 /I E:\MyUEProject.git\MyUEProject\Source\MyUEProject\Private
-/I E:\MyUEProject.git\MyUEProject\Intermediate\Build\Win64\UE4Editor\Inc\MyUEProject
-/I E:\MyUEProject.git\MyUEProject\Source
-/I E:\MyUEProject.git\MyUEProject\Source\MyUEProject\Public
-/I E:\MyUEProject.git\MyUEProject\Source\MyUEProject
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
 /I Runtime
+/I Runtime\Engine\Classes
+/I Runtime\Engine\Public
+/I Runtime\Engine
+/I Runtime\Engine\Public\AI
+/I Runtime\Engine\Public\AI\Navigation
+/I Runtime\Engine\Public\Analytics
+/I Runtime\Engine\Public\Animation
+/I Runtime\Engine\Public\Curves
+/I Runtime\Engine\Public\EdGraph
+/I Runtime\Engine\Public\Internationalization
+/I Runtime\Engine\Public\Net
+/I Runtime\Engine\Public\Net\Util
+/I Runtime\Engine\Public\PacketHandlers
+/I Runtime\Engine\Public\Performance
+/I Runtime\Engine\Public\Physics
+/I Runtime\Engine\Public\Physics\Experimental
+/I Runtime\Engine\Public\Physics\ImmediatePhysics
+/I Runtime\Engine\Public\ProfilingDebugging
+/I Runtime\Engine\Public\Rendering
+/I Runtime\Engine\Public\Slate
+/I Runtime\Engine\Public\Subsystems
+/I Runtime\Engine\Public\Tests
+/I Runtime\Engine\Public\VisualLogger
 /I Runtime\Core\Public
 /I Runtime\Core
 /I Runtime\Core\Public\Algo
@@ -73,30 +93,6 @@
 /I Runtime\CoreUObject\Public\Serialization\Formatters
 /I Runtime\CoreUObject\Public\Templates
 /I Runtime\CoreUObject\Public\UObject
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
-/I Runtime\Engine\Classes
-/I Runtime\Engine\Public
-/I Runtime\Engine
-/I Runtime\Engine\Public\AI
-/I Runtime\Engine\Public\AI\Navigation
-/I Runtime\Engine\Public\Analytics
-/I Runtime\Engine\Public\Animation
-/I Runtime\Engine\Public\Curves
-/I Runtime\Engine\Public\EdGraph
-/I Runtime\Engine\Public\Internationalization
-/I Runtime\Engine\Public\Net
-/I Runtime\Engine\Public\Net\Util
-/I Runtime\Engine\Public\PacketHandlers
-/I Runtime\Engine\Public\Performance
-/I Runtime\Engine\Public\Physics
-/I Runtime\Engine\Public\Physics\Experimental
-/I Runtime\Engine\Public\Physics\ImmediatePhysics
-/I Runtime\Engine\Public\ProfilingDebugging
-/I Runtime\Engine\Public\Rendering
-/I Runtime\Engine\Public\Slate
-/I Runtime\Engine\Public\Subsystems
-/I Runtime\Engine\Public\Tests
-/I Runtime\Engine\Public\VisualLogger
 /I Runtime\ApplicationCore\Public
 /I Runtime\ApplicationCore
 /I Runtime\ApplicationCore\Public\GenericPlatform
@@ -431,6 +427,15 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
+/I E:\MyUEProject.git\MyUEProject\Intermediate\Build\Win64\UE4Editor\Inc\MyUEProject
+/I E:\MyUEProject.git\MyUEProject\Source
+/I E:\MyUEProject.git\MyUEProject\Source\MyUEProject\Public
+/I E:\MyUEProject.git\MyUEProject\Source\MyUEProject
+/I E:\MyUEProject.git\MyUEProject\Source\MyUEProject\Public\Common
+/I E:\MyUEProject.git\MyUEProject\Source\MyUEProject\Public\GameManager
+/I E:\MyUEProject.git\MyUEProject\Source\MyUEProject\Public\Input
+/I E:\MyUEProject.git\MyUEProject\Source\MyUEProject\Public\Interfaces
+/I E:\MyUEProject.git\MyUEProject\Source\MyUEProject\Public\SaveGame
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\AugmentedReality
 /I Runtime\AugmentedReality\Public
 /I Runtime\AugmentedReality
@@ -443,7 +448,7 @@
 /FI"E:\MyUEProject.git\MyUEProject\Intermediate\Build\Win64\MyUEProjectEditor\Development\Engine\SharedPCH.Engine.h"
 /Yu"E:\MyUEProject.git\MyUEProject\Intermediate\Build\Win64\MyUEProjectEditor\Development\Engine\SharedPCH.Engine.h"
 /Fp"E:\MyUEProject.git\MyUEProject\Intermediate\Build\Win64\MyUEProjectEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"E:\MyUEProject.git\MyUEProject\Source\MyUEProject\Private\GameManager.cpp"
+"E:\MyUEProject.git\MyUEProject\Source\MyUEProject\Private\GameManager\GameManager.cpp"
 /FI"E:\MyUEProject.git\MyUEProject\Intermediate\Build\Win64\UE4Editor\Development\MyUEProject\Definitions.MyUEProject.h"
 /Fo"E:\MyUEProject.git\MyUEProject\Intermediate\Build\Win64\UE4Editor\Development\MyUEProject\GameManager.cpp.obj"
 /TP

@@ -28,30 +28,6 @@
 			"Type": "Executable"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/SaveExtension/Binaries/Win64/UE4Editor-SaveExtension.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/SaveExtension/Binaries/Win64/UE4Editor-SaveExtension.pdb",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/SaveExtension/Binaries/Win64/UE4Editor-SaveExtensionEditor.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/SaveExtension/Binaries/Win64/UE4Editor-SaveExtensionEditor.pdb",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/BlueprintReflection/Binaries/Win64/UE4Editor-BlueprintReflectionPlugin.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/BlueprintReflection/Binaries/Win64/UE4Editor-BlueprintReflectionPlugin.pdb",
-			"Type": "SymbolFile"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/Experimental/BlueprintStats/Binaries/Win64/UE4Editor-BlueprintStats.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -126,6 +102,54 @@
 		{
 			"Path": "$(EngineDir)/Plugins/Runtime/WebBrowserWidget/Binaries/Win64/UE4Editor-WebBrowserWidget.dll",
 			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/KantanCharts/Binaries/Win64/UE4Editor-KantanChartsDatasource.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/KantanCharts/Binaries/Win64/UE4Editor-KantanChartsDatasource.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/KantanCharts/Binaries/Win64/UE4Editor-KantanChartsSlate.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/KantanCharts/Binaries/Win64/UE4Editor-KantanChartsSlate.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/KantanCharts/Binaries/Win64/UE4Editor-KantanChartsUMG.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/KantanCharts/Binaries/Win64/UE4Editor-KantanChartsUMG.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/KantanCharts/Binaries/Win64/UE4Editor-KantanChartsEditor.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/KantanCharts/Binaries/Win64/UE4Editor-KantanChartsEditor.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/MyEditorStandalonePlugin/Binaries/Win64/UE4Editor-MyEditorStandalonePlugin.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/MyEditorStandalonePlugin/Binaries/Win64/UE4Editor-MyEditorStandalonePlugin.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/MyPlugin/Binaries/Win64/UE4Editor-MyPlugin.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/MyPlugin/Binaries/Win64/UE4Editor-MyPlugin.pdb",
+			"Type": "SymbolFile"
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll",
@@ -1968,14 +1992,6 @@
 			"Type": "RequiredResource"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/SaveExtension/Binaries/Win64/UE4Editor.modules",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/BlueprintReflection/Binaries/Win64/UE4Editor.modules",
-			"Type": "RequiredResource"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/Experimental/BlueprintStats/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
@@ -2029,6 +2045,18 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Runtime/WebBrowserWidget/Binaries/Win64/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/KantanCharts/Binaries/Win64/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/MyEditorStandalonePlugin/Binaries/Win64/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/MyPlugin/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
 		{
@@ -2342,14 +2370,6 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/SaveExtension/SaveExtension.uplugin",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/BlueprintReflection/BlueprintReflection.uplugin",
-			"Type": "UFS"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin",
 			"Type": "UFS"
 		},
@@ -2403,6 +2423,18 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/KantanCharts/KantanCharts.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/MyEditorStandalonePlugin/MyEditorStandalonePlugin.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/MyPlugin/MyPlugin.uplugin",
 			"Type": "UFS"
 		},
 		{
