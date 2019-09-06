@@ -44,9 +44,9 @@ bool USaveGameManager::SaveGameData(const FString& SlotName, const int32 UserInd
 		.Append("-")
 		.Append(FString::Printf(TEXT("%d"), NowTime.GetMillisecond()));
 	SaveGameObject->SaveDataTime = NowTimeStr;
-	bIsAnyDataNotSaved = false;
+	bNeedsToBeSaved = false;
 
-	UE_LOG(LogTemp, Log, TEXT("[ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ ] Save Game Data :: == >>  %s [ ///////////////////////////////////////////////////////// ]"), *SaveGameObject->DataString);
+	UE_LOG(LogTemp, Log, TEXT("[ <<<<< ] Save Game Data :: == >>  %s [ >>>>> ]"), *SaveGameObject->DataString);
 	return UGameplayStatics::SaveGameToSlot(SaveGameObject, SlotName, UserIndex);
 }
 
@@ -54,17 +54,29 @@ void USaveGameManager::LoadGameData(const FString& SlotName, const int32 UserInd
 {
 	if (!UGameplayStatics::DoesSaveGameExist(SlotName, UserIndex))
 	{
+		ClearAll();
 		UE_LOG(LogTemp, Error, TEXT("This %s SaveGame is not Exist"), *SlotName);
 		return;
 	}
 
 	USaveGame* SaveGameObject = UGameplayStatics::LoadGameFromSlot(SlotName, UserIndex);
-	if (!SaveGameObject) return;
+	if (!SaveGameObject)
+	{
+		ClearAll();
+		UE_LOG(LogTemp, Error, TEXT("LoadGameFromSlot %s failed"), *SlotName);
+		return;
+	}
 
 	CurSaveGameInstance = Cast< USaveGameInstance>(SaveGameObject);
+	if (!CurSaveGameInstance)
+	{
+		ClearAll();
+		UE_LOG(LogTemp, Error, TEXT("Cast to USaveGameInstance failed"));
+		return;
+	}
 
 	StringToSaveDataMap(CurSaveGameInstance->DataString);
-	UE_LOG(LogTemp, Log, TEXT("[ ///////////////////////////////////////////////////////// ] Load Game Data :: == >>  %s [ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ ]"), *CurSaveGameInstance->DataString);
+	UE_LOG(LogTemp, Log, TEXT("[ >>>>> ] Load Game Data :: == >>  %s [ <<<<< ]"), *CurSaveGameInstance->DataString);
 }
 
 FString USaveGameManager::SaveDataMapToString()
@@ -112,7 +124,7 @@ void USaveGameManager::StringToSaveDataMap(FString DataString)
 		SaveDataMap.Add(GameData->DataName, GameData);
 	}
 
-	bIsAnyDataNotSaved = false;
+	bNeedsToBeSaved = false;
 	UpdateGroupSaveDataMap();
 }
 
@@ -131,7 +143,7 @@ bool USaveGameManager::AddSaveData(FString DataName, ESaveGameDataType::Type Dat
 		SaveData->DataGroup = DataGroup;
 
 		SaveDataMap.Add(DataName, SaveData);
-		bIsAnyDataNotSaved = true;
+		bNeedsToBeSaved = true;
 
 		UpdateGroupSaveDataMap();
 		return true;
@@ -158,7 +170,7 @@ bool USaveGameManager::SetSaveDataValue(FString DataName, ESaveGameDataType::Typ
 			(*Data)->SaveStateType = ESaveGameDataSaveStateType::NotSaved;
 			(*Data)->OnSaveStateChenged.Broadcast(ESaveGameDataSaveStateType::NotSaved);
 
-			bIsAnyDataNotSaved = true;
+			bNeedsToBeSaved = true;
 			if (bSetDataGroup)
 			{
 				(*Data)->DataGroup = DataGroup;
@@ -169,7 +181,7 @@ bool USaveGameManager::SetSaveDataValue(FString DataName, ESaveGameDataType::Typ
 	}
 	else
 	{
-		bIsAnyDataNotSaved = false;
+		bNeedsToBeSaved = false;
 		UE_LOG(LogTemp, Warning, TEXT("This DataName %s is Not Contains in Map"), *DataName);
 		return false;
 	}
@@ -202,9 +214,12 @@ FString USaveGameManager::GetSaveDataValue(FString DataName, ESaveGameDataType::
 FSaveDataStruct USaveGameManager::GetSaveData(FString DataName, ESaveGameDataType::Type DataType) const
 {
 	FSaveDataStruct SaveDataStruct = FSaveDataStruct();
+	FString ValueStr = GetSaveDataValue(DataName, DataType);
+	if (ValueStr.IsEmpty())
+		return SaveDataStruct;
+
 	FVector4 Vector4 = FVector4();
 	bool bSuccessful = false;
-	FString ValueStr = GetSaveDataValue(DataName, DataType);
 	switch (DataType)
 	{
 	case ESaveGameDataType::None:
@@ -256,9 +271,11 @@ bool USaveGameManager::RemoveSaveData(FString DataName, ESaveGameDataType::Type 
 {
 	if (SaveDataMap.Contains(DataName))
 	{
+		bNeedsToBeSaved = true;
 		USaveGameData* SaveData = SaveDataMap.FindAndRemoveChecked(DataName);
 		TArray<USaveGameData *> DataArray = GroupSaveDataMap.FindRef(SaveData->DataGroup);
 		(&DataArray)->Remove(SaveData);
+		GroupSortNames.Remove(DataName);
 		if (DataArray.Num() <= 0)
 		{
 			GroupSaveDataMap.Remove(SaveData->DataGroup);
@@ -280,9 +297,13 @@ bool USaveGameManager::DeleteGameData(FString SlotName, int32 UserIndex)
 	return Result;
 }
 
-void USaveGameManager::ClearMap()
+void USaveGameManager::ClearAll()
 {
-
+	SaveDataMap.Empty();
+	CurSaveGameInstance = nullptr;
+	GroupSortNames.Empty();
+	bNeedsToBeSaved = false;
+	GroupSaveDataMap.Empty();
 }
 
 void USaveGameManager::Tick(float DeltaTime)

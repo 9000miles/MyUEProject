@@ -27,7 +27,7 @@ public:
 		TArray<FString> GroupSortNames;
 
 	UPROPERTY(BlueprintReadOnly, Category = "SaveGameManager")
-		bool bIsAnyDataNotSaved;
+		bool bNeedsToBeSaved;
 
 private:
 	TMap<FString, TArray<USaveGameData *>> GroupSaveDataMap;
@@ -74,7 +74,7 @@ public:
 		bool DeleteGameData(FString SlotName, int32 UserIndex);
 
 	UFUNCTION(BlueprintCallable, Category = "SaveGameManager")
-		void ClearMap();
+		void ClearAll();
 	/** STATIC */
 public:
 
