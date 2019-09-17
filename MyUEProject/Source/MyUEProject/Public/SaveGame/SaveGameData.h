@@ -38,32 +38,6 @@ namespace ESaveGameDataSaveStateType
 	};
 }
 
-USTRUCT(BlueprintType)
-struct FSaveDataStruct
-{
-	GENERATED_USTRUCT_BODY()
-		UPROPERTY(BlueprintReadOnly, Category = "Save Data Struct")
-		bool var_Bool;
-	UPROPERTY(BlueprintReadOnly, Category = "Save Data Struct")
-		uint8 var_Byte;
-	UPROPERTY(BlueprintReadOnly, Category = "Save Data Struct")
-		int32 var_Int32;
-	UPROPERTY(BlueprintReadOnly, Category = "Save Data Struct")
-		float var_Float;
-	UPROPERTY(BlueprintReadOnly, Category = "Save Data Struct")
-		FString var_String;
-	UPROPERTY(BlueprintReadOnly, Category = "Save Data Struct")
-		FVector2D var_Vector2;
-	UPROPERTY(BlueprintReadOnly, Category = "Save Data Struct")
-		FVector var_Vector3;
-	UPROPERTY(BlueprintReadOnly, Category = "Save Data Struct")
-		FVector4 var_Vector4;
-	UPROPERTY(BlueprintReadOnly, Category = "Save Data Struct")
-		FDateTime var_DataTime;
-};
-
-
-DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnSaveStateChange, ESaveGameDataSaveStateType::Type, SaveStateType);
 /**
  *
  */
@@ -92,8 +66,8 @@ public:
 	UPROPERTY(BlueprintReadWrite, Category = "SaveGameData")
 		FString ValueString;
 
-	UPROPERTY(BlueprintAssignable, Category = "SaveGameData")
-		FOnSaveStateChange OnSaveStateChenged;
+	UPROPERTY(BlueprintReadWrite, Category = "SaveGameData")
+		FString EnumName;
 
 public:
 	UFUNCTION(BlueprintCallable, Category = "SaveGameData")

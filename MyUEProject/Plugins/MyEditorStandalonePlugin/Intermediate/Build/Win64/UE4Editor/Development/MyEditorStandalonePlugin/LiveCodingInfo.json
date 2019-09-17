@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MyEditorStandalonePlugin.cpp.obj": [
+			"InputButton.cpp.obj",
+			"MainSlate.cpp.obj",
+			"MyEditorStandalonePlugin.cpp.obj",
+			"MyEditorStandalonePluginCommands.cpp.obj",
+			"MyEditorStandalonePluginStyle.cpp.obj"
+		]
+	}
+}

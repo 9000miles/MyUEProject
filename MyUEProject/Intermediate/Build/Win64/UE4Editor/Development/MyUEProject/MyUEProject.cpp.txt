@@ -1,2 +1,2 @@
-E:\MyUEProject.git\MyUEProject\Intermediate\Build\Win64\UE4Editor\Development\MyUEProject\Definitions.MyUEProject.h
-e:\myueproject.git\myueproject\source\myueproject\MyUEProject.h
+E:\Lizijun\MyUEProject.git\MyUEProject\Intermediate\Build\Win64\UE4Editor\Development\MyUEProject\Definitions.MyUEProject.h
+E:\Lizijun\MyUEProject.git\MyUEProject\Source\MyUEProject\MyUEProject.h

@@ -1,48 +1,28 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (E:\MyUEProject.git).
+﻿  Using 'git status' to determine working set for adaptive non-unity build (E:\Lizijun\MyUEProject.git).
   Creating makefile for MyUEProjectEditor (ini files are newer than makefile)
-  Failed to delete file 'E:\MyUEProject.git\MyUEProject\Binaries\Win64\UE4Editor-MyUEProject.pdb'
-      Exception: 对路径“E:\MyUEProject.git\MyUEProject\Binaries\Win64\UE4Editor-MyUEProject.pdb”的访问被拒绝。
-  Attempting to retry...
-  Failed to delete file 'E:\MyUEProject.git\MyUEProject\Binaries\Win64\UE4Editor-MyUEProject.pdb'
-      Exception: 对路径“E:\MyUEProject.git\MyUEProject\Binaries\Win64\UE4Editor-MyUEProject.pdb”的访问被拒绝。
-  Attempting to retry...
-  Failed to delete file 'E:\MyUEProject.git\MyUEProject\Binaries\Win64\UE4Editor-MyUEProject.pdb'
-      Exception: 对路径“E:\MyUEProject.git\MyUEProject\Binaries\Win64\UE4Editor-MyUEProject.pdb”的访问被拒绝。
-EXEC : error : Exhausted all retries!
-  Failed to delete file 'E:\MyUEProject.git\MyUEProject\Plugins\MyEditorStandalonePlugin\Binaries\Win64\UE4Editor-MyEditorStandalonePlugin.pdb'
-      Exception: 对路径“E:\MyUEProject.git\MyUEProject\Plugins\MyEditorStandalonePlugin\Binaries\Win64\UE4Editor-MyEditorStandalonePlugin.pdb”的访问被拒绝。
-  Attempting to retry...
-  Failed to delete file 'E:\MyUEProject.git\MyUEProject\Plugins\MyEditorStandalonePlugin\Binaries\Win64\UE4Editor-MyEditorStandalonePlugin.pdb'
-      Exception: 对路径“E:\MyUEProject.git\MyUEProject\Plugins\MyEditorStandalonePlugin\Binaries\Win64\UE4Editor-MyEditorStandalonePlugin.pdb”的访问被拒绝。
-  Attempting to retry...
-  Failed to delete file 'E:\MyUEProject.git\MyUEProject\Plugins\MyEditorStandalonePlugin\Binaries\Win64\UE4Editor-MyEditorStandalonePlugin.pdb'
-      Exception: 对路径“E:\MyUEProject.git\MyUEProject\Plugins\MyEditorStandalonePlugin\Binaries\Win64\UE4Editor-MyEditorStandalonePlugin.pdb”的访问被拒绝。
-EXEC : error : Exhausted all retries!
-  Failed to delete file 'E:\MyUEProject.git\MyUEProject\Plugins\MyPlugin\Binaries\Win64\UE4Editor-MyPlugin.pdb'
-      Exception: 对路径“E:\MyUEProject.git\MyUEProject\Plugins\MyPlugin\Binaries\Win64\UE4Editor-MyPlugin.pdb”的访问被拒绝。
-  Attempting to retry...
-  Failed to delete file 'E:\MyUEProject.git\MyUEProject\Plugins\MyPlugin\Binaries\Win64\UE4Editor-MyPlugin.pdb'
-      Exception: 对路径“E:\MyUEProject.git\MyUEProject\Plugins\MyPlugin\Binaries\Win64\UE4Editor-MyPlugin.pdb”的访问被拒绝。
-  Attempting to retry...
-  Failed to delete file 'E:\MyUEProject.git\MyUEProject\Plugins\MyPlugin\Binaries\Win64\UE4Editor-MyPlugin.pdb'
-      Exception: 对路径“E:\MyUEProject.git\MyUEProject\Plugins\MyPlugin\Binaries\Win64\UE4Editor-MyPlugin.pdb”的访问被拒绝。
-EXEC : error : Exhausted all retries!
-  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 8 actions with 8 processes...
-    [1/8] UE4Editor-MyPlugin-0001.lib
-      正在创建库 E:\MyUEProject.git\MyUEProject\Plugins\MyPlugin\Intermediate\Build\Win64\UE4Editor\Development\MyPlugin\UE4Editor-MyPlugin-0001.lib 和对象 E:\MyUEProject.git\MyUEProject\Plugins\MyPlugin\Intermediate\Build\Win64\UE4Editor\Development\MyPlugin\UE4Editor-MyPlugin-0001.exp
-    [2/8] UE4Editor-MyEditorStandalonePlugin-0001.lib
-      正在创建库 E:\MyUEProject.git\MyUEProject\Plugins\MyEditorStandalonePlugin\Intermediate\Build\Win64\UE4Editor\Development\MyEditorStandalonePlugin\UE4Editor-MyEditorStandalonePlugin-0001.lib 和对象 E:\MyUEProject.git\MyUEProject\Plugins\MyEditorStandalonePlugin\Intermediate\Build\Win64\UE4Editor\Development\MyEditorStandalonePlugin\UE4Editor-MyEditorStandalonePlugin-0001.exp
-    [3/8] UE4Editor-MyPlugin-0001.dll
-      正在创建库 E:\MyUEProject.git\MyUEProject\Plugins\MyPlugin\Intermediate\Build\Win64\UE4Editor\Development\MyPlugin\UE4Editor-MyPlugin-0001.suppressed.lib 和对象 E:\MyUEProject.git\MyUEProject\Plugins\MyPlugin\Intermediate\Build\Win64\UE4Editor\Development\MyPlugin\UE4Editor-MyPlugin-0001.suppressed.exp
-    [4/8] UE4Editor-MyEditorStandalonePlugin-0001.dll
-      正在创建库 E:\MyUEProject.git\MyUEProject\Plugins\MyEditorStandalonePlugin\Intermediate\Build\Win64\UE4Editor\Development\MyEditorStandalonePlugin\UE4Editor-MyEditorStandalonePlugin-0001.suppressed.lib 和对象 E:\MyUEProject.git\MyUEProject\Plugins\MyEditorStandalonePlugin\Intermediate\Build\Win64\UE4Editor\Development\MyEditorStandalonePlugin\UE4Editor-MyEditorStandalonePlugin-0001.suppressed.exp
-    [5/8] SaveGameManager.cpp
-    [6/8] UE4Editor-MyUEProject-0001.lib
-      正在创建库 E:\MyUEProject.git\MyUEProject\Intermediate\Build\Win64\UE4Editor\Development\MyUEProject\UE4Editor-MyUEProject-0001.lib 和对象 E:\MyUEProject.git\MyUEProject\Intermediate\Build\Win64\UE4Editor\Development\MyUEProject\UE4Editor-MyUEProject-0001.exp
-    [7/8] UE4Editor-MyUEProject-0001.dll
-      正在创建库 E:\MyUEProject.git\MyUEProject\Intermediate\Build\Win64\UE4Editor\Development\MyUEProject\UE4Editor-MyUEProject-0001.suppressed.lib 和对象 E:\MyUEProject.git\MyUEProject\Intermediate\Build\Win64\UE4Editor\Development\MyUEProject\UE4Editor-MyUEProject-0001.suppressed.exp
-    [8/8] MyUEProjectEditor.target
-  Total time in Parallel executor: 15.76 seconds
-  Total execution time: 24.27 seconds
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(44,5): error MSB3073: 命令“"E:\Epic Games\UE_4.22\Engine\Build\BatchFiles\Build.bat" MyUEProjectEditor Win64 Development -Project="E:\MyUEProject.git\MyUEProject\MyUEProject.uproject" -WaitMutex -FromMsBuild”已退出，代码为 -1。
+  Creating makefile for UnrealHeaderTool (ini files are newer than makefile)
+  Parsing headers for MyUEProjectEditor
+    Running UnrealHeaderTool "E:\Lizijun\MyUEProject.git\MyUEProject\MyUEProject.uproject" "E:\Lizijun\MyUEProject.git\MyUEProject\Intermediate\Build\Win64\MyUEProjectEditor\Development\MyUEProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for MyUEProjectEditor in 22.2517371 seconds
+  Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.22.27905) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 12 actions with 12 processes...
+    [1/12] UE4Editor-MyPlugin-0012.lib
+      正在创建库 E:\Lizijun\MyUEProject.git\MyUEProject\Plugins\MyPlugin\Intermediate\Build\Win64\UE4Editor\Development\MyPlugin\UE4Editor-MyPlugin-0012.lib 和对象 E:\Lizijun\MyUEProject.git\MyUEProject\Plugins\MyPlugin\Intermediate\Build\Win64\UE4Editor\Development\MyPlugin\UE4Editor-MyPlugin-0012.exp
+    [2/12] UE4Editor-MyEditorStandalonePlugin-0012.lib
+      正在创建库 E:\Lizijun\MyUEProject.git\MyUEProject\Plugins\MyEditorStandalonePlugin\Intermediate\Build\Win64\UE4Editor\Development\MyEditorStandalonePlugin\UE4Editor-MyEditorStandalonePlugin-0012.lib 和对象 E:\Lizijun\MyUEProject.git\MyUEProject\Plugins\MyEditorStandalonePlugin\Intermediate\Build\Win64\UE4Editor\Development\MyEditorStandalonePlugin\UE4Editor-MyEditorStandalonePlugin-0012.exp
+    [3/12] UE4Editor-MyEditorStandalonePlugin-0012.dll
+      正在创建库 E:\Lizijun\MyUEProject.git\MyUEProject\Plugins\MyEditorStandalonePlugin\Intermediate\Build\Win64\UE4Editor\Development\MyEditorStandalonePlugin\UE4Editor-MyEditorStandalonePlugin-0012.suppressed.lib 和对象 E:\Lizijun\MyUEProject.git\MyUEProject\Plugins\MyEditorStandalonePlugin\Intermediate\Build\Win64\UE4Editor\Development\MyEditorStandalonePlugin\UE4Editor-MyEditorStandalonePlugin-0012.suppressed.exp
+    [4/12] UE4Editor-MyPlugin-0012.dll
+      正在创建库 E:\Lizijun\MyUEProject.git\MyUEProject\Plugins\MyPlugin\Intermediate\Build\Win64\UE4Editor\Development\MyPlugin\UE4Editor-MyPlugin-0012.suppressed.lib 和对象 E:\Lizijun\MyUEProject.git\MyUEProject\Plugins\MyPlugin\Intermediate\Build\Win64\UE4Editor\Development\MyPlugin\UE4Editor-MyPlugin-0012.suppressed.exp
+    [5/12] MyUEProject.init.gen.cpp
+    [6/12] CommonToolBPFunctionLibrary.cpp
+    [7/12] CommonToolBPFunctionLibrary.gen.cpp
+    [8/12] SaveGameManager.gen.cpp
+    [9/12] SaveGameManager.cpp
+    [10/12] UE4Editor-MyUEProject-0012.lib
+      正在创建库 E:\Lizijun\MyUEProject.git\MyUEProject\Intermediate\Build\Win64\UE4Editor\Development\MyUEProject\UE4Editor-MyUEProject-0012.lib 和对象 E:\Lizijun\MyUEProject.git\MyUEProject\Intermediate\Build\Win64\UE4Editor\Development\MyUEProject\UE4Editor-MyUEProject-0012.exp
+    [11/12] UE4Editor-MyUEProject-0012.dll
+      正在创建库 E:\Lizijun\MyUEProject.git\MyUEProject\Intermediate\Build\Win64\UE4Editor\Development\MyUEProject\UE4Editor-MyUEProject-0012.suppressed.lib 和对象 E:\Lizijun\MyUEProject.git\MyUEProject\Intermediate\Build\Win64\UE4Editor\Development\MyUEProject\UE4Editor-MyUEProject-0012.suppressed.exp
+    [12/12] MyUEProjectEditor.target
+  Total time in Parallel executor: 148.96 seconds
+  Total execution time: 174.90 seconds

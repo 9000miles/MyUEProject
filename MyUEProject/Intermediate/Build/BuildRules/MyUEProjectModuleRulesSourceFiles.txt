@@ -1,6 +1,6 @@
-E:\MyUEProject.git\MyUEProject\Source\MyUEProject\MyUEProject.Build.cs
-E:\MyUEProject.git\MyUEProject\Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin\BlueprintReflectionPlugin.Build.cs
-E:\MyUEProject.git\MyUEProject\Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\MyEditorStandalonePlugin.Build.cs
-E:\MyUEProject.git\MyUEProject\Plugins\MyPlugin\Source\MyPlugin\MyPlugin.Build.cs
-E:\MyUEProject.git\MyUEProject\Source\MyUEProject.Target.cs
-E:\MyUEProject.git\MyUEProject\Source\MyUEProjectEditor.Target.cs
+E:\Lizijun\MyUEProject.git\MyUEProject\Source\MyUEProject\MyUEProject.Build.cs
+E:\Lizijun\MyUEProject.git\MyUEProject\Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin\BlueprintReflectionPlugin.Build.cs
+E:\Lizijun\MyUEProject.git\MyUEProject\Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\MyEditorStandalonePlugin.Build.cs
+E:\Lizijun\MyUEProject.git\MyUEProject\Plugins\MyPlugin\Source\MyPlugin\MyPlugin.Build.cs
+E:\Lizijun\MyUEProject.git\MyUEProject\Source\MyUEProject.Target.cs
+E:\Lizijun\MyUEProject.git\MyUEProject\Source\MyUEProjectEditor.Target.cs

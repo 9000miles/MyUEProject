@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\MyUEProject.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{380436D0-D6F1-4F58-AA1E-ED3E09117323}</UniqueIdentifier>
+      <UniqueIdentifier>{1585B453-03EF-4823-B246-EED590186797}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\MyUEProject.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,9 @@
     <None Include="..\..\Source\MyUEProjectEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\MyUEProject_Source.zip" />
     <Filter Include="Config">
-      <UniqueIdentifier>{93A62E2E-6B26-464D-A93F-3DB62AF476DC}</UniqueIdentifier>
+      <UniqueIdentifier>{D7C11496-08D7-4DE6-AD85-E499F5F26E38}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,28 +31,28 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Plugins">
-      <UniqueIdentifier>{3F4F8391-3B51-4D16-B203-82B462ECE25B}</UniqueIdentifier>
+      <UniqueIdentifier>{41C4A375-CAA0-4FC8-89FA-42BB2EBE4258}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\BlueprintReflection">
-      <UniqueIdentifier>{4825E399-1681-452D-BDE6-8E7227707D7D}</UniqueIdentifier>
+      <UniqueIdentifier>{57C0D851-01F3-487A-87C3-11CAE706C3D7}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\BlueprintReflection\Source">
-      <UniqueIdentifier>{0598C4C2-2701-4E7E-9EEF-025FF030B73B}</UniqueIdentifier>
+      <UniqueIdentifier>{1D0CF446-2349-4E99-839F-A30925099C24}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin">
-      <UniqueIdentifier>{80DA89CC-3432-4226-9217-BD4345EE1668}</UniqueIdentifier>
+      <UniqueIdentifier>{458F91FE-192D-4DC3-B610-D80778AB1C7F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin\BlueprintReflectionPlugin.Build.cs">
       <Filter>Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin</Filter>
     </None>
     <Filter Include="Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin\Classes">
-      <UniqueIdentifier>{0D10C6DE-1BBC-4623-BB5E-54ABFA608C7B}</UniqueIdentifier>
+      <UniqueIdentifier>{0DD3A395-481F-41B8-9698-096AA3EB8738}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin\Classes\BlueprintReflectionFunctions.h">
       <Filter>Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin\Classes</Filter>
     </ClInclude>
     <Filter Include="Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin\Private">
-      <UniqueIdentifier>{6BCD346D-F3A3-49A5-BB41-E5EF807F6A35}</UniqueIdentifier>
+      <UniqueIdentifier>{FF41FFC8-7E8C-441C-82C9-43987A3F0D68}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin\Private\BlueprintReflectionFunctions.cpp">
       <Filter>Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin\Private</Filter>
@@ -63,7 +64,7 @@
       <Filter>Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin\Private</Filter>
     </ClInclude>
     <Filter Include="Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin\Public">
-      <UniqueIdentifier>{DA9019DC-7448-40A2-B28A-CDDF3FEC86C0}</UniqueIdentifier>
+      <UniqueIdentifier>{C8200312-5EA7-4A6E-BBBD-352FDE5F0781}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin\Public\IBlueprintReflectionPlugin.h">
       <Filter>Plugins\BlueprintReflection\Source\BlueprintReflectionPlugin\Public</Filter>
@@ -72,7 +73,7 @@
       <Filter>Plugins\BlueprintReflection</Filter>
     </None>
     <Filter Include="Plugins\BlueprintReflection\Resources">
-      <UniqueIdentifier>{B20EDA34-1A59-4826-9B1A-7E0DED5C80AC}</UniqueIdentifier>
+      <UniqueIdentifier>{23CCE66A-C03C-496A-B4B2-EF1EAF912928}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\BlueprintReflection\Resources\ConstructObjectFromClass.png">
       <Filter>Plugins\BlueprintReflection\Resources</Filter>
@@ -93,13 +94,13 @@
       <Filter>Plugins\BlueprintReflection\Resources</Filter>
     </None>
     <Filter Include="Plugins\MyEditorStandalonePlugin">
-      <UniqueIdentifier>{B0E9BF8D-31A5-4571-BECD-E75E39B644E6}</UniqueIdentifier>
+      <UniqueIdentifier>{750177D3-EF8D-42BC-820B-401FFBDD64D8}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\MyEditorStandalonePlugin\MyEditorStandalonePlugin.uplugin">
       <Filter>Plugins\MyEditorStandalonePlugin</Filter>
     </None>
     <Filter Include="Plugins\MyEditorStandalonePlugin\Resources">
-      <UniqueIdentifier>{03DE0E5A-733A-400F-9C88-65180C9EDECD}</UniqueIdentifier>
+      <UniqueIdentifier>{7BE07965-2A59-40AD-8042-3DAE2A310C26}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\MyEditorStandalonePlugin\Resources\ButtonIcon_40x.png">
       <Filter>Plugins\MyEditorStandalonePlugin\Resources</Filter>
@@ -108,28 +109,28 @@
       <Filter>Plugins\MyEditorStandalonePlugin\Resources</Filter>
     </None>
     <Filter Include="Plugins\MyPlugin">
-      <UniqueIdentifier>{CB8DEB5E-3EBF-4DA0-B273-354601244BCE}</UniqueIdentifier>
+      <UniqueIdentifier>{F3CF8845-AE23-4ED6-ABB1-8E37B7CC2816}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\MyPlugin\MyPlugin.uplugin">
       <Filter>Plugins\MyPlugin</Filter>
     </None>
     <Filter Include="Plugins\MyPlugin\Resources">
-      <UniqueIdentifier>{B7FEF2DF-8932-4FC5-B2C8-E1802A7ED31F}</UniqueIdentifier>
+      <UniqueIdentifier>{4909F02F-2BF3-42A3-B33B-264F9E0E4649}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\MyPlugin\Resources\Icon128.png">
       <Filter>Plugins\MyPlugin\Resources</Filter>
     </None>
     <Filter Include="Plugins\MyEditorStandalonePlugin\Source">
-      <UniqueIdentifier>{7E47852E-3E19-4E10-A9B8-5425171ED629}</UniqueIdentifier>
+      <UniqueIdentifier>{D378431B-C1E4-4A48-B92F-014D67C7C58B}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin">
-      <UniqueIdentifier>{036199EF-6644-4533-91FF-05C579E18BF7}</UniqueIdentifier>
+      <UniqueIdentifier>{8175E6AA-FE61-4C76-9B0D-8E68D5D33EC8}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\MyEditorStandalonePlugin.Build.cs">
       <Filter>Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin</Filter>
     </None>
     <Filter Include="Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\Private">
-      <UniqueIdentifier>{1C66467B-4D56-41AF-AF28-C02D1F160E78}</UniqueIdentifier>
+      <UniqueIdentifier>{49DB05CB-9F1C-4E8A-AFDA-E74F4A0CBA75}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\Private\InputButton.cpp">
       <Filter>Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\Private</Filter>
@@ -147,7 +148,7 @@
       <Filter>Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\Private</Filter>
     </ClCompile>
     <Filter Include="Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\Public">
-      <UniqueIdentifier>{534C2E68-DD76-4EF3-BE10-B564785E7012}</UniqueIdentifier>
+      <UniqueIdentifier>{7FFD51CF-7DB0-497C-9EB9-D9935E37A541}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\Public\InputButton.h">
       <Filter>Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\Public</Filter>
@@ -165,16 +166,16 @@
       <Filter>Plugins\MyEditorStandalonePlugin\Source\MyEditorStandalonePlugin\Public</Filter>
     </ClInclude>
     <Filter Include="Plugins\MyPlugin\Source">
-      <UniqueIdentifier>{D41CAA7A-D151-43E5-8513-6FBA08EB330C}</UniqueIdentifier>
+      <UniqueIdentifier>{1CE179B6-5281-407B-8A0A-876E83A2B68F}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\MyPlugin\Source\MyPlugin">
-      <UniqueIdentifier>{11AF07E8-6602-41A6-B6D3-5623D10970BB}</UniqueIdentifier>
+      <UniqueIdentifier>{CE245E36-EFDB-4190-859C-B2E320E3E640}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\MyPlugin\Source\MyPlugin\MyPlugin.Build.cs">
       <Filter>Plugins\MyPlugin\Source\MyPlugin</Filter>
     </None>
     <Filter Include="Plugins\MyPlugin\Source\MyPlugin\Private">
-      <UniqueIdentifier>{0B229A4A-0652-4DF7-ADFE-0521BDA57089}</UniqueIdentifier>
+      <UniqueIdentifier>{D0A97ED1-F87F-439F-AE68-AE38FD36D3FA}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\MyPlugin\Source\MyPlugin\Private\Body.cpp">
       <Filter>Plugins\MyPlugin\Source\MyPlugin\Private</Filter>
@@ -186,7 +187,7 @@
       <Filter>Plugins\MyPlugin\Source\MyPlugin\Private</Filter>
     </ClCompile>
     <Filter Include="Plugins\MyPlugin\Source\MyPlugin\Public">
-      <UniqueIdentifier>{ABB461A9-A7A7-4BEC-B008-673B38841EF8}</UniqueIdentifier>
+      <UniqueIdentifier>{B44EB006-0F99-475A-B8D9-8DAFEBE5E87E}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\MyPlugin\Source\MyPlugin\Public\Body.h">
       <Filter>Plugins\MyPlugin\Source\MyPlugin\Public</Filter>
@@ -198,7 +199,7 @@
       <Filter>Plugins\MyPlugin\Source\MyPlugin\Public</Filter>
     </ClInclude>
     <Filter Include="Source\MyUEProject">
-      <UniqueIdentifier>{1C397933-8E30-44D1-B1CE-ADCD551CF436}</UniqueIdentifier>
+      <UniqueIdentifier>{4906E1BA-3374-4FBC-9B81-0966A027617A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\MyUEProject\MyUEProject.Build.cs">
       <Filter>Source\MyUEProject</Filter>
@@ -228,7 +229,7 @@
       <Filter>Source\MyUEProject</Filter>
     </ClInclude>
     <Filter Include="Source\MyUEProject\LearningNote">
-      <UniqueIdentifier>{4244E4E6-F048-4D1B-9885-DF741B2FA79B}</UniqueIdentifier>
+      <UniqueIdentifier>{44A4EF80-6670-4ADB-AC0C-E70118E232C7}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\MyUEProject\LearningNote\LearningNote.hpp">
       <Filter>Source\MyUEProject\LearningNote</Filter>
@@ -237,16 +238,16 @@
       <Filter>Source\MyUEProject\LearningNote</Filter>
     </None>
     <Filter Include="Source\MyUEProject\Private">
-      <UniqueIdentifier>{72D55289-5294-4FD6-9D69-32983F042C95}</UniqueIdentifier>
+      <UniqueIdentifier>{974CF3AE-2B48-4CC7-BF1F-BFFDC984B5E1}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source\MyUEProject\Private\Common">
-      <UniqueIdentifier>{781A3D66-B7AC-45B9-A782-58A4844AE7A0}</UniqueIdentifier>
+      <UniqueIdentifier>{6750351B-6A6E-4187-ACCA-A2117845E2AB}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\MyUEProject\Private\Common\TickObject.cpp">
       <Filter>Source\MyUEProject\Private\Common</Filter>
     </ClCompile>
     <Filter Include="Source\MyUEProject\Private\GameManager">
-      <UniqueIdentifier>{8B977A76-D8A5-4A6B-B38E-FC2AC874DFBC}</UniqueIdentifier>
+      <UniqueIdentifier>{7D810455-1943-4B24-95EA-601E3B4C8E15}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\MyUEProject\Private\GameManager\GameManager.cpp">
       <Filter>Source\MyUEProject\Private\GameManager</Filter>
@@ -255,7 +256,7 @@
       <Filter>Source\MyUEProject\Private\GameManager</Filter>
     </ClCompile>
     <Filter Include="Source\MyUEProject\Private\Input">
-      <UniqueIdentifier>{EBA855BA-0BA6-4B57-8F3A-968A5B448448}</UniqueIdentifier>
+      <UniqueIdentifier>{E6382B9A-A1B5-45A5-8328-B5292E6AD670}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\MyUEProject\Private\Input\AxialInputController.cpp">
       <Filter>Source\MyUEProject\Private\Input</Filter>
@@ -267,9 +268,12 @@
       <Filter>Source\MyUEProject\Private\Input</Filter>
     </ClCompile>
     <Filter Include="Source\MyUEProject\Private\SaveGame">
-      <UniqueIdentifier>{FAC61983-BCC9-4CBE-B130-B7415CDE2ECF}</UniqueIdentifier>
+      <UniqueIdentifier>{9ADC8028-8B07-48B5-9746-3DADB5F7CEC4}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\MyUEProject\Private\SaveGame\SaveGameData.cpp">
+      <Filter>Source\MyUEProject\Private\SaveGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyUEProject\Private\SaveGame\SaveGameDataValueBase.cpp">
       <Filter>Source\MyUEProject\Private\SaveGame</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\MyUEProject\Private\SaveGame\SaveGameInstance.cpp">
@@ -279,16 +283,16 @@
       <Filter>Source\MyUEProject\Private\SaveGame</Filter>
     </ClCompile>
     <Filter Include="Source\MyUEProject\Public">
-      <UniqueIdentifier>{A7C0DE27-80EE-48A7-982B-BC0B3FAFE6C8}</UniqueIdentifier>
+      <UniqueIdentifier>{6756CCEC-04E4-4495-8B2F-20B34363A0AF}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source\MyUEProject\Public\Common">
-      <UniqueIdentifier>{48377EB9-DE17-4DF9-AFEC-766DFB1931DF}</UniqueIdentifier>
+      <UniqueIdentifier>{45AD194B-2ACF-4B6F-9ABD-1BFDEDC995BE}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\MyUEProject\Public\Common\TickObject.h">
       <Filter>Source\MyUEProject\Public\Common</Filter>
     </ClInclude>
     <Filter Include="Source\MyUEProject\Public\GameManager">
-      <UniqueIdentifier>{1A9C396C-E28E-4F20-9AC6-6588D60B780E}</UniqueIdentifier>
+      <UniqueIdentifier>{AA43A8AB-0377-4817-900F-052891C454AF}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\MyUEProject\Public\GameManager\GameManager.h">
       <Filter>Source\MyUEProject\Public\GameManager</Filter>
@@ -297,7 +301,7 @@
       <Filter>Source\MyUEProject\Public\GameManager</Filter>
     </ClInclude>
     <Filter Include="Source\MyUEProject\Public\Input">
-      <UniqueIdentifier>{BDA5C017-1A5E-4F21-B003-A1B947A1DD8B}</UniqueIdentifier>
+      <UniqueIdentifier>{F3AE8ED1-8533-44BC-B294-3276BA87CFAE}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\MyUEProject\Public\Input\AxialInputController.h">
       <Filter>Source\MyUEProject\Public\Input</Filter>
@@ -309,7 +313,7 @@
       <Filter>Source\MyUEProject\Public\Input</Filter>
     </ClInclude>
     <Filter Include="Source\MyUEProject\Public\Interfaces">
-      <UniqueIdentifier>{4229A5CC-EFB3-4422-9FEC-E0B7FBB6214F}</UniqueIdentifier>
+      <UniqueIdentifier>{810560CB-ED4A-40CA-9D5A-96273800ABAD}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\MyUEProject\Public\Interfaces\IInputReceiveTarget.h">
       <Filter>Source\MyUEProject\Public\Interfaces</Filter>
@@ -318,9 +322,39 @@
       <Filter>Source\MyUEProject\Public\Interfaces</Filter>
     </ClInclude>
     <Filter Include="Source\MyUEProject\Public\SaveGame">
-      <UniqueIdentifier>{EEADA82C-0089-4A72-AEC4-2C95445E2BA6}</UniqueIdentifier>
+      <UniqueIdentifier>{F6842B76-7B89-4863-815B-F1536B69A4C6}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\MyUEProject\Public\SaveGame\SaveGameData.h">
+      <Filter>Source\MyUEProject\Public\SaveGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MyUEProject\Public\SaveGame\SaveGameDataValueBase.h">
+      <Filter>Source\MyUEProject\Public\SaveGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MyUEProject\Public\SaveGame\SaveGameDataValue_Bool.h">
+      <Filter>Source\MyUEProject\Public\SaveGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MyUEProject\Public\SaveGame\SaveGameDataValue_Byte.h">
+      <Filter>Source\MyUEProject\Public\SaveGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MyUEProject\Public\SaveGame\SaveGameDataValue_DateTime.h">
+      <Filter>Source\MyUEProject\Public\SaveGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MyUEProject\Public\SaveGame\SaveGameDataValue_Float.h">
+      <Filter>Source\MyUEProject\Public\SaveGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MyUEProject\Public\SaveGame\SaveGameDataValue_Int32.h">
+      <Filter>Source\MyUEProject\Public\SaveGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MyUEProject\Public\SaveGame\SaveGameDataValue_String.h">
+      <Filter>Source\MyUEProject\Public\SaveGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MyUEProject\Public\SaveGame\SaveGameDataValue_Vector2.h">
+      <Filter>Source\MyUEProject\Public\SaveGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MyUEProject\Public\SaveGame\SaveGameDataValue_Vector3.h">
+      <Filter>Source\MyUEProject\Public\SaveGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MyUEProject\Public\SaveGame\SaveGameDataValue_Vector4.h">
       <Filter>Source\MyUEProject\Public\SaveGame</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\MyUEProject\Public\SaveGame\SaveGameInstance.h">
@@ -329,5 +363,18 @@
     <ClInclude Include="..\..\Source\MyUEProject\Public\SaveGame\SaveGameManager.h">
       <Filter>Source\MyUEProject\Public\SaveGame</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\MyUEProject\Public\Common\CommonTool.h">
+      <Filter>Source\MyUEProject\Public\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MyUEProject\Public\Common\CommonToolBPFunctionLibrary.h">
+      <Filter>Source\MyUEProject\Public\Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\MyUEProject\Private\Common\CommonToolBPFunctionLibrary.cpp">
+      <Filter>Source\MyUEProject\Private\Common</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

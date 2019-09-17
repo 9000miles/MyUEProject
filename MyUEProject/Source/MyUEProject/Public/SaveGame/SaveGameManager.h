@@ -9,6 +9,7 @@
 #include "SaveGameData.h"
 #include "SaveGameInstance.h"
 #include "GameInstanceSubsystem.h"
+#include "SaveGameDataValueBase.h"
 #include "SaveGameManager.generated.h"
 
 UCLASS(config = Game)
@@ -30,7 +31,7 @@ public:
 		bool bNeedsToBeSaved;
 
 private:
-	TMap<FString, TArray<USaveGameData *>> GroupSaveDataMap;
+	TMap<FString, TArray<USaveGameData*>> GroupSaveDataMap;
 
 public:
 	USaveGameManager();
@@ -59,13 +60,13 @@ public:
 		bool SetSaveDataValue(FString DataName, ESaveGameDataType::Type DataType, FString ValueString, FString DataGroup = "Default", bool SetDataGroup = false);
 
 	UFUNCTION(BlueprintCallable, Category = "SaveGameManager")
-		FString GetSaveDataValue(FString DataName, ESaveGameDataType::Type DataType) const;
+		FString GetSaveDataValueString(FString DataName, ESaveGameDataType::Type DataType) const;
 
 	UFUNCTION(BlueprintCallable, Category = "SaveGameManager")
-		FSaveDataStruct GetSaveData(FString DataName, ESaveGameDataType::Type DataType) const;
+		USaveGameDataValueBase* GetSaveDataValue(FString DataName, ESaveGameDataType::Type DataType) const;
 
 	UFUNCTION(BlueprintCallable, Category = "SaveGameManager")
-		TArray< USaveGameData*> GetGroupSaveData(FString DataGroup) const;
+		TArray<USaveGameData*> GetGroupSaveData(FString DataGroup) const;
 
 	UFUNCTION(BlueprintCallable, Category = "SaveGameManager")
 		bool RemoveSaveData(FString DataName, ESaveGameDataType::Type DataType);
@@ -75,6 +76,7 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "SaveGameManager")
 		void ClearAll();
+
 	/** STATIC */
 public:
 
@@ -88,10 +90,16 @@ public:
 		return UGameInstance::GetSubsystem<USaveGameManager>(GI);
 	}
 
+#if WITH_EDITOR
+	UFUNCTION(BlueprintPure)
+		static USaveGameManager* GetSaveGameManager();
+#endif
+
 	// Í¨¹ý FTickableGameObject ¼Ì³Ð
 	virtual void Tick(float DeltaTime) override;
 	virtual TStatId GetStatId() const override;
 
 private:
 	void UpdateGroupSaveDataMap();
+	static USaveGameManager* Singleton;
 };

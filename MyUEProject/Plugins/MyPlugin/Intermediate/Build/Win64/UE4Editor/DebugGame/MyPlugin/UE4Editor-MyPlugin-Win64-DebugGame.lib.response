@@ -6,8 +6,8 @@
 /NAME:"UE4Editor-MyPlugin-Win64-DebugGame.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"E:\MyUEProject.git\MyUEProject\Intermediate\Build\Win64\MyUEProjectEditor\DebugGame\Engine\SharedPCH.Engine.NonOptimized.h.obj"
-"E:\MyUEProject.git\MyUEProject\Plugins\MyPlugin\Intermediate\Build\Win64\UE4Editor\DebugGame\MyPlugin\Module.MyPlugin.cpp.obj"
-"E:\MyUEProject.git\MyUEProject\Plugins\MyPlugin\Intermediate\Build\Win64\UE4Editor\DebugGame\MyPlugin\Default.rc2.res"
-/OUT:"E:\MyUEProject.git\MyUEProject\Plugins\MyPlugin\Intermediate\Build\Win64\UE4Editor\DebugGame\MyPlugin\UE4Editor-MyPlugin-Win64-DebugGame.lib"
+"E:\Lizijun\MyUEProject.git\MyUEProject\Intermediate\Build\Win64\MyUEProjectEditor\DebugGame\Engine\SharedPCH.Engine.NonOptimized.h.obj"
+"E:\Lizijun\MyUEProject.git\MyUEProject\Plugins\MyPlugin\Intermediate\Build\Win64\UE4Editor\DebugGame\MyPlugin\Module.MyPlugin.cpp.obj"
+"E:\Lizijun\MyUEProject.git\MyUEProject\Plugins\MyPlugin\Intermediate\Build\Win64\UE4Editor\DebugGame\MyPlugin\Default.rc2.res"
+/OUT:"E:\Lizijun\MyUEProject.git\MyUEProject\Plugins\MyPlugin\Intermediate\Build\Win64\UE4Editor\DebugGame\MyPlugin\UE4Editor-MyPlugin-Win64-DebugGame.lib"
 /INCLUDE:IMPLEMENT_MODULE_MyPlugin

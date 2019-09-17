@@ -1,9 +1,21 @@
-#include "..\..\Public\SaveGame\SaveGameManager.h"
+#include "SaveGameManager.h"
 #include "Engine.h"
 #include "LogMacros.h"
-#include "Runtime\Engine\Classes\Kismet\KismetMathLibrary.h"
-#include "Runtime\Core\Public\Misc\DateTime.h"
-#include "..\..\Public\SaveGame\SaveGameData.h"
+#include "DateTime.h"
+#include "Kismet/KismetMathLibrary.h"
+#include "SaveGameData.h"
+#include "SaveGameDataValue_Byte.h"
+#include "SaveGameDataValue_Bool.h"
+#include "SaveGameDataValue_Int32.h"
+#include "SaveGameDataValue_Float.h"
+#include "SaveGameDataValue_String.h"
+#include "SaveGameDataValue_Vector2.h"
+#include "SaveGameDataValue_Vector3.h"
+#include "SaveGameDataValue_Vector4.h"
+#include "SaveGameDataValue_DateTime.h"
+#include "Casts.h"
+
+USaveGameManager* USaveGameManager::Singleton = nullptr;
 
 USaveGameManager::USaveGameManager()
 {
@@ -86,7 +98,6 @@ FString USaveGameManager::SaveDataMapToString()
 	{
 		USaveGameData* const Data = It.Value();
 		Data->SaveStateType = ESaveGameDataSaveStateType::Saved;
-		Data->OnSaveStateChenged.Broadcast(ESaveGameDataSaveStateType::Saved);
 		if (Data != nullptr)
 		{
 			ResultData.Append(Data->DataToString());
@@ -116,7 +127,6 @@ void USaveGameManager::StringToSaveDataMap(FString DataString)
 		int32 EnumIndex = EnumTemp->GetValueByNameString(*Strs[1]);
 		GameData->DataType = ESaveGameDataType::Type(EnumIndex);
 		GameData->SaveStateType = ESaveGameDataSaveStateType::Saved;
-		GameData->OnSaveStateChenged.Broadcast(ESaveGameDataSaveStateType::Saved);
 
 		GameData->ValueString = Strs[2];
 		GameData->DataGroup = Strs[3];
@@ -138,7 +148,6 @@ bool USaveGameManager::AddSaveData(FString DataName, ESaveGameDataType::Type Dat
 		SaveData->DataName = DataName;
 		SaveData->DataType = DataType;
 		SaveData->SaveStateType = ESaveGameDataSaveStateType::NotSaved;
-		SaveData->OnSaveStateChenged.Broadcast(ESaveGameDataSaveStateType::NotSaved);
 		SaveData->ValueString = ValueString;
 		SaveData->DataGroup = DataGroup;
 
@@ -168,7 +177,6 @@ bool USaveGameManager::SetSaveDataValue(FString DataName, ESaveGameDataType::Typ
 		{
 			(*Data)->ValueString = ValueString;
 			(*Data)->SaveStateType = ESaveGameDataSaveStateType::NotSaved;
-			(*Data)->OnSaveStateChenged.Broadcast(ESaveGameDataSaveStateType::NotSaved);
 
 			bNeedsToBeSaved = true;
 			if (bSetDataGroup)
@@ -189,12 +197,12 @@ bool USaveGameManager::SetSaveDataValue(FString DataName, ESaveGameDataType::Typ
 	return false;
 }
 
-FString USaveGameManager::GetSaveDataValue(FString DataName, ESaveGameDataType::Type DataType) const
+FString USaveGameManager::GetSaveDataValueString(FString DataName, ESaveGameDataType::Type DataType) const
 {
 	FString Result = FString();
 	if (SaveDataMap.Contains(DataName))
 	{
-		USaveGameData* const * Data = SaveDataMap.Find(DataName);
+		USaveGameData* const* Data = SaveDataMap.Find(DataName);
 		if (DataType == (*Data)->DataType)
 		{
 			return (*Data)->ValueString;
@@ -211,53 +219,66 @@ FString USaveGameManager::GetSaveDataValue(FString DataName, ESaveGameDataType::
 	return Result;
 }
 
-FSaveDataStruct USaveGameManager::GetSaveData(FString DataName, ESaveGameDataType::Type DataType) const
+USaveGameDataValueBase* USaveGameManager::GetSaveDataValue(FString DataName, ESaveGameDataType::Type DataType) const
 {
-	FSaveDataStruct SaveDataStruct = FSaveDataStruct();
-	FString ValueStr = GetSaveDataValue(DataName, DataType);
-	if (ValueStr.IsEmpty())
-		return SaveDataStruct;
+	static const UEnum* Enum = StaticEnum<ESaveGameDataType::Type>();
+	check(Enum);
+	FString ClassName = FString(TEXT("USaveGameDataValue_")) + Enum->GetNameStringByValue(int64(DataType));;
 
-	FVector4 Vector4 = FVector4();
-	bool bSuccessful = false;
-	switch (DataType)
+	//StaticLoadClass();
+	//LoadClass();
+	USaveGameDataValueBase* ValueBase = FindObject<USaveGameDataValueBase>(ANY_PACKAGE, *ClassName);
+	if (!ValueBase)
 	{
-	case ESaveGameDataType::None:
-		break;
-	case ESaveGameDataType::Bool:
-		SaveDataStruct.var_Bool = ValueStr.ToBool();
-		break;
-	case ESaveGameDataType::Byte:
-		SaveDataStruct.var_Byte = (uint8)FCString::Atoi(*ValueStr);
-		break;
-	case ESaveGameDataType::Int32:
-		SaveDataStruct.var_Int32 = FCString::Atoi(*ValueStr);
-		break;
-	case ESaveGameDataType::Float:
-		SaveDataStruct.var_Float = FCString::Atof(*ValueStr);
-		break;
-	case ESaveGameDataType::String:
-		SaveDataStruct.var_String = ValueStr;
-		break;
-	case ESaveGameDataType::Vector2:
-		SaveDataStruct.var_Vector2.InitFromString(ValueStr);
-		break;
-	case ESaveGameDataType::Vector3:
-		SaveDataStruct.var_Vector3.InitFromString(ValueStr);
-		break;
-	case ESaveGameDataType::Vector4:
-		bSuccessful = FParse::Value(*ValueStr, TEXT("X="), Vector4.X) && FParse::Value(*ValueStr, TEXT("Y="), Vector4.Y) &&
-			FParse::Value(*ValueStr, TEXT("Z="), Vector4.Z) && FParse::Value(*ValueStr, TEXT("W="), Vector4.W);
-		if (bSuccessful)
-			SaveDataStruct.var_Vector4 = Vector4;
-		break;
-	case ESaveGameDataType::DateTime:
-		break;
+		if (UObjectRedirector * RenamedClassRedirector = FindObject<UObjectRedirector>(ANY_PACKAGE, *ClassName)) {
+			ValueBase = CastChecked<USaveGameDataValueBase>(RenamedClassRedirector->DestinationObject);
+		}
 	}
-	return SaveDataStruct;
+
+	//USaveGameDataValueBase* ValueBase = NewObject<USaveGameDataValueBase>();
+	//switch (DataType)
+	//{
+	//case ESaveGameDataType::None:
+	//	break;
+	//case ESaveGameDataType::Bool:
+	//	ValueBase = NewObject<USaveGameDataValue_Bool>();
+	//	break;
+	//case ESaveGameDataType::Byte:
+	//	ValueBase = NewObject<USaveGameDataValue_Byte>();
+	//	break;
+	//case ESaveGameDataType::Int32:
+	//	ValueBase = NewObject<USaveGameDataValue_Int32>();
+	//	break;
+	//case ESaveGameDataType::Float:
+	//	ValueBase = NewObject<USaveGameDataValue_Float>();
+	//	break;
+	//case ESaveGameDataType::String:
+	//	ValueBase = NewObject<USaveGameDataValue_String>();
+	//	break;
+	//case ESaveGameDataType::Vector2:
+	//	ValueBase = NewObject<USaveGameDataValue_Vector2>();
+	//	break;
+	//case ESaveGameDataType::Vector3:
+	//	ValueBase = NewObject<USaveGameDataValue_Vector3>();
+	//	break;
+	//case ESaveGameDataType::Vector4:
+	//	ValueBase = NewObject<USaveGameDataValue_Vector4>();
+	//	break;
+	//case ESaveGameDataType::DateTime:
+	//	ValueBase = NewObject<USaveGameDataValue_DateTime>();
+	//	break;
+	//default:
+	//	break;
+	//}
+
+	if (ValueBase)
+	{
+		ValueBase->SetValue(*GetSaveDataValueString(DataName, DataType));
+	}
+	return ValueBase;
 }
 
-TArray< USaveGameData*> USaveGameManager::GetGroupSaveData(FString DataGroup) const
+TArray<USaveGameData*> USaveGameManager::GetGroupSaveData(FString DataGroup) const
 {
 	TArray< USaveGameData*> Result;
 	if (GroupSaveDataMap.Contains(DataGroup))
@@ -273,7 +294,7 @@ bool USaveGameManager::RemoveSaveData(FString DataName, ESaveGameDataType::Type 
 	{
 		bNeedsToBeSaved = true;
 		USaveGameData* SaveData = SaveDataMap.FindAndRemoveChecked(DataName);
-		TArray<USaveGameData *> DataArray = GroupSaveDataMap.FindRef(SaveData->DataGroup);
+		TArray<USaveGameData*> DataArray = GroupSaveDataMap.FindRef(SaveData->DataGroup);
 		(&DataArray)->Remove(SaveData);
 		GroupSortNames.Remove(DataName);
 		if (DataArray.Num() <= 0)
@@ -304,6 +325,19 @@ void USaveGameManager::ClearAll()
 	GroupSortNames.Empty();
 	bNeedsToBeSaved = false;
 	GroupSaveDataMap.Empty();
+}
+
+USaveGameManager* USaveGameManager::GetSaveGameManager()
+{
+	if (Singleton)
+	{
+		return Singleton;
+	}
+	else
+	{
+		//UE_LOG(LogAssetManager, Fatal, TEXT("Cannot use AssetManager if no AssetManagerClassName is defined!"));
+		return NewObject<USaveGameManager>(); // never calls this
+	}
 }
 
 void USaveGameManager::Tick(float DeltaTime)

@@ -25,7 +25,7 @@
 /wd4838
 /we4668
 /I .
-/I E:\MyUEProject.git\MyUEProject\Plugins\MyPlugin\Source\MyPlugin\Private
+/I E:\Lizijun\MyUEProject.git\MyUEProject\Plugins\MyPlugin\Source\MyPlugin\Private
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\CoreUObject
 /I Runtime
 /I Runtime\CoreUObject\Public
@@ -424,21 +424,20 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
-/I E:\MyUEProject.git\MyUEProject\Plugins\MyPlugin\Source
-/I E:\MyUEProject.git\MyUEProject\Plugins\MyPlugin\Source\MyPlugin\Public
-/I E:\MyUEProject.git\MyUEProject\Plugins\MyPlugin\Source\MyPlugin
-/I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE"
-/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"
-/FI"E:\MyUEProject.git\MyUEProject\Intermediate\Build\Win64\MyUEProjectEditor\DebugGame\Engine\SharedPCH.Engine.NonOptimized.h"
-/Yu"E:\MyUEProject.git\MyUEProject\Intermediate\Build\Win64\MyUEProjectEditor\DebugGame\Engine\SharedPCH.Engine.NonOptimized.h"
-/Fp"E:\MyUEProject.git\MyUEProject\Intermediate\Build\Win64\MyUEProjectEditor\DebugGame\Engine\SharedPCH.Engine.NonOptimized.h.pch"
-"E:\MyUEProject.git\MyUEProject\Plugins\MyPlugin\Intermediate\Build\Win64\UE4Editor\DebugGame\MyPlugin\Module.MyPlugin.cpp"
-/FI"E:\MyUEProject.git\MyUEProject\Plugins\MyPlugin\Intermediate\Build\Win64\UE4Editor\DebugGame\MyPlugin\Definitions.MyPlugin.h"
-/Fo"E:\MyUEProject.git\MyUEProject\Plugins\MyPlugin\Intermediate\Build\Win64\UE4Editor\DebugGame\MyPlugin\Module.MyPlugin.cpp.obj"
+/I E:\Lizijun\MyUEProject.git\MyUEProject\Plugins\MyPlugin\Source
+/I E:\Lizijun\MyUEProject.git\MyUEProject\Plugins\MyPlugin\Source\MyPlugin\Public
+/I E:\Lizijun\MyUEProject.git\MyUEProject\Plugins\MyPlugin\Source\MyPlugin
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.22.27905\INCLUDE"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
+/FI"E:\Lizijun\MyUEProject.git\MyUEProject\Intermediate\Build\Win64\MyUEProjectEditor\DebugGame\Engine\SharedPCH.Engine.NonOptimized.h"
+/Yu"E:\Lizijun\MyUEProject.git\MyUEProject\Intermediate\Build\Win64\MyUEProjectEditor\DebugGame\Engine\SharedPCH.Engine.NonOptimized.h"
+/Fp"E:\Lizijun\MyUEProject.git\MyUEProject\Intermediate\Build\Win64\MyUEProjectEditor\DebugGame\Engine\SharedPCH.Engine.NonOptimized.h.pch"
+"E:\Lizijun\MyUEProject.git\MyUEProject\Plugins\MyPlugin\Intermediate\Build\Win64\UE4Editor\DebugGame\MyPlugin\Module.MyPlugin.cpp"
+/FI"E:\Lizijun\MyUEProject.git\MyUEProject\Plugins\MyPlugin\Intermediate\Build\Win64\UE4Editor\DebugGame\MyPlugin\Definitions.MyPlugin.h"
+/Fo"E:\Lizijun\MyUEProject.git\MyUEProject\Plugins\MyPlugin\Intermediate\Build\Win64\UE4Editor\DebugGame\MyPlugin\Module.MyPlugin.cpp.obj"
 /TP
 /GR-
 /W4

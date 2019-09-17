@@ -14,7 +14,6 @@ USaveGameData::USaveGameData(FString DataName, ESaveGameDataType::Type DataType,
 	this->DataName = DataName;
 	this->DataType = DataType;
 	this->SaveStateType = SaveStateType;
-	this->OnSaveStateChenged.Broadcast(SaveStateType);
 	this->ValueString = ValueString;
 	this->DataGroup = DataGroup;
 }

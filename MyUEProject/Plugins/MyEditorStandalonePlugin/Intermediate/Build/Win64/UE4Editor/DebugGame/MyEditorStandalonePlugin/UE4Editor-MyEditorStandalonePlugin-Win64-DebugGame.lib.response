@@ -6,8 +6,8 @@
 /NAME:"UE4Editor-MyEditorStandalonePlugin-Win64-DebugGame.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"E:\MyUEProject.git\MyUEProject\Intermediate\Build\Win64\MyUEProjectEditor\DebugGame\UnrealEd\SharedPCH.UnrealEd.NonOptimized.h.obj"
-"E:\MyUEProject.git\MyUEProject\Plugins\MyEditorStandalonePlugin\Intermediate\Build\Win64\UE4Editor\DebugGame\MyEditorStandalonePlugin\Module.MyEditorStandalonePlugin.cpp.obj"
-"E:\MyUEProject.git\MyUEProject\Plugins\MyEditorStandalonePlugin\Intermediate\Build\Win64\UE4Editor\DebugGame\MyEditorStandalonePlugin\Default.rc2.res"
-/OUT:"E:\MyUEProject.git\MyUEProject\Plugins\MyEditorStandalonePlugin\Intermediate\Build\Win64\UE4Editor\DebugGame\MyEditorStandalonePlugin\UE4Editor-MyEditorStandalonePlugin-Win64-DebugGame.lib"
+"E:\Lizijun\MyUEProject.git\MyUEProject\Intermediate\Build\Win64\MyUEProjectEditor\DebugGame\UnrealEd\SharedPCH.UnrealEd.NonOptimized.h.obj"
+"E:\Lizijun\MyUEProject.git\MyUEProject\Plugins\MyEditorStandalonePlugin\Intermediate\Build\Win64\UE4Editor\DebugGame\MyEditorStandalonePlugin\Module.MyEditorStandalonePlugin.cpp.obj"
+"E:\Lizijun\MyUEProject.git\MyUEProject\Plugins\MyEditorStandalonePlugin\Intermediate\Build\Win64\UE4Editor\DebugGame\MyEditorStandalonePlugin\Default.rc2.res"
+/OUT:"E:\Lizijun\MyUEProject.git\MyUEProject\Plugins\MyEditorStandalonePlugin\Intermediate\Build\Win64\UE4Editor\DebugGame\MyEditorStandalonePlugin\UE4Editor-MyEditorStandalonePlugin-Win64-DebugGame.lib"
 /INCLUDE:IMPLEMENT_MODULE_MyEditorStandalonePlugin

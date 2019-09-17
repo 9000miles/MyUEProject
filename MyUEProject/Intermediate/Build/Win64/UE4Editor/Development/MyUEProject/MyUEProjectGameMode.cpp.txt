@@ -1,13 +1,13 @@
-E:\MyUEProject.git\MyUEProject\Intermediate\Build\Win64\UE4Editor\Development\MyUEProject\Definitions.MyUEProject.h
-e:\myueproject.git\myueproject\source\myueproject\MyUEProjectGameMode.h
-E:\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
-E:\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
-E:\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
-E:\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-E:\MyUEProject.git\MyUEProject\Intermediate\Build\Win64\UE4Editor\Inc\MyUEProject\MyUEProjectGameMode.generated.h
-e:\myueproject.git\myueproject\source\myueproject\MyUEProjectCharacter.h
-E:\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
-E:\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
-E:\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
-E:\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
-E:\MyUEProject.git\MyUEProject\Intermediate\Build\Win64\UE4Editor\Inc\MyUEProject\MyUEProjectCharacter.generated.h
+E:\Lizijun\MyUEProject.git\MyUEProject\Intermediate\Build\Win64\UE4Editor\Development\MyUEProject\Definitions.MyUEProject.h
+E:\Lizijun\MyUEProject.git\MyUEProject\Source\MyUEProject\MyUEProjectGameMode.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+E:\Lizijun\MyUEProject.git\MyUEProject\Intermediate\Build\Win64\UE4Editor\Inc\MyUEProject\MyUEProjectGameMode.generated.h
+E:\Lizijun\MyUEProject.git\MyUEProject\Source\MyUEProject\MyUEProjectCharacter.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+E:\Lizijun\MyUEProject.git\MyUEProject\Intermediate\Build\Win64\UE4Editor\Inc\MyUEProject\MyUEProjectCharacter.generated.h
